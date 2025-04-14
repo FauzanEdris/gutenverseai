@@ -1,0 +1,3252 @@
+[
+	{
+			"title": "Team Details",
+			"panelArray": [
+					{
+							"id": "src",
+							"label": "Profile Picture",
+							"component": "ImageControl"
+					},
+					{
+							"id": "lazy",
+							"label": "Set Lazy Load",
+							"component": "CheckboxControl"
+					},
+					{
+							"id": "nameTag",
+							"label": "Name HTML tag",
+							"component": "SelectControl",
+							"options": [
+									{
+											"value": "h1",
+											"label": "H1"
+									},
+									{
+											"value": "h2",
+											"label": "H2"
+									},
+									{
+											"value": "h3",
+											"label": "H3"
+									},
+									{
+											"value": "h4",
+											"label": "H4"
+									},
+									{
+											"value": "h5",
+											"label": "H5"
+									},
+									{
+											"value": "h6",
+											"label": "H6"
+									},
+									{
+											"value": "div",
+											"label": "Div"
+									},
+									{
+											"value": "span",
+											"label": "Span"
+									},
+									{
+											"value": "p",
+											"label": "P"
+									}
+							]
+					},
+					{
+							"id": "profileType",
+							"label": "Style",
+							"component": "SelectControl",
+							"options": [
+									{
+											"value": "default",
+											"label": "Default"
+									},
+									{
+											"value": "overlay",
+											"label": "Overlay Profile"
+									},
+									{
+											"value": "hover",
+											"label": "Social Hover"
+									},
+									{
+											"value": "titleSocialHorizontal",
+											"label": "Title & Social Horizontal"
+									}
+							]
+					},
+					{
+							"id": "overlayType",
+							"show": false,
+							"label": "Overlay Style",
+							"component": "SelectControl",
+							"options": [
+									{
+											"value": "default",
+											"label": "Default"
+									},
+									{
+											"value": "scale",
+											"label": "Scale"
+									}
+							]
+					},
+					{
+							"id": "overlayPosition",
+							"show": false,
+							"label": "Overlay Content Position",
+							"component": "SelectControl",
+							"options": [
+									{
+											"value": "center",
+											"label": "Center"
+									},
+									{
+											"value": "bottom",
+											"label": "Bottom"
+									}
+							]
+					},
+					{
+							"id": "overlayProfilePosition",
+							"label": "Overlay Content Position",
+							"show": false,
+							"component": "SizeControl",
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"min": 58,
+											"max": 1440,
+											"step": 1
+									},
+									"vh": {
+											"text": "vh",
+											"min": 5,
+											"max": 100,
+											"step": 1
+									},
+									"vw": {
+											"text": "vw",
+											"min": 5,
+											"max": 100,
+											"step": 1
+									},
+									"%": {
+											"text": "%",
+											"min": 0,
+											"max": 100,
+											"step": 1
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-team .profile-box .profile-card.card-overlay:hover .profile-body "
+									}
+							]
+					},
+					{
+							"id": "name",
+							"label": "Name",
+							"component": "TextControl"
+					},
+					{
+							"id": "job",
+							"label": "Job",
+							"component": "TextControl"
+					},
+					{
+							"id": "showDesc",
+							"label": "Show Description",
+							"component": "CheckboxControl"
+					},
+					{
+							"id": "description",
+							"label": "Description",
+							"component": "TextareaControl"
+					},
+					{
+							"id": "titleSocialSeparator",
+							"component": "HeadingControl",
+							"label": "Title Social Settings",
+							"show": false
+					},
+					{
+							"id": "__titleSocial",
+							"component": "SwitchControl",
+							"show": false,
+							"options": [
+									{
+											"value": "normal",
+											"label": "Normal"
+									},
+									{
+											"value": "hover",
+											"label": "Hover"
+									}
+							]
+					},
+					{
+							"id": "titleSeparatorPosition",
+							"component": "HeadingControl",
+							"label": "Title Positions",
+							"show": false
+					},
+					{
+							"id": "titleHorizontal",
+							"label": "Title Horizontal Orientation",
+							"show": false,
+							"component": "SizeControl",
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"min": -1000,
+											"max": 1000,
+											"step": 1,
+											"unit": "px"
+									},
+									"%": {
+											"text": "%",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "%"
+									},
+									"vw": {
+											"text": "vw",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "vw"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-team .profile-box .profile-card.card-title-social-horizontal .profile-title"
+									}
+							]
+					},
+					{
+							"id": "titleVertical",
+							"label": "Title Vertical Orientation",
+							"show": false,
+							"component": "SizeControl",
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"min": -1000,
+											"max": 1000,
+											"step": 1,
+											"unit": "px"
+									},
+									"%": {
+											"text": "%",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "%"
+									},
+									"vh": {
+											"text": "vh",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "vh"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-team .profile-box .profile-card.card-title-social-horizontal .profile-title"
+									}
+							]
+					},
+					{
+							"id": "titleOpacity",
+							"label": "Title Opacity",
+							"component": "RangeControl",
+							"show": false,
+							"min": 0.1,
+							"max": 1,
+							"step": 0.1,
+							"isParseFloat": false,
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-team .profile-box .profile-card.card-title-social-horizontal .profile-title"
+									}
+							]
+					},
+					{
+							"id": "titleHorizontalHover",
+							"label": "Title Horizontal Orientation",
+							"show": false,
+							"component": "SizeControl",
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"min": -1000,
+											"max": 1000,
+											"step": 1,
+											"unit": "px"
+									},
+									"%": {
+											"text": "%",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "%"
+									},
+									"vw": {
+											"text": "vw",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "vw"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-team .profile-box .profile-card.card-title-social-horizontal:hover .profile-title"
+									}
+							]
+					},
+					{
+							"id": "titleVerticalHover",
+							"label": "Title Vertical Orientation",
+							"show": false,
+							"component": "SizeControl",
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"min": -1000,
+											"max": 1000,
+											"step": 1,
+											"unit": "px"
+									},
+									"%": {
+											"text": "%",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "%"
+									},
+									"vh": {
+											"text": "vh",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "vh"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-team .profile-box .profile-card.card-title-social-horizontal:hover .profile-title"
+									}
+							]
+					},
+					{
+							"id": "titleOpacityHover",
+							"label": "Title Opacity",
+							"component": "RangeControl",
+							"show": false,
+							"min": 0.1,
+							"max": 1,
+							"step": 0.1,
+							"isParseFloat": false,
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-team .profile-box .profile-card.card-title-social-horizontal:hover .profile-title"
+									}
+							]
+					},
+					{
+							"id": "jobSeparatorPosition",
+							"component": "HeadingControl",
+							"label": "Job Positions",
+							"show": false
+					},
+					{
+							"id": "jobHorizontal",
+							"label": "Job Horizontal Orientation",
+							"show": false,
+							"component": "SizeControl",
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"min": -1000,
+											"max": 1000,
+											"step": 1,
+											"unit": "px"
+									},
+									"%": {
+											"text": "%",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "%"
+									},
+									"vw": {
+											"text": "vw",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "vw"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-team .profile-box .profile-card.card-title-social-horizontal .profile-sub"
+									}
+							]
+					},
+					{
+							"id": "jobVertical",
+							"label": "Job Vertical Orientation",
+							"show": false,
+							"component": "SizeControl",
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"min": -1000,
+											"max": 1000,
+											"step": 1,
+											"unit": "px"
+									},
+									"%": {
+											"text": "%",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "%"
+									},
+									"vh": {
+											"text": "vh",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "vh"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-team .profile-box .profile-card.card-title-social-horizontal .profile-sub"
+									}
+							]
+					},
+					{
+							"id": "jobOpacity",
+							"label": "Job Opacity",
+							"component": "RangeControl",
+							"show": false,
+							"min": 0.1,
+							"max": 1,
+							"step": 0.1,
+							"isParseFloat": false,
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-team .profile-box .profile-card.card-title-social-horizontal .profile-sub"
+									}
+							]
+					},
+					{
+							"id": "jobHorizontalHover",
+							"label": "Job Horizontal Orientation",
+							"show": false,
+							"component": "SizeControl",
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"min": -1000,
+											"max": 1000,
+											"step": 1,
+											"unit": "px"
+									},
+									"%": {
+											"text": "%",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "%"
+									},
+									"vw": {
+											"text": "vw",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "vw"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-team .profile-box .profile-card.card-title-social-horizontal:hover .profile-sub"
+									}
+							]
+					},
+					{
+							"id": "jobVerticalHover",
+							"label": "Job Vertical Orientation",
+							"show": false,
+							"component": "SizeControl",
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"min": -1000,
+											"max": 1000,
+											"step": 1,
+											"unit": "px"
+									},
+									"%": {
+											"text": "%",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "%"
+									},
+									"vh": {
+											"text": "vh",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "vh"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-team .profile-box .profile-card.card-title-social-horizontal:hover .profile-sub"
+									}
+							]
+					},
+					{
+							"id": "jobOpacityHover",
+							"label": "Job Opacity",
+							"component": "RangeControl",
+							"show": false,
+							"min": 0.1,
+							"max": 1,
+							"step": 0.1,
+							"isParseFloat": false,
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-team .profile-box .profile-card.card-title-social-horizontal:hover .profile-sub"
+									}
+							]
+					},
+					{
+							"id": "descSeparatorPosition",
+							"component": "HeadingControl",
+							"label": "Description Positions",
+							"show": false
+					},
+					{
+							"id": "descHorizontal",
+							"label": "Description Horizontal Orientation",
+							"show": false,
+							"component": "SizeControl",
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"min": -1000,
+											"max": 1000,
+											"step": 1,
+											"unit": "px"
+									},
+									"%": {
+											"text": "%",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "%"
+									},
+									"vw": {
+											"text": "vw",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "vw"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-team .profile-box .profile-card.card-title-social-horizontal .profile-desc"
+									}
+							]
+					},
+					{
+							"id": "descVertical",
+							"label": "Description Vertical Orientation",
+							"show": false,
+							"component": "SizeControl",
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"min": -1000,
+											"max": 1000,
+											"step": 1,
+											"unit": "px"
+									},
+									"%": {
+											"text": "%",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "%"
+									},
+									"vh": {
+											"text": "vh",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "vh"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-team .profile-box .profile-card.card-title-social-horizontal .profile-desc"
+									}
+							]
+					},
+					{
+							"id": "descOpacity",
+							"label": "Description Opacity",
+							"component": "RangeControl",
+							"show": false,
+							"min": 0.1,
+							"max": 1,
+							"step": 0.1,
+							"isParseFloat": false,
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-team .profile-box .profile-card.card-title-social-horizontal .profile-desc"
+									}
+							]
+					},
+					{
+							"id": "descHorizontalHover",
+							"label": "Description Horizontal Orientation",
+							"show": false,
+							"component": "SizeControl",
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"min": -1000,
+											"max": 1000,
+											"step": 1,
+											"unit": "px"
+									},
+									"%": {
+											"text": "%",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "%"
+									},
+									"vw": {
+											"text": "vw",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "vw"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-team .profile-box .profile-card.card-title-social-horizontal:hover .profile-desc"
+									}
+							]
+					},
+					{
+							"id": "descVerticalHover",
+							"label": "Description Vertical Orientation",
+							"show": false,
+							"component": "SizeControl",
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"min": -1000,
+											"max": 1000,
+											"step": 1,
+											"unit": "px"
+									},
+									"%": {
+											"text": "%",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "%"
+									},
+									"vh": {
+											"text": "vh",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "vh"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-team .profile-box .profile-card.card-title-social-horizontal:hover .profile-desc"
+									}
+							]
+					},
+					{
+							"id": "descOpacityHover",
+							"label": "Description Opacity",
+							"component": "RangeControl",
+							"show": false,
+							"min": 0.1,
+							"max": 1,
+							"step": 0.1,
+							"isParseFloat": false,
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-team .profile-box .profile-card.card-title-social-horizontal:hover .profile-desc"
+									}
+							]
+					},
+					{
+							"id": "socialSeparatorPosition",
+							"component": "HeadingControl",
+							"label": "Social Icons Positions",
+							"show": false
+					},
+					{
+							"id": "socialHorizontal",
+							"label": "Social Icons Horizontal Orientation",
+							"show": false,
+							"component": "SizeControl",
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"min": -1000,
+											"max": 1000,
+											"step": 1,
+											"unit": "px"
+									},
+									"%": {
+											"text": "%",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "%"
+									},
+									"vh": {
+											"text": "vh",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "vh"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-team .profile-box .profile-card.card-title-social-horizontal .socials-wrapper"
+									}
+							]
+					},
+					{
+							"id": "socialVertical",
+							"label": "Social Icons Vertical Orientation",
+							"show": false,
+							"component": "SizeControl",
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"min": -1000,
+											"max": 1000,
+											"step": 1,
+											"unit": "px"
+									},
+									"%": {
+											"text": "%",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "%"
+									},
+									"vh": {
+											"text": "vh",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "vh"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-team .profile-box .profile-card.card-title-social-horizontal .socials-wrapper"
+									}
+							]
+					},
+					{
+							"id": "socialOpacity",
+							"label": "Social Icons Opacity",
+							"component": "RangeControl",
+							"show": false,
+							"min": 0.1,
+							"max": 1,
+							"step": 0.1,
+							"isParseFloat": false,
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-team .profile-box .profile-card.card-title-social-horizontal .socials-wrapper"
+									}
+							]
+					},
+					{
+							"id": "socialHorizontalHover",
+							"label": "Social Icons Horizontal Orientation",
+							"show": false,
+							"component": "SizeControl",
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"min": -1000,
+											"max": 1000,
+											"step": 1,
+											"unit": "px"
+									},
+									"%": {
+											"text": "%",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "%"
+									},
+									"vh": {
+											"text": "vh",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "vh"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-team .profile-box .profile-card.card-title-social-horizontal:hover .socials-wrapper"
+									}
+							]
+					},
+					{
+							"id": "socialVerticalHover",
+							"label": "Social Icons Vertical Orientation",
+							"show": false,
+							"component": "SizeControl",
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"min": -1000,
+											"max": 1000,
+											"step": 1,
+											"unit": "px"
+									},
+									"%": {
+											"text": "%",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "%"
+									},
+									"vh": {
+											"text": "vh",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "vh"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-team .profile-box .profile-card.card-title-social-horizontal:hover .socials-wrapper"
+									}
+							]
+					},
+					{
+							"id": "socialOpacityHover",
+							"label": "Social Icons Opacity",
+							"component": "RangeControl",
+							"show": false,
+							"min": 0.1,
+							"max": 1,
+							"step": 0.1,
+							"isParseFloat": false,
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-team .profile-box .profile-card.card-title-social-horizontal:hover .socials-wrapper"
+									}
+							]
+					},
+					{
+							"id": "hoverBottom",
+							"show": false,
+							"label": "Enable Hover Border Bottom",
+							"component": "CheckboxControl"
+					},
+					{
+							"id": "hoverBottomColor",
+							"label": "Border Bottom Color",
+							"component": "ColorControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .border-bottom .animated"
+									}
+							]
+					},
+					{
+							"id": "hoverBottomHeight",
+							"label": "Hover Border Bottom Height",
+							"component": "SizeControl",
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"min": 1,
+											"max": 1000,
+											"step": 1
+									},
+									"em": {
+											"text": "em",
+											"min": 0.1,
+											"max": 10,
+											"step": 0.1
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0 .border-bottom, .0x0x0x0 .border-bottom .animated "
+									}
+							]
+					},
+					{
+							"id": "hoverBottomDirection",
+							"label": "Hover Direction",
+							"component": "SelectControl",
+							"options": [
+									{
+											"value": "left",
+											"label": "From Left"
+									},
+									{
+											"value": "right",
+											"label": "From Right"
+									}
+							]
+					},
+					{
+							"id": "showSocial",
+							"label": "Show Social Icons",
+							"component": "CheckboxControl"
+					}
+			],
+			"tabRole": {
+					"id": "setting",
+					"name": "Settings",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"xmlns": "http://www.w3.org/2000/svg",
+													"viewBox": "0 0 24 24",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"fillRule": "evenodd",
+																	"d": "M10.289 4.836A1 1 0 0111.275 4h1.306a1 1 0 01.987.836l.244 1.466c.787.26 1.503.679 2.108 1.218l1.393-.522a1 1 0 011.216.437l.653 1.13a1 1 0 01-.23 1.273l-1.148.944a6.025 6.025 0 010 2.435l1.149.946a1 1 0 01.23 1.272l-.653 1.13a1 1 0 01-1.216.437l-1.394-.522c-.605.54-1.32.958-2.108 1.218l-.244 1.466a1 1 0 01-.987.836h-1.306a1 1 0 01-.986-.836l-.244-1.466a5.995 5.995 0 01-2.108-1.218l-1.394.522a1 1 0 01-1.217-.436l-.653-1.131a1 1 0 01.23-1.272l1.149-.946a6.026 6.026 0 010-2.435l-1.148-.944a1 1 0 01-.23-1.272l.653-1.131a1 1 0 011.217-.437l1.393.522a5.994 5.994 0 012.108-1.218l.244-1.466zM14.929 12a3 3 0 11-6 0 3 3 0 016 0z",
+																	"clipRule": "evenodd"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			}
+	},
+	{
+			"title": "Dynamic Data",
+			"panelArray": [
+					{
+							"component": "LockedDynamicContentControl"
+					}
+			],
+			"initialOpen": false,
+			"tabRole": {
+					"id": "setting",
+					"name": "Settings",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"xmlns": "http://www.w3.org/2000/svg",
+													"viewBox": "0 0 24 24",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"fillRule": "evenodd",
+																	"d": "M10.289 4.836A1 1 0 0111.275 4h1.306a1 1 0 01.987.836l.244 1.466c.787.26 1.503.679 2.108 1.218l1.393-.522a1 1 0 011.216.437l.653 1.13a1 1 0 01-.23 1.273l-1.148.944a6.025 6.025 0 010 2.435l1.149.946a1 1 0 01.23 1.272l-.653 1.13a1 1 0 01-1.216.437l-1.394-.522c-.605.54-1.32.958-2.108 1.218l-.244 1.466a1 1 0 01-.987.836h-1.306a1 1 0 01-.986-.836l-.244-1.466a5.995 5.995 0 01-2.108-1.218l-1.394.522a1 1 0 01-1.217-.436l-.653-1.131a1 1 0 01.23-1.272l1.149-.946a6.026 6.026 0 010-2.435l-1.148-.944a1 1 0 01-.23-1.272l.653-1.131a1 1 0 011.217-.437l1.393.522a5.994 5.994 0 012.108-1.218l.244-1.466zM14.929 12a3 3 0 11-6 0 3 3 0 016 0z",
+																	"clipRule": "evenodd"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			},
+			"pro": true
+	},
+	{
+			"title": "Content",
+			"initialOpen": false,
+			"panelArray": [
+					{
+							"id": "alignment",
+							"label": "Content Alignment",
+							"component": "IconRadioControl",
+							"allowDeviceControl": true,
+							"options": [
+									{
+											"label": "Align Left",
+											"value": "left",
+											"icon": {
+													"type": {
+															"propTypes": {}
+													},
+													"key": null,
+													"ref": null,
+													"props": {},
+													"_owner": null,
+													"_store": {}
+											}
+									},
+									{
+											"label": "Align Center",
+											"value": "center",
+											"icon": {
+													"type": {
+															"propTypes": {}
+													},
+													"key": null,
+													"ref": null,
+													"props": {},
+													"_owner": null,
+													"_store": {}
+											}
+									},
+									{
+											"label": "Align Right",
+											"value": "right",
+											"icon": {
+													"type": {
+															"propTypes": {}
+													},
+													"key": null,
+													"ref": null,
+													"props": {},
+													"_owner": null,
+													"_store": {}
+											}
+									}
+							],
+							"style": [
+									{
+											"selector": ".0x0x0x0 .profile-box .profile-card"
+									}
+							]
+					},
+					{
+							"id": "profilePadding",
+							"label": "Profile Padding",
+							"component": "DimensionControl",
+							"allowDeviceControl": true,
+							"position": [
+									"top",
+									"right",
+									"bottom",
+									"left"
+							],
+							"units": {
+									"px": {
+											"text": "px",
+											"unit": "px"
+									},
+									"em": {
+											"text": "em",
+											"unit": "em"
+									},
+									"%": {
+											"text": "%",
+											"unit": "%"
+									},
+									"rem": {
+											"text": "rem",
+											"unit": "rem"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0 .profile-box .profile-card.card-default,\n                            .0x0x0x0 .profile-box .profile-card.card-overlay,\n                            .0x0x0x0 .profile-box .profile-card.card-hover"
+									}
+							]
+					},
+					{
+							"id": "detailsPadding",
+							"label": "Details Padding",
+							"component": "DimensionControl",
+							"allowDeviceControl": true,
+							"position": [
+									"top",
+									"right",
+									"bottom",
+									"left"
+							],
+							"units": {
+									"px": {
+											"text": "px",
+											"unit": "px"
+									},
+									"em": {
+											"text": "em",
+											"unit": "em"
+									},
+									"%": {
+											"text": "%",
+											"unit": "%"
+									},
+									"rem": {
+											"text": "rem",
+											"unit": "rem"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0 .profile-box .profile-card.card-default .profile-body,\n                            .0x0x0x0 .profile-box .profile-card.card-overlay .profile-body,\n                            .0x0x0x0 .profile-box .profile-card.card-hover .profile-body"
+									}
+							]
+					},
+					{
+							"id": "profileBorderRadius",
+							"label": "Profile Border Radius",
+							"component": "DimensionControl",
+							"allowDeviceControl": true,
+							"position": [
+									"top",
+									"right",
+									"bottom",
+									"left"
+							],
+							"units": {
+									"px": {
+											"text": "px",
+											"unit": "px"
+									},
+									"em": {
+											"text": "em",
+											"unit": "em"
+									},
+									"%": {
+											"text": "%",
+											"unit": "%"
+									},
+									"rem": {
+											"text": "rem",
+											"unit": "rem"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0 .profile-box .profile-card.card-default,\n                            .0x0x0x0 .profile-box .profile-card.card-overlay,\n                            .0x0x0x0 .profile-box .profile-card.card-hover,\n                            .0x0x0x0 .profile-box .profile-card.card-overlay.scale:hover:before"
+									}
+							]
+					}
+			],
+			"tabRole": {
+					"id": "style",
+					"name": "Style",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"viewBox": "0 0 24 24",
+													"xmlns": "http://www.w3.org/2000/svg",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"d": "M12 4c-4.4 0-8 3.6-8 8v.1c0 4.1 3.2 7.5 7.2 7.9h.8c4.4 0 8-3.6 8-8s-3.6-8-8-8zm0 15V5c3.9 0 7 3.1 7 7s-3.1 7-7 7z"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			}
+	},
+	{
+			"title": "Highlight Style",
+			"panelArray": [
+					{
+							"component": "LockedChildStyleControl"
+					}
+			],
+			"tabRole": {
+					"id": "style",
+					"name": "Style",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"viewBox": "0 0 24 24",
+													"xmlns": "http://www.w3.org/2000/svg",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"d": "M12 4c-4.4 0-8 3.6-8 8v.1c0 4.1 3.2 7.5 7.2 7.9h.8c4.4 0 8-3.6 8-8s-3.6-8-8-8zm0 15V5c3.9 0 7 3.1 7 7s-3.1 7-7 7z"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			},
+			"pro": true
+	},
+	{
+			"title": "Image",
+			"initialOpen": false,
+			"panelArray": [
+					{
+							"id": "imgWidth",
+							"label": "Image Width",
+							"component": "SizeControl",
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"min": 1,
+											"max": 1000,
+											"step": 1,
+											"unit": "px"
+									},
+									"em": {
+											"text": "em",
+											"min": 1,
+											"max": 100,
+											"step": 1,
+											"unit": "em"
+									},
+									"%": {
+											"text": "%",
+											"min": 1,
+											"max": 100,
+											"step": 1,
+											"unit": "%"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0 .profile-box .profile-card.card-default img,\n                            .0x0x0x0 .profile-box .profile-card.card-overlay img,\n                            .0x0x0x0 .profile-box .profile-card.card-hover img,\n                            .0x0x0x0 .profile-box .profile-card.card-default .profile-header img,\n                            .0x0x0x0 .profile-box .profile-card.card-overlay .profile-header img,\n                            .0x0x0x0 .profile-box .profile-card.card-hover .profile-header img,\n                            .0x0x0x0 .profile-box .profile-card.card-overlay"
+									}
+							]
+					},
+					{
+							"id": "imgHeight",
+							"label": "Image Height",
+							"component": "SizeControl",
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"min": 1,
+											"max": 1000,
+											"step": 1,
+											"unit": "px"
+									},
+									"em": {
+											"text": "em",
+											"min": 1,
+											"max": 100,
+											"step": 1,
+											"unit": "em"
+									},
+									"%": {
+											"text": "%",
+											"min": 1,
+											"max": 100,
+											"step": 1,
+											"unit": "%"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0 .profile-box .profile-card.card-default img,\n                            .0x0x0x0 .profile-box .profile-card.card-overlay img,\n                            .0x0x0x0 .profile-box .profile-card.card-hover img,\n                            .0x0x0x0 .profile-box .profile-card.card-default .profile-header img,\n                            .0x0x0x0 .profile-box .profile-card.card-overlay .profile-header img,\n                            .0x0x0x0 .profile-box .profile-card.card-hover .profile-header img"
+									}
+							]
+					},
+					{
+							"id": "imgRotate",
+							"label": "Image Rotate",
+							"component": "RangeControl",
+							"allowDeviceControl": true,
+							"unit": "deg",
+							"min": 1,
+							"max": 360,
+							"step": 1,
+							"style": [
+									{
+											"selector": ".0x0x0x0 .profile-box .profile-card.card-default img,\n                            .0x0x0x0 .profile-box .profile-card.card-overlay img,\n                            .0x0x0x0 .profile-box .profile-card.card-hover img,\n                            .0x0x0x0 .profile-box .profile-card.card-default .profile-header img,\n                            .0x0x0x0 .profile-box .profile-card.card-overlay .profile-header img,\n                            .0x0x0x0 .profile-box .profile-card.card-hover .profile-header img"
+									}
+							]
+					},
+					{
+							"id": "imgSpacing",
+							"label": "Image Spacing",
+							"component": "RangeControl",
+							"allowDeviceControl": true,
+							"unit": "px",
+							"min": 0,
+							"max": 500,
+							"step": 1,
+							"style": [
+									{
+											"selector": ".0x0x0x0 .profile-box .profile-card.card-default .profile-header,\n                            .0x0x0x0 .profile-box .profile-card.card-hover .profile-header"
+									}
+							]
+					}
+			],
+			"tabRole": {
+					"id": "style",
+					"name": "Style",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"viewBox": "0 0 24 24",
+													"xmlns": "http://www.w3.org/2000/svg",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"d": "M12 4c-4.4 0-8 3.6-8 8v.1c0 4.1 3.2 7.5 7.2 7.9h.8c4.4 0 8-3.6 8-8s-3.6-8-8-8zm0 15V5c3.9 0 7 3.1 7 7s-3.1 7-7 7z"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			}
+	},
+	{
+			"title": "Overlay Profile",
+			"initialOpen": false,
+			"panelArray": [
+					{
+							"id": "hoverBgColor",
+							"label": "Overlay Background",
+							"component": "BackgroundControl",
+							"options": [
+									"default",
+									"gradient"
+							],
+							"allowDeviceControl": true,
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-team .profile-box .profile-card.card-overlay:before, .0x0x0x0.guten-team .profile-box .profile-card.card-title-social-horizontal:before",
+											"hasChild": true
+									}
+							]
+					}
+			],
+			"tabRole": {
+					"id": "style",
+					"name": "Style",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"viewBox": "0 0 24 24",
+													"xmlns": "http://www.w3.org/2000/svg",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"d": "M12 4c-4.4 0-8 3.6-8 8v.1c0 4.1 3.2 7.5 7.2 7.9h.8c4.4 0 8-3.6 8-8s-3.6-8-8-8zm0 15V5c3.9 0 7 3.1 7 7s-3.1 7-7 7z"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			}
+	},
+	{
+			"title": "Name Typography",
+			"initialOpen": false,
+			"panelArray": [
+					{
+							"id": "nameSpace",
+							"label": "Text Space",
+							"component": "RangeControl",
+							"min": 0,
+							"max": 100,
+							"step": 1,
+							"allowDeviceControl": true,
+							"unit": "px",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .profile-title, #0x0x0x0 .profile-title, .0x0x0x0 .profile-box .profile-card.card-overlay .profile-body .profile-title"
+									}
+							]
+					},
+					{
+							"id": "nameColor",
+							"label": "Text color",
+							"component": "ColorControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .profile-title, #0x0x0x0 .profile-title, .0x0x0x0 .profile-box .profile-card.card-overlay .profile-body .profile-title,\n                            .0x0x0x0 .profile-title> a, #0x0x0x0 .profile-title> a, .0x0x0x0 .profile-box .profile-card.card-overlay .profile-body .profile-title> a"
+									}
+							]
+					},
+					{
+							"id": "nameColorHover",
+							"label": "Hover Text Color",
+							"component": "ColorControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0:hover .profile-title, #0x0x0x0:hover .profile-title, .0x0x0x0:hover .profile-box .profile-card.card-overlay .profile-body .profile-title,\n                            .0x0x0x0:hover .profile-title> a, #0x0x0x0:hover .profile-title> a, .0x0x0x0:hover .profile-box .profile-card.card-overlay .profile-body .profile-title> a"
+									}
+							]
+					},
+					{
+							"id": "nameTypography",
+							"label": "Typography",
+							"component": "TypographyControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .profile-title, #0x0x0x0 .profile-title, .0x0x0x0 .profile-box .profile-card.card-overlay .profile-body .profile-title,\n                            .0x0x0x0 .profile-title> a, #0x0x0x0 .profile-title> a, .0x0x0x0 .profile-box .profile-card.card-overlay .profile-body .profile-title> a",
+											"hasChild": true
+									}
+							]
+					},
+					{
+							"id": "nameTextShadow",
+							"label": "Text Shadow",
+							"component": "TextShadowControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .profile-title, #0x0x0x0 .profile-title, .0x0x0x0 .profile-box .profile-card.card-overlay .profile-body .profile-title"
+									}
+							]
+					}
+			],
+			"tabRole": {
+					"id": "style",
+					"name": "Style",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"viewBox": "0 0 24 24",
+													"xmlns": "http://www.w3.org/2000/svg",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"d": "M12 4c-4.4 0-8 3.6-8 8v.1c0 4.1 3.2 7.5 7.2 7.9h.8c4.4 0 8-3.6 8-8s-3.6-8-8-8zm0 15V5c3.9 0 7 3.1 7 7s-3.1 7-7 7z"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			}
+	},
+	{
+			"title": "Job Typography",
+			"initialOpen": false,
+			"panelArray": [
+					{
+							"id": "jobSpace",
+							"label": "Text Space",
+							"component": "RangeControl",
+							"min": 0,
+							"max": 100,
+							"step": 1,
+							"allowDeviceControl": true,
+							"unit": "px",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .profile-sub, #0x0x0x0 .profile-sub, .0x0x0x0 .profile-box .profile-card.card-overlay .profile-body .profile-sub"
+									}
+							]
+					},
+					{
+							"id": "jobColor",
+							"label": "Text color",
+							"component": "ColorControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .profile-sub, #0x0x0x0 .profile-sub, .0x0x0x0 .profile-box .profile-card.card-overlay .profile-body .profile-sub,\n                            .0x0x0x0 .profile-sub> a, #0x0x0x0 .profile-sub> a, .0x0x0x0 .profile-box .profile-card.card-overlay .profile-body .profile-sub> a"
+									}
+							]
+					},
+					{
+							"id": "jobColorHover",
+							"label": "Hover Text Color",
+							"component": "ColorControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0:hover .profile-sub, #0x0x0x0:hover .profile-sub, .0x0x0x0:hover .profile-box .profile-card.card-overlay .profile-body .profile-sub,\n                            .0x0x0x0:hover .profile-sub> a, #0x0x0x0:hover .profile-sub> a, .0x0x0x0:hover .profile-box .profile-card.card-overlay .profile-body .profile-sub> a"
+									}
+							]
+					},
+					{
+							"id": "jobTypography",
+							"label": "Typography",
+							"component": "TypographyControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .profile-sub, #0x0x0x0 .profile-sub, .0x0x0x0 .profile-box .profile-card.card-overlay .profile-body .profile-sub,\n                            .0x0x0x0 .profile-sub> a, #0x0x0x0 .profile-sub> a, .0x0x0x0 .profile-box .profile-card.card-overlay .profile-body .profile-sub> a",
+											"hasChild": true
+									}
+							]
+					},
+					{
+							"id": "jobTextShadow",
+							"label": "Text Shadow",
+							"component": "TextShadowControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .profile-sub, #0x0x0x0 .profile-sub, .0x0x0x0 .profile-box .profile-card.card-overlay .profile-body .profile-sub"
+									}
+							]
+					}
+			],
+			"tabRole": {
+					"id": "style",
+					"name": "Style",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"viewBox": "0 0 24 24",
+													"xmlns": "http://www.w3.org/2000/svg",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"d": "M12 4c-4.4 0-8 3.6-8 8v.1c0 4.1 3.2 7.5 7.2 7.9h.8c4.4 0 8-3.6 8-8s-3.6-8-8-8zm0 15V5c3.9 0 7 3.1 7 7s-3.1 7-7 7z"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			}
+	},
+	{
+			"title": "Description Typography",
+			"initialOpen": false,
+			"panelArray": [
+					{
+							"id": "descSpace",
+							"label": "Text Space",
+							"component": "RangeControl",
+							"min": 0,
+							"max": 100,
+							"step": 1,
+							"allowDeviceControl": true,
+							"unit": "px",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .profile-desc, #0x0x0x0 .profile-desc, #0x0x0x0 .profile-phone, #0x0x0x0 .profile-email, .0x0x0x0 .profile-box .profile-card.card-overlay .profile-body .profile-desc"
+									}
+							]
+					},
+					{
+							"id": "descColor",
+							"label": "Text color",
+							"component": "ColorControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .profile-desc, #0x0x0x0 .profile-desc, #0x0x0x0 .profile-phone, #0x0x0x0 .profile-email, .0x0x0x0 .profile-box .profile-card.card-overlay .profile-body .profile-desc,\n                            .0x0x0x0 .profile-desc> a, #0x0x0x0 .profile-desc> a, #0x0x0x0 .profile-phone> a, #0x0x0x0 .profile-email> a, .0x0x0x0 .profile-box .profile-card.card-overlay .profile-body .profile-desc> a"
+									}
+							]
+					},
+					{
+							"id": "descColorHover",
+							"label": "Hover Text Color",
+							"component": "ColorControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0:hover .profile-desc, #0x0x0x0:hover .profile-desc, #0x0x0x0:hover .profile-phone, #0x0x0x0:hover .profile-email, .0x0x0x0:hover .profile-box .profile-card.card-overlay .profile-body .profile-desc,\n                            .0x0x0x0:hover .profile-desc> a, #0x0x0x0:hover .profile-desc> a, #0x0x0x0:hover .profile-phone> a, #0x0x0x0:hover .profile-email> a, .0x0x0x0:hover .profile-box .profile-card.card-overlay .profile-body .profile-desc> a"
+									}
+							]
+					},
+					{
+							"id": "descTypography",
+							"label": "Typography",
+							"component": "TypographyControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .profile-desc, #0x0x0x0 .profile-desc, #0x0x0x0 .profile-phone, #0x0x0x0 .profile-email, .0x0x0x0 .profile-box .profile-card.card-overlay .profile-body .profile-desc,\n                            .0x0x0x0 .profile-desc> a, #0x0x0x0 .profile-desc> a, #0x0x0x0 .profile-phone> a, #0x0x0x0 .profile-email> a, .0x0x0x0 .profile-box .profile-card.card-overlay .profile-body .profile-desc> a",
+											"hasChild": true
+									}
+							]
+					},
+					{
+							"id": "descTextShadow",
+							"label": "Text Shadow",
+							"component": "TextShadowControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .profile-desc, #0x0x0x0 .profile-desc, #0x0x0x0 .profile-phone, #0x0x0x0 .profile-email, .0x0x0x0 .profile-box .profile-card.card-overlay .profile-body .profile-desc,\n                            .0x0x0x0 .profile-desc> a, #0x0x0x0 .profile-desc> a, #0x0x0x0 .profile-phone> a, #0x0x0x0 .profile-email> a, .0x0x0x0 .profile-box .profile-card.card-overlay .profile-body .profile-desc> a"
+									}
+							]
+					}
+			],
+			"tabRole": {
+					"id": "style",
+					"name": "Style",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"viewBox": "0 0 24 24",
+													"xmlns": "http://www.w3.org/2000/svg",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"d": "M12 4c-4.4 0-8 3.6-8 8v.1c0 4.1 3.2 7.5 7.2 7.9h.8c4.4 0 8-3.6 8-8s-3.6-8-8-8zm0 15V5c3.9 0 7 3.1 7 7s-3.1 7-7 7z"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			}
+	},
+	{
+			"title": "Social Hover",
+			"initialOpen": false,
+			"panelArray": [
+					{
+							"id": "hoverPadding",
+							"label": "Hover Padding",
+							"component": "DimensionControl",
+							"allowDeviceControl": true,
+							"position": [
+									"top",
+									"right",
+									"bottom",
+									"left"
+							],
+							"units": {
+									"px": {
+											"text": "px",
+											"unit": "px"
+									},
+									"em": {
+											"text": "em",
+											"unit": "em"
+									},
+									"%": {
+											"text": "%",
+											"unit": "%"
+									},
+									"rem": {
+											"text": "rem",
+											"unit": "rem"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-team .profile-box .profile-card.card-hover:hover .profile-body"
+									}
+							]
+					},
+					{
+							"id": "hoverMargin",
+							"label": "Hover Margin",
+							"component": "DimensionControl",
+							"allowDeviceControl": true,
+							"position": [
+									"top",
+									"right",
+									"bottom",
+									"left"
+							],
+							"units": {
+									"px": {
+											"text": "px",
+											"unit": "px"
+									},
+									"em": {
+											"text": "em",
+											"unit": "em"
+									},
+									"%": {
+											"text": "%",
+											"unit": "%"
+									},
+									"rem": {
+											"text": "rem",
+											"unit": "rem"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-team .profile-box .profile-card.card-hover:hover .profile-body"
+									}
+							]
+					},
+					{
+							"id": "hoverContentBgColor",
+							"component": "BackgroundControl",
+							"allowDeviceControl": true,
+							"options": [
+									"default",
+									"gradient"
+							],
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-team .profile-box .profile-card.card-hover .profile-body:before",
+											"hasChild": true
+									}
+							]
+					},
+					{
+							"id": "hoverContentBorder",
+							"show": true,
+							"label": "Border",
+							"component": "BorderControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-team .profile-box .profile-card.card-hover .profile-body:before",
+											"hasChild": true
+									}
+							]
+					},
+					{
+							"id": "hoverContentBorderResponsive",
+							"show": false,
+							"label": "Border",
+							"component": "BorderResponsiveControl",
+							"allowDeviceControl": true,
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-team .profile-box .profile-card.card-hover .profile-body:before"
+									}
+							]
+					},
+					{
+							"id": "hoverContentShadow",
+							"label": "Box Shadow",
+							"component": "BoxShadowControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-team .profile-box .profile-card.card-hover .profile-body:before"
+									}
+							]
+					}
+			],
+			"tabRole": {
+					"id": "style",
+					"name": "Style",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"viewBox": "0 0 24 24",
+													"xmlns": "http://www.w3.org/2000/svg",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"d": "M12 4c-4.4 0-8 3.6-8 8v.1c0 4.1 3.2 7.5 7.2 7.9h.8c4.4 0 8-3.6 8-8s-3.6-8-8-8zm0 15V5c3.9 0 7 3.1 7 7s-3.1 7-7 7z"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			}
+	},
+	{
+			"title": "Profile Background",
+			"initialOpen": false,
+			"panelArray": [
+					{
+							"id": "__profileBgHover",
+							"component": "SwitchControl",
+							"options": [
+									{
+											"value": "normal",
+											"label": "Normal"
+									},
+									{
+											"value": "hover",
+											"label": "Hover"
+									}
+							]
+					},
+					{
+							"id": "profileBackground",
+							"show": true,
+							"component": "BackgroundControl",
+							"allowDeviceControl": true,
+							"options": [
+									"default",
+									"gradient"
+							],
+							"style": [
+									{
+											"selector": ".0x0x0x0 .profile-box .profile-card",
+											"hasChild": true
+									}
+							]
+					},
+					{
+							"id": "profileBackgroundHover",
+							"show": false,
+							"component": "BackgroundControl",
+							"allowDeviceControl": true,
+							"options": [
+									"default",
+									"gradient"
+							],
+							"style": [
+									{
+											"selector": ".0x0x0x0 .profile-box .profile-card:hover",
+											"hasChild": true
+									}
+							]
+					}
+			],
+			"tabRole": {
+					"id": "style",
+					"name": "Style",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"viewBox": "0 0 24 24",
+													"xmlns": "http://www.w3.org/2000/svg",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"d": "M12 4c-4.4 0-8 3.6-8 8v.1c0 4.1 3.2 7.5 7.2 7.9h.8c4.4 0 8-3.6 8-8s-3.6-8-8-8zm0 15V5c3.9 0 7 3.1 7 7s-3.1 7-7 7z"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			}
+	},
+	{
+			"title": "Profile Border",
+			"initialOpen": false,
+			"panelArray": [
+					{
+							"id": "__profileBorderHover",
+							"component": "SwitchControl",
+							"options": [
+									{
+											"value": "normal",
+											"label": "Normal"
+									},
+									{
+											"value": "hover",
+											"label": "Hover"
+									}
+							]
+					},
+					{
+							"id": "profileBorder",
+							"show": true,
+							"label": "Border",
+							"component": "BorderControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .profile-box .profile-card",
+											"hasChild": true
+									}
+							]
+					},
+					{
+							"id": "profileBorderResponsive",
+							"show": false,
+							"label": "Border",
+							"component": "BorderResponsiveControl",
+							"allowDeviceControl": true,
+							"style": [
+									{
+											"selector": ".0x0x0x0 .profile-box .profile-card"
+									}
+							]
+					},
+					{
+							"id": "profileBoxShadow",
+							"show": true,
+							"label": "Box Shadow",
+							"component": "BoxShadowControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .profile-box .profile-card"
+									}
+							]
+					},
+					{
+							"id": "profileBorderHover",
+							"show": false,
+							"label": "Border",
+							"component": "BorderControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .profile-box .profile-card:hover",
+											"hasChild": true
+									}
+							]
+					},
+					{
+							"id": "profileBorderHoverResponsive",
+							"show": false,
+							"label": "Border",
+							"component": "BorderResponsiveControl",
+							"allowDeviceControl": true,
+							"style": [
+									{
+											"selector": ".0x0x0x0 .profile-box .profile-card:hover"
+									}
+							]
+					},
+					{
+							"id": "profileBoxShadowHover",
+							"show": false,
+							"label": "Box Shadow",
+							"component": "BoxShadowControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .profile-box .profile-card:hover"
+									}
+							]
+					}
+			],
+			"tabRole": {
+					"id": "style",
+					"name": "Style",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"viewBox": "0 0 24 24",
+													"xmlns": "http://www.w3.org/2000/svg",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"d": "M12 4c-4.4 0-8 3.6-8 8v.1c0 4.1 3.2 7.5 7.2 7.9h.8c4.4 0 8-3.6 8-8s-3.6-8-8-8zm0 15V5c3.9 0 7 3.1 7 7s-3.1 7-7 7z"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			}
+	},
+	{
+			"title": "Image Border",
+			"initialOpen": false,
+			"panelArray": [
+					{
+							"id": "__imageBorderHover",
+							"component": "SwitchControl",
+							"options": [
+									{
+											"value": "normal",
+											"label": "Normal"
+									},
+									{
+											"value": "hover",
+											"label": "Hover"
+									}
+							]
+					},
+					{
+							"id": "imageBorder",
+							"show": true,
+							"label": "Border",
+							"component": "BorderControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .profile-box .profile-card img",
+											"hasChild": true
+									}
+							]
+					},
+					{
+							"id": "imageBorderResponsive",
+							"show": false,
+							"label": "Border",
+							"component": "BorderResponsiveControl",
+							"allowDeviceControl": true,
+							"style": [
+									{
+											"selector": ".0x0x0x0 .profile-box .profile-card img"
+									}
+							]
+					},
+					{
+							"id": "imageBoxShadow",
+							"show": true,
+							"label": "Box Shadow",
+							"component": "BoxShadowControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .profile-box .profile-card img"
+									}
+							]
+					},
+					{
+							"id": "imageBorderHover",
+							"show": false,
+							"label": "Border",
+							"component": "BorderControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .profile-box .profile-card img:hover",
+											"hasChild": true
+									}
+							]
+					},
+					{
+							"id": "imageBorderHoverResponsive",
+							"show": false,
+							"label": "Border",
+							"component": "BorderResponsiveControl",
+							"allowDeviceControl": true,
+							"style": [
+									{
+											"selector": ".0x0x0x0 .profile-box .profile-card img:hover"
+									}
+							]
+					},
+					{
+							"id": "imageBoxShadowHover",
+							"show": false,
+							"label": "Box Shadow",
+							"component": "BoxShadowControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .profile-box .profile-card img:hover"
+									}
+							]
+					}
+			],
+			"tabRole": {
+					"id": "style",
+					"name": "Style",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"viewBox": "0 0 24 24",
+													"xmlns": "http://www.w3.org/2000/svg",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"d": "M12 4c-4.4 0-8 3.6-8 8v.1c0 4.1 3.2 7.5 7.2 7.9h.8c4.4 0 8-3.6 8-8s-3.6-8-8-8zm0 15V5c3.9 0 7 3.1 7 7s-3.1 7-7 7z"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			}
+	},
+	{
+			"title": "Image Background",
+			"initialOpen": false,
+			"panelArray": [
+					{
+							"id": "__imageBackgroundHover",
+							"component": "SwitchControl",
+							"options": [
+									{
+											"value": "normal",
+											"label": "Normal"
+									},
+									{
+											"value": "hover",
+											"label": "Hover"
+									}
+							]
+					},
+					{
+							"id": "imageBackground",
+							"show": true,
+							"label": "Background",
+							"component": "BackgroundControl",
+							"options": [
+									"default",
+									"gradient"
+							],
+							"style": [
+									{
+											"selector": ".0x0x0x0 .profile-box .profile-card img",
+											"hasChild": true
+									}
+							]
+					},
+					{
+							"id": "imageBackgroundHover",
+							"show": false,
+							"label": "Background Hover",
+							"component": "BackgroundControl",
+							"options": [
+									"default",
+									"gradient"
+							],
+							"style": [
+									{
+											"selector": ".0x0x0x0 .profile-box .profile-card img:hover",
+											"hasChild": true
+									}
+							]
+					}
+			],
+			"tabRole": {
+					"id": "style",
+					"name": "Style",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"viewBox": "0 0 24 24",
+													"xmlns": "http://www.w3.org/2000/svg",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"d": "M12 4c-4.4 0-8 3.6-8 8v.1c0 4.1 3.2 7.5 7.2 7.9h.8c4.4 0 8-3.6 8-8s-3.6-8-8-8zm0 15V5c3.9 0 7 3.1 7 7s-3.1 7-7 7z"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			}
+	},
+	{
+			"title": "Background",
+			"initialOpen": false,
+			"panelArray": [
+					{
+							"id": "__bgHover",
+							"component": "SwitchControl",
+							"options": [
+									{
+											"value": "normal",
+											"label": "Normal"
+									},
+									{
+											"value": "hover",
+											"label": "Hover"
+									}
+							]
+					},
+					{
+							"id": "background",
+							"show": true,
+							"component": "BackgroundControl",
+							"allowDeviceControl": true,
+							"options": [
+									"default",
+									"gradient"
+							],
+							"style": [
+									{
+											"selector": ".0x0x0x0",
+											"hasChild": true
+									}
+							],
+							"blockType": ""
+					},
+					{
+							"id": "backgroundHover",
+							"show": false,
+							"component": "BackgroundControl",
+							"allowDeviceControl": true,
+							"options": [
+									"default",
+									"gradient"
+							],
+							"style": [
+									{
+											"selector": ".0x0x0x0:hover",
+											"hasChild": true
+									}
+							]
+					}
+			],
+			"tabRole": {
+					"id": "style",
+					"name": "Style",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"viewBox": "0 0 24 24",
+													"xmlns": "http://www.w3.org/2000/svg",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"d": "M12 4c-4.4 0-8 3.6-8 8v.1c0 4.1 3.2 7.5 7.2 7.9h.8c4.4 0 8-3.6 8-8s-3.6-8-8-8zm0 15V5c3.9 0 7 3.1 7 7s-3.1 7-7 7z"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			}
+	},
+	{
+			"title": "Border",
+			"initialOpen": false,
+			"panelArray": [
+					{
+							"id": "__borderHover",
+							"component": "SwitchControl",
+							"options": [
+									{
+											"value": "normal",
+											"label": "Normal"
+									},
+									{
+											"value": "hover",
+											"label": "Hover"
+									}
+							]
+					},
+					{
+							"id": "border",
+							"show": true,
+							"label": "Border Type",
+							"component": "BorderControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0",
+											"hasChild": true
+									}
+							]
+					},
+					{
+							"id": "borderResponsive",
+							"show": false,
+							"label": "Border Type",
+							"component": "BorderResponsiveControl",
+							"allowDeviceControl": true,
+							"style": [
+									{
+											"selector": ".0x0x0x0"
+									}
+							]
+					},
+					{
+							"id": "borderHover",
+							"show": false,
+							"label": "Border Type",
+							"component": "BorderControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0:hover",
+											"hasChild": true
+									}
+							]
+					},
+					{
+							"id": "borderHoverResponsive",
+							"show": false,
+							"label": "Border Type",
+							"component": "BorderResponsiveControl",
+							"allowDeviceControl": true,
+							"style": [
+									{
+											"selector": ".0x0x0x0:hover"
+									}
+							]
+					},
+					{
+							"id": "boxShadow",
+							"show": true,
+							"label": "Box Shadow",
+							"component": "BoxShadowControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0"
+									}
+							]
+					},
+					{
+							"id": "boxShadowHover",
+							"show": false,
+							"label": "Box Shadow",
+							"component": "BoxShadowControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0:hover"
+									}
+							]
+					}
+			],
+			"tabRole": {
+					"id": "style",
+					"name": "Style",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"viewBox": "0 0 24 24",
+													"xmlns": "http://www.w3.org/2000/svg",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"d": "M12 4c-4.4 0-8 3.6-8 8v.1c0 4.1 3.2 7.5 7.2 7.9h.8c4.4 0 8-3.6 8-8s-3.6-8-8-8zm0 15V5c3.9 0 7 3.1 7 7s-3.1 7-7 7z"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			}
+	},
+	{
+			"title": "Masking",
+			"initialOpen": false,
+			"panelArray": [
+					{
+							"id": "mask",
+							"allowDeviceControl": true,
+							"component": "MaskControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0",
+											"hasChild": true
+									}
+							]
+					}
+			],
+			"tabRole": {
+					"id": "style",
+					"name": "Style",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"viewBox": "0 0 24 24",
+													"xmlns": "http://www.w3.org/2000/svg",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"d": "M12 4c-4.4 0-8 3.6-8 8v.1c0 4.1 3.2 7.5 7.2 7.9h.8c4.4 0 8-3.6 8-8s-3.6-8-8-8zm0 15V5c3.9 0 7 3.1 7 7s-3.1 7-7 7z"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			}
+	},
+	{
+			"title": "Display",
+			"initialOpen": false,
+			"panelArray": [
+					{
+							"id": "hideDesktop",
+							"label": "Hide on Desktop",
+							"component": "CheckboxControl"
+					},
+					{
+							"id": "hideTablet",
+							"label": "Hide on Tablet",
+							"component": "CheckboxControl"
+					},
+					{
+							"id": "hideMobile",
+							"label": "Hide on Mobile",
+							"component": "CheckboxControl"
+					}
+			],
+			"tabRole": {
+					"id": "setting",
+					"name": "Settings",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"xmlns": "http://www.w3.org/2000/svg",
+													"viewBox": "0 0 24 24",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"fillRule": "evenodd",
+																	"d": "M10.289 4.836A1 1 0 0111.275 4h1.306a1 1 0 01.987.836l.244 1.466c.787.26 1.503.679 2.108 1.218l1.393-.522a1 1 0 011.216.437l.653 1.13a1 1 0 01-.23 1.273l-1.148.944a6.025 6.025 0 010 2.435l1.149.946a1 1 0 01.23 1.272l-.653 1.13a1 1 0 01-1.216.437l-1.394-.522c-.605.54-1.32.958-2.108 1.218l-.244 1.466a1 1 0 01-.987.836h-1.306a1 1 0 01-.986-.836l-.244-1.466a5.995 5.995 0 01-2.108-1.218l-1.394.522a1 1 0 01-1.217-.436l-.653-1.131a1 1 0 01.23-1.272l1.149-.946a6.026 6.026 0 010-2.435l-1.148-.944a1 1 0 01-.23-1.272l.653-1.131a1 1 0 011.217-.437l1.393.522a5.994 5.994 0 012.108-1.218l.244-1.466zM14.929 12a3 3 0 11-6 0 3 3 0 016 0z",
+																	"clipRule": "evenodd"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			}
+	},
+	{
+			"title": "Positioning",
+			"initialOpen": false,
+			"panelArray": [
+					{
+							"id": "positioningType",
+							"label": "Width",
+							"component": "SelectControl",
+							"allowDeviceControl": true,
+							"options": [
+									{
+											"value": "default",
+											"label": "Default"
+									},
+									{
+											"value": "full",
+											"label": "Full Width (100%)"
+									},
+									{
+											"value": "inline",
+											"label": "Inline (auto)"
+									},
+									{
+											"value": "custom",
+											"label": "Custom"
+									}
+							],
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-element"
+									},
+									{
+											"selector": ".0x0x0x0.guten-element",
+											"updateID": "positioningWidth-style-0"
+									}
+							]
+					},
+					{
+							"id": "positioningWidth",
+							"label": "Custom Width",
+							"show": false,
+							"component": "SizeControl",
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"min": 1,
+											"max": 1000,
+											"step": 1,
+											"unit": "px"
+									},
+									"%": {
+											"text": "%",
+											"min": 1,
+											"max": 100,
+											"step": 1,
+											"unit": "%"
+									},
+									"vw": {
+											"text": "vw",
+											"min": 1,
+											"max": 100,
+											"step": 1,
+											"unit": "vw"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-element"
+									}
+							]
+					},
+					{
+							"id": "positioningAlign",
+							"label": "Align",
+							"show": true,
+							"component": "SelectControl",
+							"allowDeviceControl": true,
+							"options": [
+									{
+											"value": "flex-start",
+											"label": "Top"
+									},
+									{
+											"value": "center",
+											"label": "Center"
+									},
+									{
+											"value": "flex-end",
+											"label": "Bottom"
+									}
+							],
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-element"
+									},
+									{
+											"selector": ".0x0x0x0.guten-element"
+									}
+							]
+					},
+					{
+							"id": "positioningLocation",
+							"label": "Location",
+							"component": "SelectControl",
+							"options": [
+									{
+											"value": "default",
+											"label": "Default"
+									},
+									{
+											"value": "fixed",
+											"label": "Fixed"
+									},
+									{
+											"value": "absolute",
+											"label": "Absolute"
+									}
+							],
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-element"
+									}
+							]
+					},
+					{
+							"id": "positioningLeft",
+							"label": "Left Orientation",
+							"show": false,
+							"component": "SizeControl",
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"min": -1000,
+											"max": 1000,
+											"step": 1,
+											"unit": "px"
+									},
+									"%": {
+											"text": "%",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "%"
+									},
+									"vw": {
+											"text": "vw",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "vw"
+									},
+									"vh": {
+											"text": "vw",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "vw"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-element"
+									}
+							]
+					},
+					{
+							"id": "positioningRight",
+							"label": "Right Orientation",
+							"show": false,
+							"component": "SizeControl",
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"min": -1000,
+											"max": 1000,
+											"step": 1,
+											"unit": "px"
+									},
+									"%": {
+											"text": "%",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "%"
+									},
+									"vw": {
+											"text": "vw",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "vw"
+									},
+									"vh": {
+											"text": "vw",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "vw"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-element"
+									}
+							]
+					},
+					{
+							"id": "positioningTop",
+							"label": "Top Orientation",
+							"show": false,
+							"component": "SizeControl",
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"min": -1000,
+											"max": 1000,
+											"step": 1,
+											"unit": "px"
+									},
+									"%": {
+											"text": "%",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "%"
+									},
+									"vw": {
+											"text": "vw",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "vw"
+									},
+									"vh": {
+											"text": "vw",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "vw"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-element"
+									}
+							]
+					},
+					{
+							"id": "positioningBottom",
+							"label": "Bottom Orientation",
+							"show": false,
+							"component": "SizeControl",
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"min": -1000,
+											"max": 1000,
+											"step": 1,
+											"unit": "px"
+									},
+									"%": {
+											"text": "%",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "%"
+									},
+									"vw": {
+											"text": "vw",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "vw"
+									},
+									"vh": {
+											"text": "vw",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "vw"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-element"
+									}
+							]
+					}
+			],
+			"tabRole": {
+					"id": "setting",
+					"name": "Settings",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"xmlns": "http://www.w3.org/2000/svg",
+													"viewBox": "0 0 24 24",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"fillRule": "evenodd",
+																	"d": "M10.289 4.836A1 1 0 0111.275 4h1.306a1 1 0 01.987.836l.244 1.466c.787.26 1.503.679 2.108 1.218l1.393-.522a1 1 0 011.216.437l.653 1.13a1 1 0 01-.23 1.273l-1.148.944a6.025 6.025 0 010 2.435l1.149.946a1 1 0 01.23 1.272l-.653 1.13a1 1 0 01-1.216.437l-1.394-.522c-.605.54-1.32.958-2.108 1.218l-.244 1.466a1 1 0 01-.987.836h-1.306a1 1 0 01-.986-.836l-.244-1.466a5.995 5.995 0 01-2.108-1.218l-1.394.522a1 1 0 01-1.217-.436l-.653-1.131a1 1 0 01.23-1.272l1.149-.946a6.026 6.026 0 010-2.435l-1.148-.944a1 1 0 01-.23-1.272l.653-1.131a1 1 0 011.217-.437l1.393.522a5.994 5.994 0 012.108-1.218l.244-1.466zM14.929 12a3 3 0 11-6 0 3 3 0 016 0z",
+																	"clipRule": "evenodd"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			}
+	},
+	{
+			"title": "Animation Effects",
+			"initialOpen": false,
+			"panelArray": [
+					{
+							"id": "animation",
+							"component": "AnimationControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0"
+									}
+							]
+					}
+			],
+			"tabRole": {
+					"id": "setting",
+					"name": "Settings",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"xmlns": "http://www.w3.org/2000/svg",
+													"viewBox": "0 0 24 24",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"fillRule": "evenodd",
+																	"d": "M10.289 4.836A1 1 0 0111.275 4h1.306a1 1 0 01.987.836l.244 1.466c.787.26 1.503.679 2.108 1.218l1.393-.522a1 1 0 011.216.437l.653 1.13a1 1 0 01-.23 1.273l-1.148.944a6.025 6.025 0 010 2.435l1.149.946a1 1 0 01.23 1.272l-.653 1.13a1 1 0 01-1.216.437l-1.394-.522c-.605.54-1.32.958-2.108 1.218l-.244 1.466a1 1 0 01-.987.836h-1.306a1 1 0 01-.986-.836l-.244-1.466a5.995 5.995 0 01-2.108-1.218l-1.394.522a1 1 0 01-1.217-.436l-.653-1.131a1 1 0 01.23-1.272l1.149-.946a6.026 6.026 0 010-2.435l-1.148-.944a1 1 0 01-.23-1.272l.653-1.131a1 1 0 011.217-.437l1.393.522a5.994 5.994 0 012.108-1.218l.244-1.466zM14.929 12a3 3 0 11-6 0 3 3 0 016 0z",
+																	"clipRule": "evenodd"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			}
+	},
+	{
+			"title": "Transform",
+			"initialOpen": false,
+			"panelArray": [
+					{
+							"component": "LockedTransformControl"
+					}
+			],
+			"pro": true
+	},
+	{
+			"title": "Mouse Move Effect",
+			"initialOpen": false,
+			"panelArray": [
+					{
+							"component": "LockedMouseMoveEffectControl"
+					}
+			],
+			"tabRole": {
+					"id": "setting",
+					"name": "Settings",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"xmlns": "http://www.w3.org/2000/svg",
+													"viewBox": "0 0 24 24",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"fillRule": "evenodd",
+																	"d": "M10.289 4.836A1 1 0 0111.275 4h1.306a1 1 0 01.987.836l.244 1.466c.787.26 1.503.679 2.108 1.218l1.393-.522a1 1 0 011.216.437l.653 1.13a1 1 0 01-.23 1.273l-1.148.944a6.025 6.025 0 010 2.435l1.149.946a1 1 0 01.23 1.272l-.653 1.13a1 1 0 01-1.216.437l-1.394-.522c-.605.54-1.32.958-2.108 1.218l-.244 1.466a1 1 0 01-.987.836h-1.306a1 1 0 01-.986-.836l-.244-1.466a5.995 5.995 0 01-2.108-1.218l-1.394.522a1 1 0 01-1.217-.436l-.653-1.131a1 1 0 01.23-1.272l1.149-.946a6.026 6.026 0 010-2.435l-1.148-.944a1 1 0 01-.23-1.272l.653-1.131a1 1 0 011.217-.437l1.393.522a5.994 5.994 0 012.108-1.218l.244-1.466zM14.929 12a3 3 0 11-6 0 3 3 0 016 0z",
+																	"clipRule": "evenodd"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			},
+			"pro": true
+	},
+	{
+			"title": "Advanced Animation",
+			"initialOpen": false,
+			"panelAdvance": true,
+			"panelArray": [
+					{
+							"component": "LockedAnimationControl"
+					}
+			],
+			"pro": true
+	},
+	{
+			"title": "Spacing",
+			"initialOpen": false,
+			"panelArray": [
+					{
+							"id": "margin",
+							"label": "Margin",
+							"component": "DimensionControl",
+							"allowDeviceControl": true,
+							"position": [
+									"top",
+									"right",
+									"bottom",
+									"left"
+							],
+							"units": {
+									"px": {
+											"text": "px",
+											"unit": "px"
+									},
+									"em": {
+											"text": "em",
+											"unit": "em"
+									},
+									"%": {
+											"text": "%",
+											"unit": "%"
+									},
+									"rem": {
+											"text": "rem",
+											"unit": "rem"
+									}
+							},
+							"style": [
+									{
+											"selector": ".editor-styles-wrapper .is-root-container .0x0x0x0",
+											"frontendSelector": ".0x0x0x0"
+									}
+							]
+					},
+					{
+							"id": "padding",
+							"label": "Padding",
+							"component": "DimensionControl",
+							"allowDeviceControl": true,
+							"position": [
+									"top",
+									"right",
+									"bottom",
+									"left"
+							],
+							"units": {
+									"px": {
+											"text": "px",
+											"unit": "px"
+									},
+									"em": {
+											"text": "em",
+											"unit": "em"
+									},
+									"%": {
+											"text": "%",
+											"unit": "%"
+									},
+									"rem": {
+											"text": "rem",
+											"unit": "rem"
+									}
+							},
+							"style": [
+									{
+											"selector": ".editor-styles-wrapper .is-root-container .0x0x0x0",
+											"frontendSelector": ".0x0x0x0"
+									}
+							]
+					},
+					{
+							"id": "zIndex",
+							"label": "Z Index",
+							"component": "NumberControl",
+							"allowDeviceControl": true,
+							"min": 1,
+							"max": 9999,
+							"step": 1,
+							"style": [
+									{
+											"selector": ".editor-styles-wrapper .is-root-container .0x0x0x0",
+											"frontendSelector": ".0x0x0x0"
+									}
+							]
+					}
+			],
+			"tabRole": {
+					"id": "setting",
+					"name": "Settings",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"xmlns": "http://www.w3.org/2000/svg",
+													"viewBox": "0 0 24 24",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"fillRule": "evenodd",
+																	"d": "M10.289 4.836A1 1 0 0111.275 4h1.306a1 1 0 01.987.836l.244 1.466c.787.26 1.503.679 2.108 1.218l1.393-.522a1 1 0 011.216.437l.653 1.13a1 1 0 01-.23 1.273l-1.148.944a6.025 6.025 0 010 2.435l1.149.946a1 1 0 01.23 1.272l-.653 1.13a1 1 0 01-1.216.437l-1.394-.522c-.605.54-1.32.958-2.108 1.218l-.244 1.466a1 1 0 01-.987.836h-1.306a1 1 0 01-.986-.836l-.244-1.466a5.995 5.995 0 01-2.108-1.218l-1.394.522a1 1 0 01-1.217-.436l-.653-1.131a1 1 0 01.23-1.272l1.149-.946a6.026 6.026 0 010-2.435l-1.148-.944a1 1 0 01-.23-1.272l.653-1.131a1 1 0 011.217-.437l1.393.522a5.994 5.994 0 012.108-1.218l.244-1.466zM14.929 12a3 3 0 11-6 0 3 3 0 016 0z",
+																	"clipRule": "evenodd"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			}
+	},
+	{
+			"title": "Condition",
+			"panelArray": [
+					{
+							"component": "LockedConditionControl"
+					}
+			],
+			"initialOpen": false,
+			"pro": true
+	}
+]

@@ -1,0 +1,4034 @@
+[
+	{
+			"title": "Setting",
+			"panelArray": [
+					{
+							"id": "inheritQuery",
+							"label": "Inherit Query from Template",
+							"description": "In Frontend, this will automatically show list of post depend on the current template such as : Archive, Search, etc.",
+							"component": "CheckboxControl"
+					},
+					{
+							"id": "postType",
+							"label": "Include Post Type",
+							"component": "SelectControl",
+							"options": [
+									{
+											"label": "Page",
+											"value": "page"
+									},
+									{
+											"label": "Post",
+											"value": "post"
+									}
+							]
+					},
+					{
+							"id": "noContentText",
+							"label": "Text to show if there is no content",
+							"component": "TextControl"
+					},
+					{
+							"id": "numberPost",
+							"label": "Number of Post initially showed",
+							"component": "RangeControl",
+							"min": 1,
+							"max": 30,
+							"step": 1,
+							"isParseFloat": false
+					},
+					{
+							"id": "postOffset",
+							"label": "Post Offset",
+							"component": "NumberControl",
+							"forceType": "string"
+					},
+					{
+							"id": "includePost",
+							"label": "Include Post",
+							"component": "SelectSearchControl",
+							"isMulti": true
+					},
+					{
+							"id": "excludeCurrentPost",
+							"label": "Exclude Current Post",
+							"description": "Exclude current post. Use this for single post template. Only show on frontend.",
+							"component": "CheckboxControl"
+					},
+					{
+							"id": "excludePost",
+							"label": "Exclude Post",
+							"component": "SelectSearchControl",
+							"isMulti": true
+					},
+					{
+							"id": "includeCategory",
+							"label": "Include Category",
+							"component": "SelectSearchControl",
+							"isMulti": true
+					},
+					{
+							"id": "excludeCategory",
+							"label": "Exclude Category",
+							"component": "SelectSearchControl",
+							"isMulti": true
+					},
+					{
+							"id": "includeAuthor",
+							"label": "Include Author",
+							"component": "SelectSearchControl",
+							"isMulti": true
+					},
+					{
+							"id": "includeTag",
+							"label": "Include Tag",
+							"component": "SelectSearchControl",
+							"isMulti": true
+					},
+					{
+							"id": "excludeTag",
+							"label": "Exclude Tag",
+							"component": "SelectSearchControl",
+							"isMulti": true
+					},
+					{
+							"id": "sortBy",
+							"label": "Sort By",
+							"component": "SelectControl",
+							"options": [
+									{
+											"value": "latest",
+											"label": "Latest"
+									},
+									{
+											"value": "oldest",
+											"label": "Oldest"
+									},
+									{
+											"value": "alphabet_asc",
+											"label": "Alphabet Asc"
+									},
+									{
+											"value": "alphabet_desc",
+											"label": "Alphabet Desc"
+									},
+									{
+											"value": "random",
+											"label": "Random"
+									},
+									{
+											"value": "random_week",
+											"label": "Random Week"
+									},
+									{
+											"value": "random_month",
+											"label": "Random Month"
+									},
+									{
+											"value": "most_comment",
+											"label": "Most Comment"
+									}
+							]
+					}
+			],
+			"tabRole": {
+					"id": "setting",
+					"name": "Settings",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"xmlns": "http://www.w3.org/2000/svg",
+													"viewBox": "0 0 24 24",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"fillRule": "evenodd",
+																	"d": "M10.289 4.836A1 1 0 0111.275 4h1.306a1 1 0 01.987.836l.244 1.466c.787.26 1.503.679 2.108 1.218l1.393-.522a1 1 0 011.216.437l.653 1.13a1 1 0 01-.23 1.273l-1.148.944a6.025 6.025 0 010 2.435l1.149.946a1 1 0 01.23 1.272l-.653 1.13a1 1 0 01-1.216.437l-1.394-.522c-.605.54-1.32.958-2.108 1.218l-.244 1.466a1 1 0 01-.987.836h-1.306a1 1 0 01-.986-.836l-.244-1.466a5.995 5.995 0 01-2.108-1.218l-1.394.522a1 1 0 01-1.217-.436l-.653-1.131a1 1 0 01.23-1.272l1.149-.946a6.026 6.026 0 010-2.435l-1.148-.944a1 1 0 01-.23-1.272l.653-1.131a1 1 0 011.217-.437l1.393.522a5.994 5.994 0 012.108-1.218l.244-1.466zM14.929 12a3 3 0 11-6 0 3 3 0 016 0z",
+																	"clipRule": "evenodd"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			}
+	},
+	{
+			"title": "Content Setting",
+			"initialOpen": false,
+			"panelArray": [
+					{
+							"id": "postblockType",
+							"label": "Block Type",
+							"component": "ImageRadioControl",
+							"options": [
+									{
+											"image": {
+													"type": "img",
+													"key": null,
+													"ref": null,
+													"props": {
+															"src": "http://gutenverse.local/wp-content/plugins/gutenverse/assets/img/post-block-1.png"
+													},
+													"_owner": null,
+													"_store": {}
+											},
+											"value": "type-1"
+									},
+									{
+											"image": {
+													"type": "img",
+													"key": null,
+													"ref": null,
+													"props": {
+															"src": "http://gutenverse.local/wp-content/plugins/gutenverse/assets/img/post-block-2.png"
+													},
+													"_owner": null,
+													"_store": {}
+											},
+											"value": "type-2"
+									},
+									{
+											"image": {
+													"type": "img",
+													"key": null,
+													"ref": null,
+													"props": {
+															"src": "http://gutenverse.local/wp-content/plugins/gutenverse/assets/img/post-block-3.png"
+													},
+													"_owner": null,
+													"_store": {}
+											},
+											"value": "type-3"
+									},
+									{
+											"image": {
+													"type": "img",
+													"key": null,
+													"ref": null,
+													"props": {
+															"src": "http://gutenverse.local/wp-content/plugins/gutenverse/assets/img/post-block-4.png"
+													},
+													"_owner": null,
+													"_store": {}
+											},
+											"value": "type-4"
+									},
+									{
+											"image": {
+													"type": "img",
+													"key": null,
+													"ref": null,
+													"props": {
+															"src": "http://gutenverse.local/wp-content/plugins/gutenverse/assets/img/post-block-5.png"
+													},
+													"_owner": null,
+													"_store": {}
+											},
+											"value": "type-5"
+									}
+							]
+					},
+					{
+							"id": "contentOrder",
+							"label": "Content Order",
+							"component": "SelectSortableControl",
+							"isMulti": true
+					},
+					{
+							"id": "column",
+							"label": "Column",
+							"component": "RangeControl",
+							"allowDeviceControl": true,
+							"min": 1,
+							"max": 3,
+							"step": 1,
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-posts"
+									}
+							]
+					},
+					{
+							"id": "breakpoint",
+							"show": false,
+							"label": "Responsive Breakpoint",
+							"component": "SelectControl",
+							"options": [
+									{
+											"label": "Tablet",
+											"value": "tablet"
+									},
+									{
+											"label": "Mobile",
+											"value": "mobile"
+									},
+									{
+											"label": "No Responsive",
+											"value": "no-responsive"
+									}
+							]
+					},
+					{
+							"id": "htmlTag",
+							"label": "Title HTML Tag",
+							"component": "SelectControl",
+							"options": [
+									{
+											"label": "H1",
+											"value": "h1"
+									},
+									{
+											"label": "H2",
+											"value": "h2"
+									},
+									{
+											"label": "H3",
+											"value": "h3"
+									},
+									{
+											"label": "H4",
+											"value": "h4"
+									},
+									{
+											"label": "H5",
+											"value": "h5"
+									},
+									{
+											"label": "H6",
+											"value": "h6"
+									},
+									{
+											"label": "P",
+											"value": "p"
+									}
+							]
+					},
+					{
+							"id": "categoryEnabled",
+							"label": "Enable Category",
+							"component": "CheckboxControl"
+					},
+					{
+							"id": "categoryPosition",
+							"show": false,
+							"label": "Category Position",
+							"component": "IconRadioControl",
+							"options": [
+									{
+											"label": "Align Left",
+											"value": "left",
+											"icon": {
+													"type": {
+															"propTypes": {}
+													},
+													"key": null,
+													"ref": null,
+													"props": {},
+													"_owner": null,
+													"_store": {}
+											}
+									},
+									{
+											"label": "Align Center",
+											"value": "center",
+											"icon": {
+													"type": {
+															"propTypes": {}
+													},
+													"key": null,
+													"ref": null,
+													"props": {},
+													"_owner": null,
+													"_store": {}
+											}
+									},
+									{
+											"label": "Align Right",
+											"value": "right",
+											"icon": {
+													"type": {
+															"propTypes": {}
+													},
+													"key": null,
+													"ref": null,
+													"props": {},
+													"_owner": null,
+													"_store": {}
+											}
+									}
+							]
+					},
+					{
+							"id": "excerptEnabled",
+							"label": "Enable Excerpt",
+							"component": "CheckboxControl"
+					},
+					{
+							"id": "excerptLength",
+							"label": "Excerpt Length",
+							"component": "RangeControl",
+							"min": 0,
+							"max": 200,
+							"step": 1,
+							"isParseFloat": false
+					},
+					{
+							"id": "excerptMore",
+							"label": "Excerpt's End",
+							"component": "TextControl"
+					},
+					{
+							"id": "readmoreEnabled",
+							"label": "Enable Read More",
+							"component": "CheckboxControl"
+					},
+					{
+							"id": "readmoreIcon",
+							"component": "IconControl"
+					},
+					{
+							"id": "readmoreIconPosition",
+							"component": "SelectControl",
+							"options": [
+									{
+											"label": "Before",
+											"value": "before"
+									},
+									{
+											"label": "After",
+											"value": "after"
+									}
+							]
+					},
+					{
+							"id": "readmoreText",
+							"component": "TextControl"
+					},
+					{
+							"id": "commentEnabled",
+							"label": "Enable Comment",
+							"component": "CheckboxControl"
+					},
+					{
+							"id": "commentIcon",
+							"component": "IconControl"
+					},
+					{
+							"id": "commentIconPosition",
+							"component": "SelectControl",
+							"options": [
+									{
+											"label": "Before",
+											"value": "before"
+									},
+									{
+											"label": "After",
+											"value": "after"
+									}
+							]
+					},
+					{
+							"id": "metaEnabled",
+							"label": "Enable Post Meta",
+							"component": "CheckboxControl"
+					},
+					{
+							"id": "metaAuthorEnabled",
+							"label": "Enable Post Author Meta",
+							"component": "CheckboxControl"
+					},
+					{
+							"id": "metaAuthorByText",
+							"label": "Meta Author Preposition",
+							"component": "TextControl"
+					},
+					{
+							"id": "metaAuthorIcon",
+							"component": "IconControl"
+					},
+					{
+							"id": "metaAuthorIconPosition",
+							"component": "SelectControl",
+							"options": [
+									{
+											"label": "Before",
+											"value": "before"
+									},
+									{
+											"label": "After",
+											"value": "after"
+									}
+							]
+					},
+					{
+							"id": "metaDateEnabled",
+							"label": "Enable Post Date Meta",
+							"component": "CheckboxControl"
+					},
+					{
+							"id": "metaDateType",
+							"label": "Date Type",
+							"component": "SelectControl",
+							"options": [
+									{
+											"label": "Published Date",
+											"value": "published"
+									},
+									{
+											"label": "Modified Date",
+											"value": "modified"
+									},
+									{
+											"label": "Both Dates",
+											"value": "both"
+									}
+							]
+					},
+					{
+							"id": "metaDateFormat",
+							"label": "Date Format",
+							"component": "SelectControl",
+							"options": [
+									{
+											"label": "Relative Date/Time Format (ago)",
+											"value": "ago"
+									},
+									{
+											"label": "Wordpress Default Format",
+											"value": "default"
+									},
+									{
+											"label": "Custom Format",
+											"value": "custom"
+									}
+							]
+					},
+					{
+							"id": "metaDateFormatCustom",
+							"label": "Custom Format",
+							"component": "TextControl"
+					},
+					{
+							"id": "metaDateIcon",
+							"component": "IconControl"
+					},
+					{
+							"id": "metaDateIconPosition",
+							"component": "SelectControl",
+							"options": [
+									{
+											"label": "Before",
+											"value": "before"
+									},
+									{
+											"label": "After",
+											"value": "after"
+									}
+							]
+					},
+					{
+							"id": "lazyLoad",
+							"label": "Set Lazy Load",
+							"component": "CheckboxControl"
+					}
+			],
+			"tabRole": {
+					"id": "setting",
+					"name": "Settings",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"xmlns": "http://www.w3.org/2000/svg",
+													"viewBox": "0 0 24 24",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"fillRule": "evenodd",
+																	"d": "M10.289 4.836A1 1 0 0111.275 4h1.306a1 1 0 01.987.836l.244 1.466c.787.26 1.503.679 2.108 1.218l1.393-.522a1 1 0 011.216.437l.653 1.13a1 1 0 01-.23 1.273l-1.148.944a6.025 6.025 0 010 2.435l1.149.946a1 1 0 01.23 1.272l-.653 1.13a1 1 0 01-1.216.437l-1.394-.522c-.605.54-1.32.958-2.108 1.218l-.244 1.466a1 1 0 01-.987.836h-1.306a1 1 0 01-.986-.836l-.244-1.466a5.995 5.995 0 01-2.108-1.218l-1.394.522a1 1 0 01-1.217-.436l-.653-1.131a1 1 0 01.23-1.272l1.149-.946a6.026 6.026 0 010-2.435l-1.148-.944a1 1 0 01-.23-1.272l.653-1.131a1 1 0 011.217-.437l1.393.522a5.994 5.994 0 012.108-1.218l.244-1.466zM14.929 12a3 3 0 11-6 0 3 3 0 016 0z",
+																	"clipRule": "evenodd"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			}
+	},
+	{
+			"title": "Pagination",
+			"initialOpen": false,
+			"panelArray": [
+					{
+							"id": "paginationMode",
+							"label": "Pagination Mode",
+							"description": "Note: Auto Load on Scroll effect is disabled in editor mode, but it can be viewed on Preview mode.",
+							"component": "SelectControl",
+							"options": [
+									{
+											"label": "No Pagination",
+											"value": "disable"
+									},
+									{
+											"label": "Load More",
+											"value": "loadmore"
+									},
+									{
+											"label": "Auto Load on Scroll",
+											"value": "scrollload"
+									},
+									{
+											"label": "Prev Next",
+											"value": "prevnext"
+									},
+									{
+											"label": "Number",
+											"value": "number"
+									}
+							]
+					},
+					{
+							"id": "paginationPrevNextText",
+							"label": "Show Text",
+							"component": "CheckboxControl"
+					},
+					{
+							"id": "paginationPrevText",
+							"label": "\"Previous\" Text",
+							"component": "TextControl"
+					},
+					{
+							"id": "paginationNextText",
+							"label": "\"Next\" Text",
+							"component": "TextControl"
+					},
+					{
+							"id": "paginationPrevIcon",
+							"component": "IconControl"
+					},
+					{
+							"id": "paginationNextIcon",
+							"component": "IconControl"
+					},
+					{
+							"id": "paginationLoadmoreText",
+							"label": "\"Load More\" Text",
+							"component": "TextControl"
+					},
+					{
+							"id": "paginationLoadingText",
+							"label": "\"Loading\" Text",
+							"component": "TextControl"
+					},
+					{
+							"id": "paginationNumberPost",
+							"label": "Pagination Post",
+							"description": "Number of Post loaded per Pagination",
+							"component": "RangeControl",
+							"min": 1,
+							"max": 30,
+							"step": 1,
+							"isParseFloat": false
+					},
+					{
+							"id": "paginationScrollLimit",
+							"label": "Auto Load Limit",
+							"description": "Limit of auto load when scrolling, set to zero to always load until end of content.",
+							"component": "NumberControl",
+							"min": 0,
+							"max": 9999,
+							"step": 1
+					},
+					{
+							"id": "paginationIcon",
+							"component": "IconControl"
+					},
+					{
+							"id": "paginationIconPosition",
+							"component": "SelectControl",
+							"options": [
+									{
+											"label": "Before",
+											"value": "before"
+									},
+									{
+											"label": "After",
+											"value": "after"
+									}
+							]
+					}
+			],
+			"tabRole": {
+					"id": "setting",
+					"name": "Settings",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"xmlns": "http://www.w3.org/2000/svg",
+													"viewBox": "0 0 24 24",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"fillRule": "evenodd",
+																	"d": "M10.289 4.836A1 1 0 0111.275 4h1.306a1 1 0 01.987.836l.244 1.466c.787.26 1.503.679 2.108 1.218l1.393-.522a1 1 0 011.216.437l.653 1.13a1 1 0 01-.23 1.273l-1.148.944a6.025 6.025 0 010 2.435l1.149.946a1 1 0 01.23 1.272l-.653 1.13a1 1 0 01-1.216.437l-1.394-.522c-.605.54-1.32.958-2.108 1.218l-.244 1.466a1 1 0 01-.987.836h-1.306a1 1 0 01-.986-.836l-.244-1.466a5.995 5.995 0 01-2.108-1.218l-1.394.522a1 1 0 01-1.217-.436l-.653-1.131a1 1 0 01.23-1.272l1.149-.946a6.026 6.026 0 010-2.435l-1.148-.944a1 1 0 01-.23-1.272l.653-1.131a1 1 0 011.217-.437l1.393.522a5.994 5.994 0 012.108-1.218l.244-1.466zM14.929 12a3 3 0 11-6 0 3 3 0 016 0z",
+																	"clipRule": "evenodd"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			}
+	},
+	{
+			"title": "Post Item",
+			"initialOpen": false,
+			"panelArray": [
+					{
+							"id": "postItemGap",
+							"label": "Column Gap",
+							"component": "RangeControl",
+							"min": 0,
+							"max": 200,
+							"step": 1,
+							"allowDeviceControl": true,
+							"unit": "px",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-posts"
+									}
+							]
+					},
+					{
+							"id": "postItemBackground",
+							"label": "Background",
+							"component": "BackgroundControl",
+							"allowDeviceControl": true,
+							"options": [
+									"default",
+									"gradient"
+							],
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post",
+											"hasChild": true
+									}
+							]
+					},
+					{
+							"id": "postItemMargin",
+							"label": "Margin",
+							"component": "DimensionControl",
+							"position": [
+									"top",
+									"right",
+									"bottom",
+									"left"
+							],
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"unit": "px"
+									},
+									"em": {
+											"text": "em",
+											"unit": "em"
+									},
+									"percent": {
+											"text": "%",
+											"unit": "%"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post"
+									}
+							]
+					},
+					{
+							"id": "postItemPadding",
+							"label": "Padding",
+							"component": "DimensionControl",
+							"position": [
+									"top",
+									"right",
+									"bottom",
+									"left"
+							],
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"unit": "px"
+									},
+									"em": {
+											"text": "em",
+											"unit": "em"
+									},
+									"percent": {
+											"text": "%",
+											"unit": "%"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post"
+									}
+							]
+					},
+					{
+							"id": "postItemBorder",
+							"show": true,
+							"label": "Border",
+							"component": "BorderControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post",
+											"hasChild": true
+									}
+							]
+					},
+					{
+							"id": "postItemBorderResponsive",
+							"show": false,
+							"label": "Border",
+							"component": "BorderResponsiveControl",
+							"allowDeviceControl": true,
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post"
+									}
+							]
+					},
+					{
+							"id": "postItemBoxShadow",
+							"label": "Box Shadow",
+							"component": "BoxShadowControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post"
+									}
+							]
+					}
+			],
+			"tabRole": {
+					"id": "style",
+					"name": "Style",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"viewBox": "0 0 24 24",
+													"xmlns": "http://www.w3.org/2000/svg",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"d": "M12 4c-4.4 0-8 3.6-8 8v.1c0 4.1 3.2 7.5 7.2 7.9h.8c4.4 0 8-3.6 8-8s-3.6-8-8-8zm0 15V5c3.9 0 7 3.1 7 7s-3.1 7-7 7z"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			}
+	},
+	{
+			"title": "Thumbnail",
+			"initialOpen": false,
+			"panelArray": [
+					{
+							"id": "thumbnailWidth",
+							"label": "Width",
+							"component": "RangeControl",
+							"min": 0,
+							"max": 100,
+							"step": 1,
+							"allowDeviceControl": true,
+							"unit": "%",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock:not(.postblock-type-5) .guten-thumb, .0x0x0x0 .guten-postblock.postblock-type-5 .guten-post"
+									}
+							]
+					},
+					{
+							"id": "thumbnailMargin",
+							"label": "Margin",
+							"component": "DimensionControl",
+							"position": [
+									"top",
+									"right",
+									"bottom",
+									"left"
+							],
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"unit": "px"
+									},
+									"em": {
+											"text": "em",
+											"unit": "em"
+									},
+									"percent": {
+											"text": "%",
+											"unit": "%"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-thumb"
+									}
+							]
+					},
+					{
+							"id": "thumbnailPadding",
+							"label": "Padding",
+							"component": "DimensionControl",
+							"position": [
+									"top",
+									"right",
+									"bottom",
+									"left"
+							],
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"unit": "px"
+									},
+									"em": {
+											"text": "em",
+											"unit": "em"
+									},
+									"percent": {
+											"text": "%",
+											"unit": "%"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-thumb"
+									}
+							]
+					},
+					{
+							"id": "thumbnailBorder",
+							"show": true,
+							"label": "Border",
+							"component": "BorderControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-thumb",
+											"hasChild": true
+									}
+							]
+					},
+					{
+							"id": "thumbnailBorderResponsive",
+							"show": false,
+							"label": "Border",
+							"component": "BorderResponsiveControl",
+							"allowDeviceControl": true,
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-thumb"
+									}
+							]
+					},
+					{
+							"id": "thumbnailBoxShadow",
+							"label": "Box Shadow",
+							"component": "BoxShadowControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-thumb"
+									}
+							]
+					}
+			],
+			"tabRole": {
+					"id": "style",
+					"name": "Style",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"viewBox": "0 0 24 24",
+													"xmlns": "http://www.w3.org/2000/svg",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"d": "M12 4c-4.4 0-8 3.6-8 8v.1c0 4.1 3.2 7.5 7.2 7.9h.8c4.4 0 8-3.6 8-8s-3.6-8-8-8zm0 15V5c3.9 0 7 3.1 7 7s-3.1 7-7 7z"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			}
+	},
+	{
+			"title": "Thumbnail Overlay",
+			"initialOpen": false,
+			"panelArray": [
+					{
+							"id": "thumbnailBackground",
+							"label": "Overlay Background",
+							"component": "BackgroundControl",
+							"allowDeviceControl": true,
+							"options": [
+									"default",
+									"gradient"
+							],
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-overlay",
+											"hasChild": true
+									}
+							]
+					},
+					{
+							"id": "thumbnailOverlayOpacity",
+							"label": "Overlay Opacity",
+							"component": "RangeControl",
+							"min": 0,
+							"max": 1,
+							"step": 0.01,
+							"allowDeviceControl": true,
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-overlay",
+											"frontendSelector": "img"
+									}
+							]
+					}
+			],
+			"tabRole": {
+					"id": "style",
+					"name": "Style",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"viewBox": "0 0 24 24",
+													"xmlns": "http://www.w3.org/2000/svg",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"d": "M12 4c-4.4 0-8 3.6-8 8v.1c0 4.1 3.2 7.5 7.2 7.9h.8c4.4 0 8-3.6 8-8s-3.6-8-8-8zm0 15V5c3.9 0 7 3.1 7 7s-3.1 7-7 7z"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			}
+	},
+	{
+			"title": "Thumbnail Container",
+			"initialOpen": false,
+			"panelArray": [
+					{
+							"id": "thumbnailHeight",
+							"label": "Height",
+							"component": "RangeControl",
+							"min": 0,
+							"max": 1000,
+							"step": 1,
+							"allowDeviceControl": true,
+							"unit": "px",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-thumb .thumbnail-container"
+									}
+							]
+					},
+					{
+							"id": "thumbnailContainerBackground",
+							"label": "Background",
+							"component": "BackgroundControl",
+							"allowDeviceControl": true,
+							"options": [
+									"default",
+									"gradient"
+							],
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-thumb .thumbnail-container",
+											"hasChild": true
+									}
+							]
+					},
+					{
+							"id": "thumbnailRadius",
+							"label": "Border Radius",
+							"component": "DimensionControl",
+							"position": [
+									"top",
+									"right",
+									"bottom",
+									"left"
+							],
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"unit": "px"
+									},
+									"em": {
+											"text": "em",
+											"unit": "em"
+									},
+									"percent": {
+											"text": "%",
+											"unit": "%"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-thumb .thumbnail-container"
+									}
+							]
+					},
+					{
+							"id": "thumbnailContainerShadow",
+							"label": "Box Shadow",
+							"component": "BoxShadowControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-thumb .thumbnail-container"
+									}
+							]
+					}
+			],
+			"tabRole": {
+					"id": "style",
+					"name": "Style",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"viewBox": "0 0 24 24",
+													"xmlns": "http://www.w3.org/2000/svg",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"d": "M12 4c-4.4 0-8 3.6-8 8v.1c0 4.1 3.2 7.5 7.2 7.9h.8c4.4 0 8-3.6 8-8s-3.6-8-8-8zm0 15V5c3.9 0 7 3.1 7 7s-3.1 7-7 7z"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			}
+	},
+	{
+			"title": "Content Container",
+			"initialOpen": false,
+			"panelArray": [
+					{
+							"id": "contentAlign",
+							"label": "Alignment",
+							"component": "IconRadioControl",
+							"allowDeviceControl": true,
+							"options": [
+									{
+											"label": "Align Left",
+											"value": "left",
+											"icon": {
+													"type": {
+															"propTypes": {}
+													},
+													"key": null,
+													"ref": null,
+													"props": {},
+													"_owner": null,
+													"_store": {}
+											}
+									},
+									{
+											"label": "Align Center",
+											"value": "center",
+											"icon": {
+													"type": {
+															"propTypes": {}
+													},
+													"key": null,
+													"ref": null,
+													"props": {},
+													"_owner": null,
+													"_store": {}
+											}
+									},
+									{
+											"label": "Align Right",
+											"value": "right",
+											"icon": {
+													"type": {
+															"propTypes": {}
+													},
+													"key": null,
+													"ref": null,
+													"props": {},
+													"_owner": null,
+													"_store": {}
+											}
+									}
+							],
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-postblock-content"
+									},
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-postblock-content .guten-post-meta-bottom"
+									}
+							]
+					},
+					{
+							"id": "contentContainerBackground",
+							"label": "Background",
+							"component": "BackgroundControl",
+							"allowDeviceControl": true,
+							"options": [
+									"default",
+									"gradient"
+							],
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-postblock-content",
+											"hasChild": true
+									}
+							]
+					},
+					{
+							"id": "contentMargin",
+							"label": "Margin",
+							"component": "DimensionControl",
+							"position": [
+									"top",
+									"right",
+									"bottom",
+									"left"
+							],
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"unit": "px"
+									},
+									"em": {
+											"text": "em",
+											"unit": "em"
+									},
+									"percent": {
+											"text": "%",
+											"unit": "%"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-postblock-content"
+									}
+							]
+					},
+					{
+							"id": "contentPadding",
+							"label": "Padding",
+							"component": "DimensionControl",
+							"position": [
+									"top",
+									"right",
+									"bottom",
+									"left"
+							],
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"unit": "px"
+									},
+									"em": {
+											"text": "em",
+											"unit": "em"
+									},
+									"percent": {
+											"text": "%",
+											"unit": "%"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-postblock-content"
+									}
+							]
+					},
+					{
+							"id": "contentBorder",
+							"show": true,
+							"label": "Border",
+							"component": "BorderControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-postblock-content",
+											"hasChild": true
+									}
+							]
+					},
+					{
+							"id": "contentBorderResponsive",
+							"show": false,
+							"label": "Border",
+							"component": "BorderResponsiveControl",
+							"allowDeviceControl": true,
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-postblock-content"
+									}
+							]
+					},
+					{
+							"id": "contentContainerShadow",
+							"label": "Box Shadow",
+							"component": "BoxShadowControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-postblock-content"
+									}
+							]
+					}
+			],
+			"tabRole": {
+					"id": "style",
+					"name": "Style",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"viewBox": "0 0 24 24",
+													"xmlns": "http://www.w3.org/2000/svg",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"d": "M12 4c-4.4 0-8 3.6-8 8v.1c0 4.1 3.2 7.5 7.2 7.9h.8c4.4 0 8-3.6 8-8s-3.6-8-8-8zm0 15V5c3.9 0 7 3.1 7 7s-3.1 7-7 7z"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			}
+	},
+	{
+			"title": "Category",
+			"initialOpen": false,
+			"panelArray": [
+					{
+							"id": "categoryVerticalAlign",
+							"label": "Category Vertical Align",
+							"show": false,
+							"component": "SelectControl",
+							"allowDeviceControl": true,
+							"options": [
+									{
+											"label": "Top",
+											"value": "baseline"
+									},
+									{
+											"label": "Middle",
+											"value": "center"
+									},
+									{
+											"label": "Bottom",
+											"value": "end"
+									}
+							],
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-block-container .guten-postblock-content"
+									},
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-block-container .guten-postblock-content .post-category-container"
+									}
+							]
+					},
+					{
+							"id": "categoryColor",
+							"label": "Color",
+							"component": "ColorControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post-category a"
+									}
+							]
+					},
+					{
+							"id": "categoryTypography",
+							"label": "Typography",
+							"component": "TypographyControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post-category a",
+											"hasChild": true
+									}
+							]
+					},
+					{
+							"id": "categoryBackground",
+							"label": "Background",
+							"component": "ColorControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post-category"
+									}
+							]
+					},
+					{
+							"id": "categoryMargin",
+							"label": "Margin",
+							"component": "DimensionControl",
+							"position": [
+									"top",
+									"right",
+									"bottom",
+									"left"
+							],
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"unit": "px"
+									},
+									"em": {
+											"text": "em",
+											"unit": "em"
+									},
+									"percent": {
+											"text": "%",
+											"unit": "%"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post-category"
+									}
+							]
+					},
+					{
+							"id": "categoryPadding",
+							"label": "Padding",
+							"component": "DimensionControl",
+							"position": [
+									"top",
+									"right",
+									"bottom",
+									"left"
+							],
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"unit": "px"
+									},
+									"em": {
+											"text": "em",
+											"unit": "em"
+									},
+									"percent": {
+											"text": "%",
+											"unit": "%"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post-category"
+									}
+							]
+					},
+					{
+							"id": "categoryBorder",
+							"show": true,
+							"label": "Border",
+							"component": "BorderControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post-category",
+											"hasChild": true
+									}
+							]
+					},
+					{
+							"id": "categoryBorderResponsive",
+							"show": false,
+							"label": "Border",
+							"component": "BorderResponsiveControl",
+							"allowDeviceControl": true,
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post-category"
+									}
+							]
+					},
+					{
+							"id": "categoryShadow",
+							"label": "Box Shadow",
+							"component": "BoxShadowControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post-category"
+									}
+							]
+					}
+			],
+			"tabRole": {
+					"id": "style",
+					"name": "Style",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"viewBox": "0 0 24 24",
+													"xmlns": "http://www.w3.org/2000/svg",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"d": "M12 4c-4.4 0-8 3.6-8 8v.1c0 4.1 3.2 7.5 7.2 7.9h.8c4.4 0 8-3.6 8-8s-3.6-8-8-8zm0 15V5c3.9 0 7 3.1 7 7s-3.1 7-7 7z"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			}
+	},
+	{
+			"title": "Title",
+			"initialOpen": false,
+			"panelArray": [
+					{
+							"id": "titleMargin",
+							"label": "Margin",
+							"component": "DimensionControl",
+							"position": [
+									"top",
+									"right",
+									"bottom",
+									"left"
+							],
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"unit": "px"
+									},
+									"em": {
+											"text": "em",
+											"unit": "em"
+									},
+									"percent": {
+											"text": "%",
+											"unit": "%"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post .guten-postblock-content .guten-post-title"
+									}
+							]
+					},
+					{
+							"id": "__styleHover",
+							"component": "SwitchControl",
+							"options": [
+									{
+											"value": "normal",
+											"label": "Normal"
+									},
+									{
+											"value": "hover",
+											"label": "Hover"
+									}
+							]
+					},
+					{
+							"id": "titleColor",
+							"show": true,
+							"label": "Text color",
+							"component": "ColorControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post .guten-postblock-content .guten-post-title a"
+									}
+							]
+					},
+					{
+							"id": "titleTypography",
+							"show": true,
+							"label": "Typography",
+							"component": "TypographyControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post .guten-postblock-content .guten-post-title a",
+											"hasChild": true
+									}
+							]
+					},
+					{
+							"id": "titleColorHover",
+							"show": false,
+							"label": "Hover Text color",
+							"component": "ColorControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post:hover .guten-postblock-content .guten-post-title a"
+									}
+							]
+					},
+					{
+							"id": "titleTypographyHover",
+							"show": false,
+							"label": "Hover Typography",
+							"component": "TypographyControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post:hover .guten-postblock-content .guten-post-title a",
+											"hasChild": true
+									}
+							]
+					}
+			],
+			"tabRole": {
+					"id": "style",
+					"name": "Style",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"viewBox": "0 0 24 24",
+													"xmlns": "http://www.w3.org/2000/svg",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"d": "M12 4c-4.4 0-8 3.6-8 8v.1c0 4.1 3.2 7.5 7.2 7.9h.8c4.4 0 8-3.6 8-8s-3.6-8-8-8zm0 15V5c3.9 0 7 3.1 7 7s-3.1 7-7 7z"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			}
+	},
+	{
+			"title": "Excerpt",
+			"initialOpen": false,
+			"panelArray": [
+					{
+							"id": "excerptMargin",
+							"label": "Margin",
+							"component": "DimensionControl",
+							"position": [
+									"top",
+									"right",
+									"bottom",
+									"left"
+							],
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"unit": "px"
+									},
+									"em": {
+											"text": "em",
+											"unit": "em"
+									},
+									"percent": {
+											"text": "%",
+											"unit": "%"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post .guten-postblock-content .guten-post-excerpt"
+									}
+							]
+					},
+					{
+							"id": "excerptColor",
+							"label": "Text color",
+							"component": "ColorControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post .guten-postblock-content .guten-post-excerpt p"
+									}
+							]
+					},
+					{
+							"id": "excerptTypography",
+							"label": "Typography",
+							"component": "TypographyControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post .guten-postblock-content .guten-post-excerpt p",
+											"hasChild": true
+									}
+							]
+					},
+					{
+							"id": "excerptInline",
+							"label": "Set Inline Excerpt",
+							"component": "CheckboxControl",
+							"allowDeviceControl": true,
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post .guten-postblock-content .guten-post-excerpt"
+									}
+							]
+					}
+			],
+			"tabRole": {
+					"id": "style",
+					"name": "Style",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"viewBox": "0 0 24 24",
+													"xmlns": "http://www.w3.org/2000/svg",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"d": "M12 4c-4.4 0-8 3.6-8 8v.1c0 4.1 3.2 7.5 7.2 7.9h.8c4.4 0 8-3.6 8-8s-3.6-8-8-8zm0 15V5c3.9 0 7 3.1 7 7s-3.1 7-7 7z"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			}
+	},
+	{
+			"title": "Read More",
+			"initialOpen": false,
+			"panelArray": [
+					{
+							"id": "readmoreTypography",
+							"label": "Typography",
+							"component": "TypographyControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post .guten-postblock-content .guten-readmore",
+											"hasChild": true
+									}
+							]
+					},
+					{
+							"id": "readmoreMargin",
+							"label": "Margin",
+							"component": "DimensionControl",
+							"position": [
+									"top",
+									"right",
+									"bottom",
+									"left"
+							],
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"unit": "px"
+									},
+									"em": {
+											"text": "em",
+											"unit": "em"
+									},
+									"percent": {
+											"text": "%",
+											"unit": "%"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post .guten-postblock-content .guten-readmore"
+									}
+							]
+					},
+					{
+							"id": "readmorePadding",
+							"label": "Padding",
+							"component": "DimensionControl",
+							"position": [
+									"top",
+									"right",
+									"bottom",
+									"left"
+							],
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"unit": "px"
+									},
+									"em": {
+											"text": "em",
+											"unit": "em"
+									},
+									"percent": {
+											"text": "%",
+											"unit": "%"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post .guten-postblock-content .guten-readmore"
+									}
+							]
+					},
+					{
+							"id": "readmoreSpacing",
+							"label": "Spacing",
+							"component": "RangeControl",
+							"min": 1,
+							"max": 100,
+							"step": 1,
+							"allowDeviceControl": true,
+							"unit": "px",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post .guten-postblock-content .guten-meta-readmore.icon-position-before .guten-readmore i"
+									},
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post .guten-postblock-content .guten-meta-readmore.icon-position-after .guten-readmore i"
+									}
+							]
+					},
+					{
+							"id": "readmoreIconSize",
+							"label": "Icon Size",
+							"component": "SizeControl",
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"min": 1,
+											"max": 100,
+											"step": 1
+									},
+									"em": {
+											"text": "em",
+											"min": 0.1,
+											"max": 3,
+											"step": 0.1
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post .guten-postblock-content .guten-meta-readmore .guten-readmore i"
+									}
+							]
+					},
+					{
+							"id": "readmoreWidth",
+							"label": "Width",
+							"component": "SizeControl",
+							"min": 1,
+							"max": 500,
+							"step": 1,
+							"units": {
+									"px": {
+											"text": "px",
+											"min": 1,
+											"max": 500,
+											"step": 1
+									},
+									"%": {
+											"text": "%",
+											"min": 1,
+											"max": 100,
+											"step": 1
+									}
+							},
+							"allowDeviceControl": true,
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post .guten-postblock-content .guten-meta-readmore .guten-readmore"
+									}
+							]
+					},
+					{
+							"id": "readmoreAlign",
+							"label": "Alignment",
+							"component": "IconRadioControl",
+							"allowDeviceControl": true,
+							"options": [
+									{
+											"label": "Align Left",
+											"value": "start",
+											"icon": {
+													"type": {
+															"propTypes": {}
+													},
+													"key": null,
+													"ref": null,
+													"props": {},
+													"_owner": null,
+													"_store": {}
+											}
+									},
+									{
+											"label": "Align Center",
+											"value": "center",
+											"icon": {
+													"type": {
+															"propTypes": {}
+													},
+													"key": null,
+													"ref": null,
+													"props": {},
+													"_owner": null,
+													"_store": {}
+											}
+									},
+									{
+											"label": "Align Right",
+											"value": "end",
+											"icon": {
+													"type": {
+															"propTypes": {}
+													},
+													"key": null,
+													"ref": null,
+													"props": {},
+													"_owner": null,
+													"_store": {}
+											}
+									}
+							],
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post .guten-postblock-content .guten-meta-readmore .guten-readmore"
+									}
+							]
+					},
+					{
+							"id": "__readmoreHover",
+							"component": "SwitchControl",
+							"options": [
+									{
+											"value": "normal",
+											"label": "Normal"
+									},
+									{
+											"value": "hover",
+											"label": "Hover"
+									}
+							]
+					},
+					{
+							"id": "readmoreColor",
+							"show": true,
+							"label": "Normal color",
+							"component": "ColorControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post .guten-postblock-content .guten-meta-readmore a"
+									}
+							]
+					},
+					{
+							"id": "readmoreHoverColor",
+							"show": false,
+							"label": "Hover color",
+							"component": "ColorControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post .guten-postblock-content .guten-meta-readmore:hover a"
+									}
+							]
+					},
+					{
+							"id": "readmoreBackground",
+							"show": true,
+							"label": "Background",
+							"component": "BackgroundControl",
+							"allowDeviceControl": true,
+							"options": [
+									"default",
+									"gradient"
+							],
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post .guten-postblock-content .guten-meta-readmore a",
+											"hasChild": true
+									}
+							]
+					},
+					{
+							"id": "readmoreHoverBackground",
+							"show": false,
+							"label": "Hover Background",
+							"component": "BackgroundControl",
+							"allowDeviceControl": true,
+							"options": [
+									"default",
+									"gradient"
+							],
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post .guten-postblock-content .guten-meta-readmore:hover a",
+											"hasChild": true
+									}
+							]
+					},
+					{
+							"id": "readmoreBorder",
+							"show": true,
+							"label": "Border",
+							"component": "BorderControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post .guten-postblock-content .guten-meta-readmore a",
+											"hasChild": true
+									}
+							]
+					},
+					{
+							"id": "readmoreBorderResponsive",
+							"show": false,
+							"label": "Border",
+							"component": "BorderResponsiveControl",
+							"allowDeviceControl": true,
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post .guten-postblock-content .guten-meta-readmore a"
+									}
+							]
+					},
+					{
+							"id": "readmoreHoverBorder",
+							"show": false,
+							"label": "Border",
+							"component": "BorderControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post .guten-postblock-content .guten-meta-readmore:hover a",
+											"hasChild": true
+									}
+							]
+					},
+					{
+							"id": "readmoreHoverBorderResponsive",
+							"show": false,
+							"label": "Border",
+							"component": "BorderResponsiveControl",
+							"allowDeviceControl": true,
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post .guten-postblock-content .guten-meta-readmore:hover a"
+									}
+							]
+					},
+					{
+							"id": "readmoreShadow",
+							"label": "Hover Box Shadow",
+							"component": "BoxShadowControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post .guten-postblock-content .guten-meta-readmore a"
+									}
+							]
+					},
+					{
+							"id": "readmoreHoverShadow",
+							"label": "Box Shadow",
+							"component": "BoxShadowControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post .guten-postblock-content .guten-meta-readmore:hover a"
+									}
+							]
+					}
+			],
+			"tabRole": {
+					"id": "style",
+					"name": "Style",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"viewBox": "0 0 24 24",
+													"xmlns": "http://www.w3.org/2000/svg",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"d": "M12 4c-4.4 0-8 3.6-8 8v.1c0 4.1 3.2 7.5 7.2 7.9h.8c4.4 0 8-3.6 8-8s-3.6-8-8-8zm0 15V5c3.9 0 7 3.1 7 7s-3.1 7-7 7z"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			}
+	},
+	{
+			"title": "Comment",
+			"initialOpen": false,
+			"panelArray": [
+					{
+							"id": "commentColor",
+							"label": "Text color",
+							"component": "ColorControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post .guten-postblock-content .guten-meta-comment a"
+									}
+							]
+					},
+					{
+							"id": "commentSize",
+							"label": "Size",
+							"component": "RangeControl",
+							"min": 1,
+							"max": 100,
+							"step": 1,
+							"allowDeviceControl": true,
+							"unit": "px",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post .guten-postblock-content .guten-meta-comment a"
+									}
+							]
+					},
+					{
+							"id": "commentSpacing",
+							"label": "Spacing",
+							"component": "RangeControl",
+							"min": 1,
+							"max": 100,
+							"step": 1,
+							"allowDeviceControl": true,
+							"unit": "px",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post .guten-postblock-content .guten-meta-comment.icon-position-before span"
+									},
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post .guten-postblock-content .guten-meta-comment.icon-position-after span"
+									}
+							]
+					},
+					{
+							"id": "commentMargin",
+							"label": "Margin",
+							"component": "DimensionControl",
+							"position": [
+									"top",
+									"right",
+									"bottom",
+									"left"
+							],
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"unit": "px"
+									},
+									"em": {
+											"text": "em",
+											"unit": "em"
+									},
+									"percent": {
+											"text": "%",
+											"unit": "%"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post .guten-postblock-content .guten-meta-comment"
+									}
+							]
+					},
+					{
+							"id": "commentPadding",
+							"label": "Padding",
+							"component": "DimensionControl",
+							"position": [
+									"top",
+									"right",
+									"bottom",
+									"left"
+							],
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"unit": "px"
+									},
+									"em": {
+											"text": "em",
+											"unit": "em"
+									},
+									"percent": {
+											"text": "%",
+											"unit": "%"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-post .guten-postblock-content .guten-meta-comment"
+									}
+							]
+					}
+			],
+			"tabRole": {
+					"id": "style",
+					"name": "Style",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"viewBox": "0 0 24 24",
+													"xmlns": "http://www.w3.org/2000/svg",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"d": "M12 4c-4.4 0-8 3.6-8 8v.1c0 4.1 3.2 7.5 7.2 7.9h.8c4.4 0 8-3.6 8-8s-3.6-8-8-8zm0 15V5c3.9 0 7 3.1 7 7s-3.1 7-7 7z"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			}
+	},
+	{
+			"title": "Post Meta",
+			"initialOpen": false,
+			"panelArray": [
+					{
+							"id": "metaTypography",
+							"label": "Typography",
+							"component": "TypographyControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-postblock-content .guten-post-meta",
+											"hasChild": true
+									}
+							]
+					},
+					{
+							"id": "metaColor",
+							"label": "Text color",
+							"component": "ColorControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-postblock-content .guten-post-meta"
+									}
+							]
+					},
+					{
+							"id": "metaAuthorTypography",
+							"label": "Author Typography",
+							"component": "TypographyControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-postblock-content .guten-post-meta .guten-meta-author a",
+											"hasChild": true
+									}
+							]
+					},
+					{
+							"id": "metaAuthorColor",
+							"label": "Author color",
+							"component": "ColorControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-postblock-content .guten-post-meta .guten-meta-author a"
+									}
+							]
+					},
+					{
+							"id": "metaMargin",
+							"label": "Margin",
+							"component": "DimensionControl",
+							"position": [
+									"top",
+									"right",
+									"bottom",
+									"left"
+							],
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"unit": "px"
+									},
+									"em": {
+											"text": "em",
+											"unit": "em"
+									},
+									"percent": {
+											"text": "%",
+											"unit": "%"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-postblock-content .guten-post-meta"
+									}
+							]
+					},
+					{
+							"id": "metaAuthorIconSpacing",
+							"label": "Author Icon Spacing",
+							"component": "RangeControl",
+							"min": 1,
+							"max": 100,
+							"step": 1,
+							"allowDeviceControl": true,
+							"unit": "px",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-postblock-content .guten-post-meta .guten-meta-author.icon-position-before i"
+									},
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-postblock-content .guten-post-meta .guten-meta-author.icon-position-after i"
+									}
+							]
+					},
+					{
+							"id": "metaDateIconSpacing",
+							"label": "Date Icon Spacing",
+							"component": "RangeControl",
+							"min": 1,
+							"max": 100,
+							"step": 1,
+							"allowDeviceControl": true,
+							"unit": "px",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-postblock-content .guten-post-meta .guten-meta-date.icon-position-before i"
+									},
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-postblock-content .guten-post-meta .guten-meta-date.icon-position-after i"
+									}
+							]
+					},
+					{
+							"id": "postMetaInline",
+							"label": "Set Inline Post Meta",
+							"component": "CheckboxControl",
+							"allowDeviceControl": true,
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-postblock-content .guten-post-meta"
+									}
+							]
+					}
+			],
+			"tabRole": {
+					"id": "style",
+					"name": "Style",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"viewBox": "0 0 24 24",
+													"xmlns": "http://www.w3.org/2000/svg",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"d": "M12 4c-4.4 0-8 3.6-8 8v.1c0 4.1 3.2 7.5 7.2 7.9h.8c4.4 0 8-3.6 8-8s-3.6-8-8-8zm0 15V5c3.9 0 7 3.1 7 7s-3.1 7-7 7z"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			}
+	},
+	{
+			"title": "Pagination Style",
+			"initialOpen": false,
+			"panelArray": [
+					{
+							"id": "paginationTypography",
+							"label": "Typography",
+							"component": "TypographyControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-block-pagination .guten-block-loadmore span, .0x0x0x0 .guten-postblock .guten_block_nav .btn-pagination",
+											"hasChild": true
+									}
+							]
+					},
+					{
+							"id": "paginationMargin",
+							"label": "Margin",
+							"component": "DimensionControl",
+							"position": [
+									"top",
+									"right",
+									"bottom",
+									"left"
+							],
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"unit": "px"
+									},
+									"em": {
+											"text": "em",
+											"unit": "em"
+									},
+									"percent": {
+											"text": "%",
+											"unit": "%"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-block-pagination .guten-block-loadmore, .0x0x0x0 .guten-postblock .guten_block_nav"
+									}
+							]
+					},
+					{
+							"id": "paginationPadding",
+							"label": "Padding",
+							"component": "DimensionControl",
+							"position": [
+									"top",
+									"right",
+									"bottom",
+									"left"
+							],
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"unit": "px"
+									},
+									"em": {
+											"text": "em",
+											"unit": "em"
+									},
+									"percent": {
+											"text": "%",
+											"unit": "%"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-block-pagination .guten-block-loadmore, .0x0x0x0 .guten-postblock .guten_block_nav .btn-pagination"
+									}
+							]
+					},
+					{
+							"id": "numberGap",
+							"label": "Gap",
+							"show": false,
+							"component": "RangeControl",
+							"min": 0,
+							"max": 500,
+							"step": 1,
+							"allowDeviceControl": true,
+							"unit": "px",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten_block_nav"
+									}
+							]
+					},
+					{
+							"id": "paginationWidth",
+							"label": "Width",
+							"show": true,
+							"component": "SizeControl",
+							"min": 1,
+							"max": 500,
+							"step": 1,
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"min": 1,
+											"max": 500,
+											"step": 1
+									},
+									"%": {
+											"text": "%",
+											"min": 1,
+											"max": 100,
+											"step": 1
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-block-pagination .guten-block-loadmore, .0x0x0x0 .guten-postblock:not(.guten-pagination-prevnext) .guten_block_nav .btn-pagination:not(.next):not(.prev)"
+									}
+							]
+					},
+					{
+							"id": "paginationHeight",
+							"label": "Number Height",
+							"show": false,
+							"component": "RangeControl",
+							"min": 1,
+							"max": 100,
+							"step": 1,
+							"allowDeviceControl": true,
+							"unit": "px",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock.guten-pagination-number .guten_block_nav .btn-pagination:not(.next):not(.prev), .0x0x0x0 .guten-postblock.guten-pagination-number .guten_block_nav span"
+									}
+							]
+					},
+					{
+							"id": "paginationNavigationWidth",
+							"label": "Navigation Width",
+							"show": false,
+							"component": "SizeControl",
+							"min": 1,
+							"max": 500,
+							"step": 1,
+							"units": {
+									"px": {
+											"text": "px",
+											"min": 1,
+											"max": 500,
+											"step": 1
+									},
+									"%": {
+											"text": "%",
+											"min": 1,
+											"max": 100,
+											"step": 1
+									}
+							},
+							"allowDeviceControl": true,
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock.guten-pagination-prevnext .guten_block_nav .btn-pagination.next, .0x0x0x0 .guten-postblock.guten-pagination-prevnext .guten_block_nav .btn-pagination.prev,\n                        .0x0x0x0 .guten-postblock.guten-pagination-number .guten_block_nav .btn-pagination.next, .0x0x0x0 .guten-postblock.guten-pagination-number .guten_block_nav .btn-pagination.prev"
+									}
+							]
+					},
+					{
+							"id": "paginationNavigationHeight",
+							"label": "Navigation Height",
+							"show": false,
+							"component": "RangeControl",
+							"min": 1,
+							"max": 100,
+							"step": 1,
+							"allowDeviceControl": true,
+							"unit": "px",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock.guten-pagination-prevnext .guten_block_nav .btn-pagination.next, .0x0x0x0 .guten-postblock.guten-pagination-prevnext .guten_block_nav .btn-pagination.prev,\n                        .0x0x0x0 .guten-postblock.guten-pagination-number .guten_block_nav .btn-pagination.next, .0x0x0x0 .guten-postblock.guten-pagination-number .guten_block_nav .btn-pagination.prev"
+									}
+							]
+					},
+					{
+							"id": "paginationIconSpacing",
+							"label": "Icon Spacing",
+							"component": "RangeControl",
+							"min": 1,
+							"max": 100,
+							"step": 1,
+							"allowDeviceControl": true,
+							"unit": "px",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-block-pagination .guten-block-loadmore.icon-position-before i, .0x0x0x0 .guten-postblock .guten_block_nav .btn-pagination.prev i"
+									},
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-block-pagination .guten-block-loadmore.icon-position-after i, .0x0x0x0 .guten-postblock .guten_block_nav .btn-pagination.next i"
+									}
+							]
+					},
+					{
+							"id": "paginationIconSize",
+							"label": "Icon Size",
+							"component": "SizeControl",
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"min": 1,
+											"max": 100,
+											"step": 1
+									},
+									"em": {
+											"text": "em",
+											"min": 0.1,
+											"max": 3,
+											"step": 0.1
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-block-pagination .guten-block-loadmore.icon-position-before i, .0x0x0x0 .guten-postblock .guten_block_nav .btn-pagination.prev i"
+									},
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-block-pagination .guten-block-loadmore.icon-position-after i, .0x0x0x0 .guten-postblock .guten_block_nav .btn-pagination.next i"
+									}
+							]
+					},
+					{
+							"id": "paginationAlign",
+							"label": "Alignment",
+							"component": "IconRadioControl",
+							"show": true,
+							"allowDeviceControl": true,
+							"options": [
+									{
+											"label": "Align Left",
+											"value": "left",
+											"icon": {
+													"type": {
+															"propTypes": {}
+													},
+													"key": null,
+													"ref": null,
+													"props": {},
+													"_owner": null,
+													"_store": {}
+											}
+									},
+									{
+											"label": "Align Center",
+											"value": "center",
+											"icon": {
+													"type": {
+															"propTypes": {}
+													},
+													"key": null,
+													"ref": null,
+													"props": {},
+													"_owner": null,
+													"_store": {}
+											}
+									},
+									{
+											"label": "Align Right",
+											"value": "right",
+											"icon": {
+													"type": {
+															"propTypes": {}
+													},
+													"key": null,
+													"ref": null,
+													"props": {},
+													"_owner": null,
+													"_store": {}
+											}
+									}
+							],
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-block-pagination,  .0x0x0x0 .guten-postblock .guten_block_nav"
+									}
+							]
+					},
+					{
+							"id": "navigationAlign",
+							"label": "Alignment",
+							"allowDeviceControl": true,
+							"show": false,
+							"component": "IconRadioControl",
+							"options": [
+									{
+											"label": "Left",
+											"value": "left",
+											"icon": {
+													"type": {
+															"propTypes": {}
+													},
+													"key": null,
+													"ref": null,
+													"props": {},
+													"_owner": null,
+													"_store": {}
+											}
+									},
+									{
+											"label": "Center",
+											"value": "center",
+											"icon": {
+													"type": {
+															"propTypes": {}
+													},
+													"key": null,
+													"ref": null,
+													"props": {},
+													"_owner": null,
+													"_store": {}
+											}
+									},
+									{
+											"label": "Right",
+											"value": "right",
+											"icon": {
+													"type": {
+															"propTypes": {}
+													},
+													"key": null,
+													"ref": null,
+													"props": {},
+													"_owner": null,
+													"_store": {}
+											}
+									},
+									{
+											"label": "Edge",
+											"value": "space-between",
+											"icon": {
+													"type": {
+															"propTypes": {}
+													},
+													"key": null,
+													"ref": null,
+													"props": {},
+													"_owner": null,
+													"_store": {}
+											}
+									}
+							],
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock.guten-pagination-prevnext .guten_block_nav,\n                        .0x0x0x0 .guten-postblock.guten-pagination-number .guten_block_nav"
+									}
+							]
+					},
+					{
+							"id": "__paginationHover",
+							"component": "SwitchControl",
+							"options": [
+									{
+											"value": "normal",
+											"label": "Normal"
+									},
+									{
+											"value": "hover",
+											"label": "Hover"
+									}
+							]
+					},
+					{
+							"id": "paginationColor",
+							"show": true,
+							"label": "Normal color",
+							"component": "ColorControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-block-pagination .guten-block-loadmore, .0x0x0x0 .guten-postblock .guten_block_nav .btn-pagination"
+									}
+							]
+					},
+					{
+							"id": "paginationCurrentColor",
+							"show": false,
+							"label": "Active color",
+							"component": "ColorControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten_block_nav .btn-pagination.current"
+									}
+							]
+					},
+					{
+							"id": "paginationDisabledColor",
+							"show": false,
+							"label": "Disabled color",
+							"component": "ColorControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten_block_nav .btn-pagination.disabled"
+									}
+							]
+					},
+					{
+							"id": "paginationHoverColor",
+							"show": false,
+							"label": "Hover color",
+							"component": "ColorControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-block-pagination .guten-block-loadmore:hover, .0x0x0x0 .guten-postblock .guten_block_nav .btn-pagination:not(.disabled):not(.current):hover"
+									}
+							]
+					},
+					{
+							"id": "paginationBackground",
+							"show": true,
+							"label": "Background",
+							"component": "BackgroundControl",
+							"allowDeviceControl": true,
+							"options": [
+									"default",
+									"gradient"
+							],
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-block-pagination .guten-block-loadmore, .0x0x0x0 .guten-postblock .guten_block_nav .btn-pagination",
+											"hasChild": true
+									}
+							]
+					},
+					{
+							"id": "paginationCurrentBackground",
+							"show": false,
+							"label": "Active Background",
+							"component": "BackgroundControl",
+							"allowDeviceControl": true,
+							"options": [
+									"default",
+									"gradient"
+							],
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten_block_nav .btn-pagination.current",
+											"hasChild": true
+									}
+							]
+					},
+					{
+							"id": "paginationDisabledBackground",
+							"show": false,
+							"label": "Disabled Background",
+							"component": "BackgroundControl",
+							"allowDeviceControl": true,
+							"options": [
+									"default",
+									"gradient"
+							],
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten_block_nav .btn-pagination.disabled",
+											"hasChild": true
+									}
+							]
+					},
+					{
+							"id": "paginationHoverBackground",
+							"show": false,
+							"label": "Hover Background",
+							"component": "BackgroundControl",
+							"allowDeviceControl": true,
+							"options": [
+									"default",
+									"gradient"
+							],
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-block-pagination .guten-block-loadmore:hover, .0x0x0x0 .guten-postblock .guten_block_nav .btn-pagination:not(.disabled):not(.current):hover",
+											"hasChild": true
+									}
+							]
+					},
+					{
+							"id": "paginationBorder",
+							"show": true,
+							"label": "Border",
+							"component": "BorderControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-block-pagination .guten-block-loadmore, .0x0x0x0 .guten-postblock .guten_block_nav .btn-pagination",
+											"hasChild": true
+									}
+							]
+					},
+					{
+							"id": "paginationBorderResponsive",
+							"show": false,
+							"label": "Border",
+							"component": "BorderResponsiveControl",
+							"allowDeviceControl": true,
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-block-pagination .guten-block-loadmore, .0x0x0x0 .guten-postblock .guten_block_nav .btn-pagination"
+									}
+							]
+					},
+					{
+							"id": "paginationHoverBorder",
+							"show": false,
+							"label": "Border",
+							"component": "BorderControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-block-pagination .guten-block-loadmore:hover, .0x0x0x0 .guten-postblock .guten_block_nav .btn-pagination:hover",
+											"hasChild": true
+									}
+							]
+					},
+					{
+							"id": "paginationHoverBorderResponsive",
+							"show": false,
+							"label": "Border",
+							"component": "BorderResponsiveControl",
+							"allowDeviceControl": true,
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-block-pagination .guten-block-loadmore:hover, .0x0x0x0 .guten-postblock .guten_block_nav .btn-pagination:hover"
+									}
+							]
+					},
+					{
+							"id": "paginationShadow",
+							"show": true,
+							"label": "Box Shadow",
+							"component": "BoxShadowControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-block-pagination .guten-block-loadmore, .0x0x0x0 .guten-postblock .guten_block_nav .btn-pagination"
+									}
+							]
+					},
+					{
+							"id": "paginationHoverShadow",
+							"show": false,
+							"label": "Hover Box Shadow",
+							"component": "BoxShadowControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0 .guten-postblock .guten-block-pagination .guten-block-loadmore:hover, .0x0x0x0 .guten-postblock .guten_block_nav .btn-pagination:hover"
+									}
+							]
+					}
+			],
+			"tabRole": {
+					"id": "style",
+					"name": "Style",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"viewBox": "0 0 24 24",
+													"xmlns": "http://www.w3.org/2000/svg",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"d": "M12 4c-4.4 0-8 3.6-8 8v.1c0 4.1 3.2 7.5 7.2 7.9h.8c4.4 0 8-3.6 8-8s-3.6-8-8-8zm0 15V5c3.9 0 7 3.1 7 7s-3.1 7-7 7z"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			}
+	},
+	{
+			"title": "Background",
+			"initialOpen": false,
+			"panelArray": [
+					{
+							"id": "__bgHover",
+							"component": "SwitchControl",
+							"options": [
+									{
+											"value": "normal",
+											"label": "Normal"
+									},
+									{
+											"value": "hover",
+											"label": "Hover"
+									}
+							]
+					},
+					{
+							"id": "background",
+							"show": true,
+							"component": "BackgroundControl",
+							"allowDeviceControl": true,
+							"options": [
+									"default",
+									"gradient"
+							],
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-element",
+											"hasChild": true
+									}
+							],
+							"blockType": ""
+					},
+					{
+							"id": "backgroundHover",
+							"show": false,
+							"component": "BackgroundControl",
+							"allowDeviceControl": true,
+							"options": [
+									"default",
+									"gradient"
+							],
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-element:hover",
+											"hasChild": true
+									}
+							]
+					}
+			],
+			"tabRole": {
+					"id": "style",
+					"name": "Style",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"viewBox": "0 0 24 24",
+													"xmlns": "http://www.w3.org/2000/svg",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"d": "M12 4c-4.4 0-8 3.6-8 8v.1c0 4.1 3.2 7.5 7.2 7.9h.8c4.4 0 8-3.6 8-8s-3.6-8-8-8zm0 15V5c3.9 0 7 3.1 7 7s-3.1 7-7 7z"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			}
+	},
+	{
+			"title": "Border",
+			"initialOpen": false,
+			"panelArray": [
+					{
+							"id": "__borderHover",
+							"component": "SwitchControl",
+							"options": [
+									{
+											"value": "normal",
+											"label": "Normal"
+									},
+									{
+											"value": "hover",
+											"label": "Hover"
+									}
+							]
+					},
+					{
+							"id": "border",
+							"show": true,
+							"label": "Border Type",
+							"component": "BorderControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-element",
+											"hasChild": true
+									}
+							]
+					},
+					{
+							"id": "borderResponsive",
+							"show": false,
+							"label": "Border Type",
+							"component": "BorderResponsiveControl",
+							"allowDeviceControl": true,
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-element"
+									}
+							]
+					},
+					{
+							"id": "borderHover",
+							"show": false,
+							"label": "Border Type",
+							"component": "BorderControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-element:hover",
+											"hasChild": true
+									}
+							]
+					},
+					{
+							"id": "borderHoverResponsive",
+							"show": false,
+							"label": "Border Type",
+							"component": "BorderResponsiveControl",
+							"allowDeviceControl": true,
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-element:hover"
+									}
+							]
+					},
+					{
+							"id": "boxShadow",
+							"show": true,
+							"label": "Box Shadow",
+							"component": "BoxShadowControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-element"
+									}
+							]
+					},
+					{
+							"id": "boxShadowHover",
+							"show": false,
+							"label": "Box Shadow",
+							"component": "BoxShadowControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-element:hover"
+									}
+							]
+					}
+			],
+			"tabRole": {
+					"id": "style",
+					"name": "Style",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"viewBox": "0 0 24 24",
+													"xmlns": "http://www.w3.org/2000/svg",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"d": "M12 4c-4.4 0-8 3.6-8 8v.1c0 4.1 3.2 7.5 7.2 7.9h.8c4.4 0 8-3.6 8-8s-3.6-8-8-8zm0 15V5c3.9 0 7 3.1 7 7s-3.1 7-7 7z"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			}
+	},
+	{
+			"title": "Masking",
+			"initialOpen": false,
+			"panelArray": [
+					{
+							"id": "mask",
+							"allowDeviceControl": true,
+							"component": "MaskControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0",
+											"hasChild": true
+									}
+							]
+					}
+			],
+			"tabRole": {
+					"id": "style",
+					"name": "Style",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"viewBox": "0 0 24 24",
+													"xmlns": "http://www.w3.org/2000/svg",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"d": "M12 4c-4.4 0-8 3.6-8 8v.1c0 4.1 3.2 7.5 7.2 7.9h.8c4.4 0 8-3.6 8-8s-3.6-8-8-8zm0 15V5c3.9 0 7 3.1 7 7s-3.1 7-7 7z"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			}
+	},
+	{
+			"title": "Display",
+			"initialOpen": false,
+			"panelArray": [
+					{
+							"id": "hideDesktop",
+							"label": "Hide on Desktop",
+							"component": "CheckboxControl"
+					},
+					{
+							"id": "hideTablet",
+							"label": "Hide on Tablet",
+							"component": "CheckboxControl"
+					},
+					{
+							"id": "hideMobile",
+							"label": "Hide on Mobile",
+							"component": "CheckboxControl"
+					}
+			],
+			"tabRole": {
+					"id": "setting",
+					"name": "Settings",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"xmlns": "http://www.w3.org/2000/svg",
+													"viewBox": "0 0 24 24",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"fillRule": "evenodd",
+																	"d": "M10.289 4.836A1 1 0 0111.275 4h1.306a1 1 0 01.987.836l.244 1.466c.787.26 1.503.679 2.108 1.218l1.393-.522a1 1 0 011.216.437l.653 1.13a1 1 0 01-.23 1.273l-1.148.944a6.025 6.025 0 010 2.435l1.149.946a1 1 0 01.23 1.272l-.653 1.13a1 1 0 01-1.216.437l-1.394-.522c-.605.54-1.32.958-2.108 1.218l-.244 1.466a1 1 0 01-.987.836h-1.306a1 1 0 01-.986-.836l-.244-1.466a5.995 5.995 0 01-2.108-1.218l-1.394.522a1 1 0 01-1.217-.436l-.653-1.131a1 1 0 01.23-1.272l1.149-.946a6.026 6.026 0 010-2.435l-1.148-.944a1 1 0 01-.23-1.272l.653-1.131a1 1 0 011.217-.437l1.393.522a5.994 5.994 0 012.108-1.218l.244-1.466zM14.929 12a3 3 0 11-6 0 3 3 0 016 0z",
+																	"clipRule": "evenodd"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			}
+	},
+	{
+			"title": "Positioning",
+			"initialOpen": false,
+			"panelArray": [
+					{
+							"id": "positioningType",
+							"label": "Width",
+							"component": "SelectControl",
+							"allowDeviceControl": true,
+							"options": [
+									{
+											"value": "default",
+											"label": "Default"
+									},
+									{
+											"value": "full",
+											"label": "Full Width (100%)"
+									},
+									{
+											"value": "inline",
+											"label": "Inline (auto)"
+									},
+									{
+											"value": "custom",
+											"label": "Custom"
+									}
+							],
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-element"
+									},
+									{
+											"selector": ".0x0x0x0.guten-element",
+											"updateID": "positioningWidth-style-0"
+									}
+							]
+					},
+					{
+							"id": "positioningWidth",
+							"label": "Custom Width",
+							"show": false,
+							"component": "SizeControl",
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"min": 1,
+											"max": 1000,
+											"step": 1,
+											"unit": "px"
+									},
+									"%": {
+											"text": "%",
+											"min": 1,
+											"max": 100,
+											"step": 1,
+											"unit": "%"
+									},
+									"vw": {
+											"text": "vw",
+											"min": 1,
+											"max": 100,
+											"step": 1,
+											"unit": "vw"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-element"
+									}
+							]
+					},
+					{
+							"id": "positioningAlign",
+							"label": "Align",
+							"show": true,
+							"component": "SelectControl",
+							"allowDeviceControl": true,
+							"options": [
+									{
+											"value": "flex-start",
+											"label": "Top"
+									},
+									{
+											"value": "center",
+											"label": "Center"
+									},
+									{
+											"value": "flex-end",
+											"label": "Bottom"
+									}
+							],
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-element"
+									},
+									{
+											"selector": ".0x0x0x0.guten-element"
+									}
+							]
+					},
+					{
+							"id": "positioningLocation",
+							"label": "Location",
+							"component": "SelectControl",
+							"options": [
+									{
+											"value": "default",
+											"label": "Default"
+									},
+									{
+											"value": "fixed",
+											"label": "Fixed"
+									},
+									{
+											"value": "absolute",
+											"label": "Absolute"
+									}
+							],
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-element"
+									}
+							]
+					},
+					{
+							"id": "positioningLeft",
+							"label": "Left Orientation",
+							"show": false,
+							"component": "SizeControl",
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"min": -1000,
+											"max": 1000,
+											"step": 1,
+											"unit": "px"
+									},
+									"%": {
+											"text": "%",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "%"
+									},
+									"vw": {
+											"text": "vw",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "vw"
+									},
+									"vh": {
+											"text": "vw",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "vw"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-element"
+									}
+							]
+					},
+					{
+							"id": "positioningRight",
+							"label": "Right Orientation",
+							"show": false,
+							"component": "SizeControl",
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"min": -1000,
+											"max": 1000,
+											"step": 1,
+											"unit": "px"
+									},
+									"%": {
+											"text": "%",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "%"
+									},
+									"vw": {
+											"text": "vw",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "vw"
+									},
+									"vh": {
+											"text": "vw",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "vw"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-element"
+									}
+							]
+					},
+					{
+							"id": "positioningTop",
+							"label": "Top Orientation",
+							"show": false,
+							"component": "SizeControl",
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"min": -1000,
+											"max": 1000,
+											"step": 1,
+											"unit": "px"
+									},
+									"%": {
+											"text": "%",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "%"
+									},
+									"vw": {
+											"text": "vw",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "vw"
+									},
+									"vh": {
+											"text": "vw",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "vw"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-element"
+									}
+							]
+					},
+					{
+							"id": "positioningBottom",
+							"label": "Bottom Orientation",
+							"show": false,
+							"component": "SizeControl",
+							"allowDeviceControl": true,
+							"units": {
+									"px": {
+											"text": "px",
+											"min": -1000,
+											"max": 1000,
+											"step": 1,
+											"unit": "px"
+									},
+									"%": {
+											"text": "%",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "%"
+									},
+									"vw": {
+											"text": "vw",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "vw"
+									},
+									"vh": {
+											"text": "vw",
+											"min": -200,
+											"max": 200,
+											"step": 1,
+											"unit": "vw"
+									}
+							},
+							"style": [
+									{
+											"selector": ".0x0x0x0.guten-element"
+									}
+							]
+					}
+			],
+			"tabRole": {
+					"id": "setting",
+					"name": "Settings",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"xmlns": "http://www.w3.org/2000/svg",
+													"viewBox": "0 0 24 24",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"fillRule": "evenodd",
+																	"d": "M10.289 4.836A1 1 0 0111.275 4h1.306a1 1 0 01.987.836l.244 1.466c.787.26 1.503.679 2.108 1.218l1.393-.522a1 1 0 011.216.437l.653 1.13a1 1 0 01-.23 1.273l-1.148.944a6.025 6.025 0 010 2.435l1.149.946a1 1 0 01.23 1.272l-.653 1.13a1 1 0 01-1.216.437l-1.394-.522c-.605.54-1.32.958-2.108 1.218l-.244 1.466a1 1 0 01-.987.836h-1.306a1 1 0 01-.986-.836l-.244-1.466a5.995 5.995 0 01-2.108-1.218l-1.394.522a1 1 0 01-1.217-.436l-.653-1.131a1 1 0 01.23-1.272l1.149-.946a6.026 6.026 0 010-2.435l-1.148-.944a1 1 0 01-.23-1.272l.653-1.131a1 1 0 011.217-.437l1.393.522a5.994 5.994 0 012.108-1.218l.244-1.466zM14.929 12a3 3 0 11-6 0 3 3 0 016 0z",
+																	"clipRule": "evenodd"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			}
+	},
+	{
+			"title": "Animation Effects",
+			"initialOpen": false,
+			"panelArray": [
+					{
+							"id": "animation",
+							"component": "AnimationControl",
+							"style": [
+									{
+											"selector": ".0x0x0x0"
+									}
+							]
+					}
+			],
+			"tabRole": {
+					"id": "setting",
+					"name": "Settings",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"xmlns": "http://www.w3.org/2000/svg",
+													"viewBox": "0 0 24 24",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"fillRule": "evenodd",
+																	"d": "M10.289 4.836A1 1 0 0111.275 4h1.306a1 1 0 01.987.836l.244 1.466c.787.26 1.503.679 2.108 1.218l1.393-.522a1 1 0 011.216.437l.653 1.13a1 1 0 01-.23 1.273l-1.148.944a6.025 6.025 0 010 2.435l1.149.946a1 1 0 01.23 1.272l-.653 1.13a1 1 0 01-1.216.437l-1.394-.522c-.605.54-1.32.958-2.108 1.218l-.244 1.466a1 1 0 01-.987.836h-1.306a1 1 0 01-.986-.836l-.244-1.466a5.995 5.995 0 01-2.108-1.218l-1.394.522a1 1 0 01-1.217-.436l-.653-1.131a1 1 0 01.23-1.272l1.149-.946a6.026 6.026 0 010-2.435l-1.148-.944a1 1 0 01-.23-1.272l.653-1.131a1 1 0 011.217-.437l1.393.522a5.994 5.994 0 012.108-1.218l.244-1.466zM14.929 12a3 3 0 11-6 0 3 3 0 016 0z",
+																	"clipRule": "evenodd"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			}
+	},
+	{
+			"title": "Transform",
+			"initialOpen": false,
+			"panelArray": [
+					{
+							"component": "LockedTransformControl"
+					}
+			],
+			"pro": true
+	},
+	{
+			"title": "Mouse Move Effect",
+			"initialOpen": false,
+			"panelArray": [
+					{
+							"component": "LockedMouseMoveEffectControl"
+					}
+			],
+			"tabRole": {
+					"id": "setting",
+					"name": "Settings",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"xmlns": "http://www.w3.org/2000/svg",
+													"viewBox": "0 0 24 24",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"fillRule": "evenodd",
+																	"d": "M10.289 4.836A1 1 0 0111.275 4h1.306a1 1 0 01.987.836l.244 1.466c.787.26 1.503.679 2.108 1.218l1.393-.522a1 1 0 011.216.437l.653 1.13a1 1 0 01-.23 1.273l-1.148.944a6.025 6.025 0 010 2.435l1.149.946a1 1 0 01.23 1.272l-.653 1.13a1 1 0 01-1.216.437l-1.394-.522c-.605.54-1.32.958-2.108 1.218l-.244 1.466a1 1 0 01-.987.836h-1.306a1 1 0 01-.986-.836l-.244-1.466a5.995 5.995 0 01-2.108-1.218l-1.394.522a1 1 0 01-1.217-.436l-.653-1.131a1 1 0 01.23-1.272l1.149-.946a6.026 6.026 0 010-2.435l-1.148-.944a1 1 0 01-.23-1.272l.653-1.131a1 1 0 011.217-.437l1.393.522a5.994 5.994 0 012.108-1.218l.244-1.466zM14.929 12a3 3 0 11-6 0 3 3 0 016 0z",
+																	"clipRule": "evenodd"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			},
+			"pro": true
+	},
+	{
+			"title": "Spacing",
+			"initialOpen": false,
+			"panelArray": [
+					{
+							"id": "margin",
+							"label": "Margin",
+							"component": "DimensionControl",
+							"allowDeviceControl": true,
+							"position": [
+									"top",
+									"right",
+									"bottom",
+									"left"
+							],
+							"units": {
+									"px": {
+											"text": "px",
+											"unit": "px"
+									},
+									"em": {
+											"text": "em",
+											"unit": "em"
+									},
+									"%": {
+											"text": "%",
+											"unit": "%"
+									},
+									"rem": {
+											"text": "rem",
+											"unit": "rem"
+									}
+							},
+							"style": [
+									{
+											"selector": ".editor-styles-wrapper .is-root-container .0x0x0x0.guten-element",
+											"frontendSelector": ".0x0x0x0"
+									}
+							]
+					},
+					{
+							"id": "padding",
+							"label": "Padding",
+							"component": "DimensionControl",
+							"allowDeviceControl": true,
+							"position": [
+									"top",
+									"right",
+									"bottom",
+									"left"
+							],
+							"units": {
+									"px": {
+											"text": "px",
+											"unit": "px"
+									},
+									"em": {
+											"text": "em",
+											"unit": "em"
+									},
+									"%": {
+											"text": "%",
+											"unit": "%"
+									},
+									"rem": {
+											"text": "rem",
+											"unit": "rem"
+									}
+							},
+							"style": [
+									{
+											"selector": ".editor-styles-wrapper .is-root-container .0x0x0x0.guten-element",
+											"frontendSelector": ".0x0x0x0"
+									}
+							]
+					},
+					{
+							"id": "zIndex",
+							"label": "Z Index",
+							"component": "NumberControl",
+							"allowDeviceControl": true,
+							"min": 1,
+							"max": 9999,
+							"step": 1,
+							"style": [
+									{
+											"selector": ".editor-styles-wrapper .is-root-container .0x0x0x0.guten-element",
+											"frontendSelector": ".0x0x0x0"
+									}
+							]
+					}
+			],
+			"tabRole": {
+					"id": "setting",
+					"name": "Settings",
+					"icon": {
+							"key": null,
+							"ref": null,
+							"props": {
+									"icon": {
+											"type": {},
+											"key": null,
+											"ref": null,
+											"props": {
+													"xmlns": "http://www.w3.org/2000/svg",
+													"viewBox": "0 0 24 24",
+													"children": {
+															"key": null,
+															"ref": null,
+															"props": {
+																	"fillRule": "evenodd",
+																	"d": "M10.289 4.836A1 1 0 0111.275 4h1.306a1 1 0 01.987.836l.244 1.466c.787.26 1.503.679 2.108 1.218l1.393-.522a1 1 0 011.216.437l.653 1.13a1 1 0 01-.23 1.273l-1.148.944a6.025 6.025 0 010 2.435l1.149.946a1 1 0 01.23 1.272l-.653 1.13a1 1 0 01-1.216.437l-1.394-.522c-.605.54-1.32.958-2.108 1.218l-.244 1.466a1 1 0 01-.987.836h-1.306a1 1 0 01-.986-.836l-.244-1.466a5.995 5.995 0 01-2.108-1.218l-1.394.522a1 1 0 01-1.217-.436l-.653-1.131a1 1 0 01.23-1.272l1.149-.946a6.026 6.026 0 010-2.435l-1.148-.944a1 1 0 01-.23-1.272l.653-1.131a1 1 0 011.217-.437l1.393.522a5.994 5.994 0 012.108-1.218l.244-1.466zM14.929 12a3 3 0 11-6 0 3 3 0 016 0z",
+																	"clipRule": "evenodd"
+															},
+															"_owner": null,
+															"_store": {}
+													}
+											},
+											"_owner": null,
+											"_store": {}
+									},
+									"width": 24,
+									"height": 24
+							},
+							"_owner": null,
+							"_store": {}
+					}
+			}
+	},
+	{
+			"title": "Condition",
+			"panelArray": [
+					{
+							"component": "LockedConditionControl"
+					}
+			],
+			"initialOpen": false,
+			"pro": true
+	}
+]
