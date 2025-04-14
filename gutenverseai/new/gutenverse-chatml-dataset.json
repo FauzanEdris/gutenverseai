@@ -1,0 +1,866 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'social-share-item' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"showText\": \"value\", \"text\": \"value\", \"selectedIcon\": \"twitter\", \"iconPading\": {\"Desktop\": \"value\"}, \"textPading\": {\"Desktop\": \"value\"}, \"mask\": {\"Desktop\": \"value\"}, \"typography\": \"value\", \"iconSize\": {\"Desktop\": \"value\"}, \"__socialHover\": \"normal\", \"iconColor\": \"value\", \"iconBackgroundColor\": \"value\", \"backgroundColor\": \"value\", \"textColor\": \"value\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"iconColorHover\": \"value\", \"iconBackgroundColorHover\": \"value\", \"backgroundColorHover\": \"value\", \"textColorHover\": \"value\", \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/social-share-item\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'post-author' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"authorType\": \"first_name\", \"htmlTag\": \"h1\", \"authorAvatar\": \"value\", \"authorLink\": \"value\", \"authorLinkTarget\": \"value\", \"authorLinkRel\": \"value\", \"alignment\": \"flex-start\", \"typography\": \"value\", \"__styleHover\": \"normal\", \"color\": \"value\", \"textShadow\": \"value\", \"colorHover\": \"value\", \"textShadowHover\": \"value\", \"size\": {\"Desktop\": \"value\"}, \"avatarGap\": {\"Desktop\": \"value\"}, \"opacity\": {\"Desktop\": \"value\"}, \"rotate\": {\"Desktop\": \"value\"}, \"authorBorder\": \"value\", \"authorBorderResponsive\": {\"Desktop\": \"value\"}, \"authorBoxShadow\": \"value\", \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\", \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"positioningType\": \"default\", \"positioningWidth\": {\"Desktop\": \"value\"}, \"positioningAlign\": \"flex-start\", \"positioningLocation\": \"default\", \"positioningLeft\": {\"Desktop\": \"value\"}, \"positioningRight\": {\"Desktop\": \"value\"}, \"positioningTop\": {\"Desktop\": \"value\"}, \"positioningBottom\": {\"Desktop\": \"value\"}, \"animation\": \"value\", \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/post-author\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'popup-container' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {}, \"name\": \"gutenverse/popup-container\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'archive-title' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"htmlTag\": \"h1\", \"archiveLink\": \"value\", \"archiveLinkTarget\": \"value\", \"archiveLinkRel\": \"value\", \"alignment\": \"flex-start\", \"typography\": \"value\", \"__styleHover\": \"normal\", \"color\": \"value\", \"textShadow\": \"value\", \"textStroke\": \"value\", \"colorHover\": \"value\", \"textShadowHover\": \"value\", \"textStrokeHover\": \"value\", \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\", \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"positioningType\": \"default\", \"positioningWidth\": {\"Desktop\": \"value\"}, \"positioningAlign\": \"flex-start\", \"positioningLocation\": \"default\", \"positioningLeft\": {\"Desktop\": \"value\"}, \"positioningRight\": {\"Desktop\": \"value\"}, \"positioningTop\": {\"Desktop\": \"value\"}, \"positioningBottom\": {\"Desktop\": \"value\"}, \"animation\": \"value\", \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/archive-title\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'fun-fact' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"alignButtons\": \"left\", \"titleTag\": \"h1\", \"hoverBottom\": \"value\", \"hoverBottomColor\": \"value\", \"hoverBottomDirection\": \"left\", \"iconType\": \"none\", \"icon\": \"value\", \"image\": \"value\", \"imageAlt\": \"value\", \"lazyLoad\": \"value\", \"imageSize\": \"value\", \"imageSizeResponsive\": {\"Desktop\": \"value\"}, \"prefix\": \"value\", \"number\": \"value\", \"suffix\": \"value\", \"title\": \"value\", \"showSupper\": \"value\", \"supper\": \"value\", \"__iconHover\": \"normal\", \"iconColor\": {\"Desktop\": \"value\"}, \"iconBgColor\": {\"Desktop\": \"value\"}, \"iconBorder\": \"value\", \"iconBorderResponsive\": {\"Desktop\": \"value\"}, \"iconColorHover\": {\"Desktop\": \"value\"}, \"iconBgColorHover\": {\"Desktop\": \"value\"}, \"iconBorderHover\": \"value\", \"iconBorderHoverResponsive\": {\"Desktop\": \"value\"}, \"iconSize\": {\"Desktop\": \"value\"}, \"iconRotate\": {\"Desktop\": \"value\"}, \"iconPadding\": {\"Desktop\": \"value\"}, \"iconMargin\": {\"Desktop\": \"value\"}, \"numberColor\": {\"Desktop\": \"value\"}, \"titleColor\": {\"Desktop\": \"value\"}, \"numberTypography\": \"value\", \"titleTypography\": \"value\", \"numberBottomSpace\": {\"Desktop\": \"value\"}, \"titleBottomSpace\": {\"Desktop\": \"value\"}, \"numberRightSpace\": {\"Desktop\": \"value\"}, \"contentPadding\": {\"Desktop\": \"value\"}, \"superColor\": \"value\", \"superTypography\": \"value\", \"superTop\": {\"Desktop\": \"value\"}, \"superSpace\": {\"Desktop\": \"value\"}, \"superAlign\": \"super\", \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\", \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"positioningType\": \"default\", \"positioningWidth\": {\"Desktop\": \"value\"}, \"positioningAlign\": \"flex-start\", \"positioningLocation\": \"default\", \"positioningLeft\": {\"Desktop\": \"value\"}, \"positioningRight\": {\"Desktop\": \"value\"}, \"positioningTop\": {\"Desktop\": \"value\"}, \"positioningBottom\": {\"Desktop\": \"value\"}, \"animation\": \"value\", \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/fun-fact\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'post-date' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"dateFormat\": \"ago\", \"customFormat\": \"value\", \"dateType\": \"published\", \"htmlTag\": \"h1\", \"linkTo\": \"none\", \"customURL\": \"value\", \"alignment\": \"flex-start\", \"typography\": \"value\", \"__styleHover\": \"normal\", \"color\": \"value\", \"textShadow\": \"value\", \"colorHover\": \"value\", \"textShadowHover\": \"value\", \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\", \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"positioningType\": \"default\", \"positioningWidth\": {\"Desktop\": \"value\"}, \"positioningAlign\": \"flex-start\", \"positioningLocation\": \"default\", \"positioningLeft\": {\"Desktop\": \"value\"}, \"positioningRight\": {\"Desktop\": \"value\"}, \"positioningTop\": {\"Desktop\": \"value\"}, \"positioningBottom\": {\"Desktop\": \"value\"}, \"animation\": \"value\", \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/post-date\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'animated-text' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"titleTag\": \"h1\", \"style\": \"none\", \"text\": \"value\", \"splitByWord\": \"value\", \"alignText\": \"flex-start\", \"loop\": \"value\", \"height\": {\"Desktop\": \"value\"}, \"verticalAlign\": \"flex-start\", \"color\": \"value\", \"typography\": \"value\", \"textShadow\": \"value\", \"textStroke\": \"value\", \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\", \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"positioningType\": \"default\", \"positioningWidth\": {\"Desktop\": \"value\"}, \"positioningAlign\": \"flex-start\", \"positioningLocation\": \"default\", \"positioningLeft\": {\"Desktop\": \"value\"}, \"positioningRight\": {\"Desktop\": \"value\"}, \"positioningTop\": {\"Desktop\": \"value\"}, \"positioningBottom\": {\"Desktop\": \"value\"}, \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/animated-text\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'icon-list-item' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"iconLineHeight\": {\"Desktop\": \"value\"}, \"ariaLabel\": \"value\", \"hideIcon\": \"value\", \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/icon-list-item\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'tab' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {}, \"name\": \"gutenverse/tab\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'spacer' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"space\": {\"Desktop\": \"value\"}, \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"pointer\": {\"Desktop\": \"value\"}, \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"positioningType\": \"default\", \"positioningWidth\": {\"Desktop\": \"value\"}, \"positioningAlign\": \"flex-start\", \"positioningLocation\": \"default\", \"positioningLeft\": {\"Desktop\": \"value\"}, \"positioningRight\": {\"Desktop\": \"value\"}, \"positioningTop\": {\"Desktop\": \"value\"}, \"positioningBottom\": {\"Desktop\": \"value\"}, \"animation\": \"value\", \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}, \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\"}, \"name\": \"gutenverse/spacer\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'google-maps' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"location\": \"value\", \"zoom\": \"value\", \"height\": {\"Desktop\": \"value\"}, \"__mapHover\": \"normal\", \"mapFilter\": \"value\", \"mapFilterHover\": \"value\", \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\", \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"positioningType\": \"default\", \"positioningWidth\": {\"Desktop\": \"value\"}, \"positioningAlign\": \"flex-start\", \"positioningLocation\": \"default\", \"positioningLeft\": {\"Desktop\": \"value\"}, \"positioningRight\": {\"Desktop\": \"value\"}, \"positioningTop\": {\"Desktop\": \"value\"}, \"positioningBottom\": {\"Desktop\": \"value\"}, \"animation\": \"value\", \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/google-maps\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'feature-list' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"featureList\": \"value\", \"iconWrapperShape\": \"square\", \"iconPosition\": \"left\", \"showConnector\": \"value\", \"listSpace\": {\"Desktop\": \"value\"}, \"connector-notice\": \"value\", \"connectorStyle\": \"solid\", \"connectorColor\": \"value\", \"connectorWidth\": {\"Desktop\": \"value\"}, \"iconWrapperSize\": {\"Desktop\": \"value\"}, \"iconContentSpacing\": {\"Desktop\": \"value\"}, \"__styleSwitch\": \"all\", \"iconSize\": {\"Desktop\": \"value\"}, \"__allStyleSwitch\": \"normal\", \"iconColor\": \"value\", \"iconColorHover\": \"value\", \"iconBackground\": \"default\", \"iconBackgroundHover\": \"default\", \"iconBorder\": {\"Desktop\": \"value\"}, \"iconBorderHover\": {\"Desktop\": \"value\"}, \"titleTypography\": \"value\", \"descTypography\": \"value\", \"__colorSwitch\": \"normal\", \"titleColor\": \"value\", \"descColor\": \"value\", \"titleColorHover\": \"value\", \"descColorHover\": \"value\", \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\", \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"positioningType\": \"default\", \"positioningWidth\": {\"Desktop\": \"value\"}, \"positioningAlign\": \"flex-start\", \"positioningLocation\": \"default\", \"positioningLeft\": {\"Desktop\": \"value\"}, \"positioningRight\": {\"Desktop\": \"value\"}, \"positioningTop\": {\"Desktop\": \"value\"}, \"positioningBottom\": {\"Desktop\": \"value\"}, \"animation\": \"value\", \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/feature-list\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'image-box' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"childNotice\": \"value\", \"includeButton\": \"value\", \"imagePosition\": \"column\", \"image\": \"value\", \"lazyLoad\": \"value\", \"imageAlt\": \"value\", \"ariaLabel\": \"value\", \"contentStyle\": \"default\", \"titleTag\": \"h1\", \"titleIcon\": \"value\", \"titleIconPosition\": \"before\", \"bodyAlignment\": \"left\", \"hoverBottom\": \"value\", \"hoverBottomColor\": \"value\", \"hoverBottomDirection\": \"left\", \"hoverBottomHeight\": {\"Desktop\": \"value\"}, \"imageMargin\": {\"Desktop\": \"value\"}, \"imagePadding\": {\"Desktop\": \"value\"}, \"imageBorderRadius\": \"value\", \"imageBoxShadow\": \"value\", \"imageHeight\": {\"Desktop\": \"value\"}, \"imageFit\": \"cover\", \"__imageHover\": \"normal\", \"imageOpacity\": {\"Desktop\": \"value\"}, \"imageHoverOpacity\": {\"Desktop\": \"value\"}, \"imageHoverScale\": {\"Desktop\": \"value\"}, \"imageFilter\": \"value\", \"imageFilterHover\": \"value\", \"bodyBackground\": \"default\", \"containerBorder\": \"value\", \"containerBorderResponsive\": {\"Desktop\": \"value\"}, \"containerPadding\": {\"Desktop\": \"value\"}, \"containerMargin\": {\"Desktop\": \"value\"}, \"containerBoxShadow\": \"value\", \"titleMargin\": {\"Desktop\": \"value\"}, \"titleTypography\": \"value\", \"titleIconSize\": {\"Desktop\": \"value\"}, \"titleIconSpacing\": {\"Desktop\": \"value\"}, \"__titleHover\": \"normal\", \"titleNormalColor\": \"value\", \"titleNormalIconColor\": \"value\", \"titleHoverColor\": \"value\", \"titleHoverIconColor\": \"value\", \"descriptionMargin\": {\"Desktop\": \"value\"}, \"descriptionTypography\": \"value\", \"__descriptionHover\": \"normal\", \"descriptionNormalColor\": \"value\", \"descriptionHoverColor\": \"value\", \"floatMarginTop\": {\"Desktop\": \"value\"}, \"floatWidth\": {\"Desktop\": \"value\"}, \"__imageBoxFloat\": \"normal\", \"floatHeight\": {\"Desktop\": \"value\"}, \"floatHeightHover\": {\"Desktop\": \"value\"}, \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\", \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"positioningType\": \"default\", \"positioningWidth\": {\"Desktop\": \"value\"}, \"positioningAlign\": \"flex-start\", \"positioningLocation\": \"default\", \"positioningLeft\": {\"Desktop\": \"value\"}, \"positioningRight\": {\"Desktop\": \"value\"}, \"positioningTop\": {\"Desktop\": \"value\"}, \"positioningBottom\": {\"Desktop\": \"value\"}, \"animation\": \"value\", \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/image-box\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'search' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"inputPadding\": {\"Desktop\": \"value\"}, \"inputMargin\": {\"Desktop\": \"value\"}, \"placeholderColor\": {\"Desktop\": \"value\"}, \"inputTypography\": \"value\", \"__itemState\": \"normal\", \"inputColorNormal\": {\"Desktop\": \"value\"}, \"inputBgColorNormal\": {\"Desktop\": \"value\"}, \"inputBorderNormal\": \"value\", \"inputBorderNormalResponsive\": {\"Desktop\": \"value\"}, \"inputColorHover\": {\"Desktop\": \"value\"}, \"inputBgColorHover\": {\"Desktop\": \"value\"}, \"inputBorderHover\": \"value\", \"inputBorderHoverResponsive\": {\"Desktop\": \"value\"}, \"inputColorFocus\": {\"Desktop\": \"value\"}, \"inputBgColorFocus\": {\"Desktop\": \"value\"}, \"inputBorderFocus\": \"value\", \"inputBorderFocusResponsive\": {\"Desktop\": \"value\"}, \"inputAreaBoxShadow\": \"value\", \"inputAreaBoxShadowHover\": \"value\", \"inputAreaBoxShadowFocus\": \"value\", \"inputPlaceholder\": \"value\", \"showButton\": \"value\", \"formStyle\": \"fit-content\", \"inputHeight\": {\"Desktop\": \"value\"}, \"inputWidth\": {\"Desktop\": \"value\"}, \"buttonWidth\": {\"Desktop\": \"value\"}, \"alignContent\": \"flex-start\", \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\", \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"positioningType\": \"default\", \"positioningWidth\": {\"Desktop\": \"value\"}, \"positioningAlign\": \"flex-start\", \"positioningLocation\": \"default\", \"positioningLeft\": {\"Desktop\": \"value\"}, \"positioningRight\": {\"Desktop\": \"value\"}, \"positioningTop\": {\"Desktop\": \"value\"}, \"positioningBottom\": {\"Desktop\": \"value\"}, \"animation\": \"value\", \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/search\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'portfolio-gallery' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"behavior\": \"onhover\", \"rowHeight\": {\"Desktop\": \"value\"}, \"column\": {\"Desktop\": \"value\"}, \"reversePosition\": \"value\", \"showLink\": \"value\", \"linkText\": \"value\", \"linkIcon\": \"value\", \"linkIconPosition\": \"row-reverse\", \"images\": \"value\", \"activeBackground\": \"default\", \"contentAlignment\": \"start\", \"contentPadding\": {\"Desktop\": \"value\"}, \"contentBackground\": \"default\", \"titleTypography\": \"value\", \"subTitleTypography\": \"value\", \"__hoverSwitch\": \"normal\", \"titleColor\": \"value\", \"subTitleColor\": \"value\", \"titleTextShadow\": \"value\", \"subTitleTextShadow\": \"value\", \"titleColorHover\": \"value\", \"subTitleColorHover\": \"value\", \"titleTextShadowHover\": \"value\", \"subTitleTextShadowHover\": \"value\", \"linkAlignment\": \"start\", \"linkPadding\": {\"Desktop\": \"value\"}, \"linkMargin\": {\"Desktop\": \"value\"}, \"linkBackground\": \"default\", \"linkBorder\": {\"Desktop\": \"value\"}, \"linkTypography\": \"value\", \"linkIconSpace\": {\"Desktop\": \"value\"}, \"linkIconSize\": {\"Desktop\": \"value\"}, \"linkColor\": \"value\", \"linkIconColor\": \"value\", \"linkTextShadow\": \"value\", \"linkColorHover\": \"value\", \"linkIconColorHover\": \"value\", \"linkTextShadowHover\": \"value\", \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\", \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"positioningType\": \"default\", \"positioningWidth\": {\"Desktop\": \"value\"}, \"positioningAlign\": \"flex-start\", \"positioningLocation\": \"default\", \"positioningLeft\": {\"Desktop\": \"value\"}, \"positioningRight\": {\"Desktop\": \"value\"}, \"positioningTop\": {\"Desktop\": \"value\"}, \"positioningBottom\": {\"Desktop\": \"value\"}, \"animation\": \"value\", \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/portfolio-gallery\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'section' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"layout\": \"fullwidth\", \"width\": {\"Desktop\": \"value\"}, \"wrapColumn\": {\"Desktop\": \"value\"}, \"gap\": \"default\", \"heightControl\": \"default\", \"height\": {\"Desktop\": \"value\"}, \"align\": \"stretch\", \"verticalAlign\": \"default\", \"overflow\": \"none\", \"clipMargin\": {\"Desktop\": \"value\"}, \"empty-structure\": \"value\", \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\", \"__bgOverlayHover\": \"normal\", \"backgroundOverlay\": \"default\", \"opacity\": \"value\", \"backgroundOverlayHover\": \"default\", \"opacityHover\": \"value\", \"blur-notice\": \"value\", \"__blurHover\": \"normal\", \"blur\": {\"Desktop\": \"value\"}, \"blurHover\": {\"Desktop\": \"value\"}, \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"pointer\": {\"Desktop\": \"value\"}, \"typographyHeadingColor\": \"value\", \"typographyTextColor\": \"value\", \"typographyLinkColor\": \"value\", \"typographyLinkHoverColor\": \"value\", \"typographyTextAlign\": \"left\", \"__shapeLocation\": \"top\", \"topDivider\": \"value\", \"bottomDivider\": \"value\", \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"animation\": \"value\", \"positioningType\": \"default\", \"positioningWidth\": {\"Desktop\": \"value\"}, \"positioningAlign\": \"flex-start\", \"positioningLocation\": \"default\", \"positioningLeft\": {\"Desktop\": \"value\"}, \"positioningRight\": {\"Desktop\": \"value\"}, \"positioningTop\": {\"Desktop\": \"value\"}, \"positioningBottom\": {\"Desktop\": \"value\"}, \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/section\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'nav-menu' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"menuId\": \"value\", \"alignment\": \"flex-start\", \"breakpoint\": \"tablet\", \"mobileMenuLogo\": \"value\", \"mobileMenuLink\": \"custom\", \"mobileMenuURL\": \"value\", \"mobileIcon\": \"value\", \"mobileCloseIcon\": \"value\", \"mobileSubmenuClick\": \"value\", \"mobileCloseOnClick\": \"value\", \"mobileEnableOverlay\": \"value\", \"menuHeight\": {\"Desktop\": \"value\"}, \"menuBackground\": \"default\", \"mobileWrapperBackground\": {\"Desktop\": \"value\"}, \"menuPadding\": {\"Desktop\": \"value\"}, \"menuMargin\": {\"Desktop\": \"value\"}, \"menuRadius\": {\"Desktop\": \"value\"}, \"menuBoxShadow\": {\"Desktop\": \"value\"}, \"itemTypography\": \"value\", \"itemSpacing\": {\"Desktop\": \"value\"}, \"itemMargin\": {\"Desktop\": \"value\"}, \"__itemState\": \"normal\", \"itemTextNormalColor\": {\"Desktop\": \"value\"}, \"itemTextNormalBg\": \"default\", \"itemTextHoverColor\": {\"Desktop\": \"value\"}, \"itemTextHoverBg\": \"default\", \"itemTextActiveColor\": {\"Desktop\": \"value\"}, \"itemTextActiveBg\": \"default\", \"itemMenuBorderNormal\": {\"Desktop\": \"value\"}, \"itemMenuBorderHover\": {\"Desktop\": \"value\"}, \"itemMenuBorderActive\": {\"Desktop\": \"value\"}, \"submenuItemIndicator\": \"value\", \"SubmenuIndicatorSize\": {\"Desktop\": \"value\"}, \"submenuIndicatorMargin\": {\"Desktop\": \"value\"}, \"submenuIndicatorPadding\": {\"Desktop\": \"value\"}, \"submenuIndicatorBorder\": \"value\", \"submenuIndicatorBorderResponsive\": {\"Desktop\": \"value\"}, \"submenuTypography\": \"value\", \"submenuSpacing\": {\"Desktop\": \"value\"}, \"submenuMargin\": {\"Desktop\": \"value\"}, \"__submenuState\": \"normal\", \"submenuTextNormalColor\": {\"Desktop\": \"value\"}, \"submenuIndicatorColor\": {\"Desktop\": \"value\"}, \"submenuTextNormalBg\": \"default\", \"submenuTextHoverColor\": {\"Desktop\": \"value\"}, \"submenuIndicatorHoverColor\": {\"Desktop\": \"value\"}, \"submenuTextHoverBg\": \"default\", \"submenuTextActiveColor\": {\"Desktop\": \"value\"}, \"submenuIndicatorActiveColor\": {\"Desktop\": \"value\"}, \"submenuTextActiveBg\": \"default\", \"submenuItemBorderHeadingResponsive\": \"value\", \"submenuItemBorder\": \"value\", \"submenuItemBorderResponsive\": {\"Desktop\": \"value\"}, \"submenuFirstItemBorderHeading\": \"value\", \"submenuFirstItemBorder\": \"value\", \"submenuFirstItemBorderResponsive\": {\"Desktop\": \"value\"}, \"submenuLastItemBorderHeading\": \"value\", \"submenuLastItemBorder\": \"value\", \"submenuLastItemBorderResponsive\": {\"Desktop\": \"value\"}, \"submenuPanelPadding\": {\"Desktop\": \"value\"}, \"submenuPanelMargin\": {\"Desktop\": \"value\"}, \"submenuPanelBorder\": \"value\", \"submenuPanelBorderResponsive\": {\"Desktop\": \"value\"}, \"submenuPanelBackground\": \"default\", \"submenuPanelWidth\": {\"Desktop\": \"value\"}, \"submenuPanelShadow\": \"value\", \"hamburgerAlignment\": \"flex-start\", \"hamburgerWidth\": {\"Desktop\": \"value\"}, \"hamburgerSize\": {\"Desktop\": \"value\"}, \"hamburgerPadding\": {\"Desktop\": \"value\"}, \"hamburgerMargin\": {\"Desktop\": \"value\"}, \"__hamburgerState\": \"normal\", \"hamburgerColorNormal\": {\"Desktop\": \"value\"}, \"hamburgerBgNormal\": \"default\", \"hamburgerBorderNormal\": \"value\", \"hamburgerBorderNormalResponsive\": {\"Desktop\": \"value\"}, \"hamburgerColorHover\": {\"Desktop\": \"value\"}, \"hamburgerBgHover\": \"default\", \"hamburgerBorderHover\": \"value\", \"hamburgerBorderHoverResponsive\": {\"Desktop\": \"value\"}, \"closeIconHeading\": \"value\", \"closeWidth\": {\"Desktop\": \"value\"}, \"closeSize\": {\"Desktop\": \"value\"}, \"closePadding\": {\"Desktop\": \"value\"}, \"closeMargin\": {\"Desktop\": \"value\"}, \"__closeState\": \"normal\", \"closeColorNormal\": {\"Desktop\": \"value\"}, \"closeBgNormal\": \"default\", \"closeBorderNormal\": \"value\", \"closeBorderNormalResponsive\": {\"Desktop\": \"value\"}, \"closeColorHover\": {\"Desktop\": \"value\"}, \"closeBgHover\": \"default\", \"closeBorderHover\": \"value\", \"closeBorderHoverResponsive\": {\"Desktop\": \"value\"}, \"mobileLogoWidth\": {\"Desktop\": \"value\"}, \"mobileLogoHeight\": {\"Desktop\": \"value\"}, \"mobileLogoFit\": \"cover\", \"mobileMenuMargin\": {\"Desktop\": \"value\"}, \"mobileMenuPadding\": {\"Desktop\": \"value\"}, \"activate-notice\": \"value\", \"overlayBackground\": \"default\", \"overlayOpacity\": {\"Desktop\": \"value\"}, \"overlayPointer\": \"none\", \"blur-notice\": \"value\", \"overlayBlur\": {\"Desktop\": \"value\"}, \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\", \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"positioningType\": \"default\", \"positioningWidth\": {\"Desktop\": \"value\"}, \"positioningAlign\": \"flex-start\", \"positioningLocation\": \"default\", \"positioningLeft\": {\"Desktop\": \"value\"}, \"positioningRight\": {\"Desktop\": \"value\"}, \"positioningTop\": {\"Desktop\": \"value\"}, \"positioningBottom\": {\"Desktop\": \"value\"}, \"animation\": \"value\", \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/nav-menu\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'post-block' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"inheritQuery\": \"value\", \"postType\": \"page\", \"noContentText\": \"value\", \"numberPost\": \"value\", \"postOffset\": \"value\", \"includePost\": \"value\", \"excludeCurrentPost\": \"value\", \"excludePost\": \"value\", \"includeCategory\": \"value\", \"excludeCategory\": \"value\", \"includeAuthor\": \"value\", \"includeTag\": \"value\", \"excludeTag\": \"value\", \"sortBy\": \"latest\", \"postblockType\": \"type-1\", \"contentOrder\": \"value\", \"column\": {\"Desktop\": \"value\"}, \"breakpoint\": \"tablet\", \"htmlTag\": \"h1\", \"categoryEnabled\": \"value\", \"categoryPosition\": \"left\", \"excerptEnabled\": \"value\", \"excerptLength\": \"value\", \"excerptMore\": \"value\", \"readmoreEnabled\": \"value\", \"readmoreIcon\": \"value\", \"readmoreIconPosition\": \"before\", \"readmoreText\": \"value\", \"commentEnabled\": \"value\", \"commentIcon\": \"value\", \"commentIconPosition\": \"before\", \"metaEnabled\": \"value\", \"metaAuthorEnabled\": \"value\", \"metaAuthorByText\": \"value\", \"metaAuthorIcon\": \"value\", \"metaAuthorIconPosition\": \"before\", \"metaDateEnabled\": \"value\", \"metaDateType\": \"published\", \"metaDateFormat\": \"ago\", \"metaDateFormatCustom\": \"value\", \"metaDateIcon\": \"value\", \"metaDateIconPosition\": \"before\", \"lazyLoad\": \"value\", \"paginationMode\": \"disable\", \"paginationPrevNextText\": \"value\", \"paginationPrevText\": \"value\", \"paginationNextText\": \"value\", \"paginationPrevIcon\": \"value\", \"paginationNextIcon\": \"value\", \"paginationLoadmoreText\": \"value\", \"paginationLoadingText\": \"value\", \"paginationNumberPost\": \"value\", \"paginationScrollLimit\": \"value\", \"paginationIcon\": \"value\", \"paginationIconPosition\": \"before\", \"postItemGap\": {\"Desktop\": \"value\"}, \"postItemBackground\": \"default\", \"postItemMargin\": {\"Desktop\": \"value\"}, \"postItemPadding\": {\"Desktop\": \"value\"}, \"postItemBorder\": \"value\", \"postItemBorderResponsive\": {\"Desktop\": \"value\"}, \"postItemBoxShadow\": \"value\", \"thumbnailWidth\": {\"Desktop\": \"value\"}, \"thumbnailMargin\": {\"Desktop\": \"value\"}, \"thumbnailPadding\": {\"Desktop\": \"value\"}, \"thumbnailBorder\": \"value\", \"thumbnailBorderResponsive\": {\"Desktop\": \"value\"}, \"thumbnailBoxShadow\": \"value\", \"thumbnailBackground\": \"default\", \"thumbnailOverlayOpacity\": {\"Desktop\": \"value\"}, \"thumbnailHeight\": {\"Desktop\": \"value\"}, \"thumbnailContainerBackground\": \"default\", \"thumbnailRadius\": {\"Desktop\": \"value\"}, \"thumbnailContainerShadow\": \"value\", \"contentAlign\": \"left\", \"contentContainerBackground\": \"default\", \"contentMargin\": {\"Desktop\": \"value\"}, \"contentPadding\": {\"Desktop\": \"value\"}, \"contentBorder\": \"value\", \"contentBorderResponsive\": {\"Desktop\": \"value\"}, \"contentContainerShadow\": \"value\", \"categoryVerticalAlign\": \"baseline\", \"categoryColor\": \"value\", \"categoryTypography\": \"value\", \"categoryBackground\": \"value\", \"categoryMargin\": {\"Desktop\": \"value\"}, \"categoryPadding\": {\"Desktop\": \"value\"}, \"categoryBorder\": \"value\", \"categoryBorderResponsive\": {\"Desktop\": \"value\"}, \"categoryShadow\": \"value\", \"titleMargin\": {\"Desktop\": \"value\"}, \"__styleHover\": \"normal\", \"titleColor\": \"value\", \"titleTypography\": \"value\", \"titleColorHover\": \"value\", \"titleTypographyHover\": \"value\", \"excerptMargin\": {\"Desktop\": \"value\"}, \"excerptColor\": \"value\", \"excerptTypography\": \"value\", \"excerptInline\": {\"Desktop\": \"value\"}, \"readmoreTypography\": \"value\", \"readmoreMargin\": {\"Desktop\": \"value\"}, \"readmorePadding\": {\"Desktop\": \"value\"}, \"readmoreSpacing\": {\"Desktop\": \"value\"}, \"readmoreIconSize\": {\"Desktop\": \"value\"}, \"readmoreWidth\": {\"Desktop\": \"value\"}, \"readmoreAlign\": \"start\", \"__readmoreHover\": \"normal\", \"readmoreColor\": \"value\", \"readmoreHoverColor\": \"value\", \"readmoreBackground\": \"default\", \"readmoreHoverBackground\": \"default\", \"readmoreBorder\": \"value\", \"readmoreBorderResponsive\": {\"Desktop\": \"value\"}, \"readmoreHoverBorder\": \"value\", \"readmoreHoverBorderResponsive\": {\"Desktop\": \"value\"}, \"readmoreShadow\": \"value\", \"readmoreHoverShadow\": \"value\", \"commentColor\": \"value\", \"commentSize\": {\"Desktop\": \"value\"}, \"commentSpacing\": {\"Desktop\": \"value\"}, \"commentMargin\": {\"Desktop\": \"value\"}, \"commentPadding\": {\"Desktop\": \"value\"}, \"metaTypography\": \"value\", \"metaColor\": \"value\", \"metaAuthorTypography\": \"value\", \"metaAuthorColor\": \"value\", \"metaMargin\": {\"Desktop\": \"value\"}, \"metaAuthorIconSpacing\": {\"Desktop\": \"value\"}, \"metaDateIconSpacing\": {\"Desktop\": \"value\"}, \"postMetaInline\": {\"Desktop\": \"value\"}, \"paginationTypography\": \"value\", \"paginationMargin\": {\"Desktop\": \"value\"}, \"paginationPadding\": {\"Desktop\": \"value\"}, \"numberGap\": {\"Desktop\": \"value\"}, \"paginationWidth\": {\"Desktop\": \"value\"}, \"paginationHeight\": {\"Desktop\": \"value\"}, \"paginationNavigationWidth\": {\"Desktop\": \"value\"}, \"paginationNavigationHeight\": {\"Desktop\": \"value\"}, \"paginationIconSpacing\": {\"Desktop\": \"value\"}, \"paginationIconSize\": {\"Desktop\": \"value\"}, \"paginationAlign\": \"left\", \"navigationAlign\": \"left\", \"__paginationHover\": \"normal\", \"paginationColor\": \"value\", \"paginationCurrentColor\": \"value\", \"paginationDisabledColor\": \"value\", \"paginationHoverColor\": \"value\", \"paginationBackground\": \"default\", \"paginationCurrentBackground\": \"default\", \"paginationDisabledBackground\": \"default\", \"paginationHoverBackground\": \"default\", \"paginationBorder\": \"value\", \"paginationBorderResponsive\": {\"Desktop\": \"value\"}, \"paginationHoverBorder\": \"value\", \"paginationHoverBorderResponsive\": {\"Desktop\": \"value\"}, \"paginationShadow\": \"value\", \"paginationHoverShadow\": \"value\", \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\", \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"positioningType\": \"default\", \"positioningWidth\": {\"Desktop\": \"value\"}, \"positioningAlign\": \"flex-start\", \"positioningLocation\": \"default\", \"positioningLeft\": {\"Desktop\": \"value\"}, \"positioningRight\": {\"Desktop\": \"value\"}, \"positioningTop\": {\"Desktop\": \"value\"}, \"positioningBottom\": {\"Desktop\": \"value\"}, \"animation\": \"value\", \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/post-block\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'search-result-title' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"htmlTag\": \"h1\", \"staticText\": \"value\", \"alignment\": \"flex-start\", \"typography\": \"value\", \"__styleHover\": \"normal\", \"color\": \"value\", \"textShadow\": \"value\", \"textStroke\": \"value\", \"colorHover\": \"value\", \"textShadowHover\": \"value\", \"textStrokeHover\": \"value\", \"searchTextColor\": \"value\", \"searchTextShadow\": \"value\", \"searchTextStroke\": \"value\", \"searchTextColorHover\": \"value\", \"searchTextShadowHover\": \"value\", \"searchTextStrokeHover\": \"value\", \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\", \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"positioningType\": \"default\", \"positioningWidth\": {\"Desktop\": \"value\"}, \"positioningAlign\": \"flex-start\", \"positioningLocation\": \"default\", \"positioningLeft\": {\"Desktop\": \"value\"}, \"positioningRight\": {\"Desktop\": \"value\"}, \"positioningTop\": {\"Desktop\": \"value\"}, \"positioningBottom\": {\"Desktop\": \"value\"}, \"animation\": \"value\", \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/search-result-title\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'advanced-heading' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"alignText\": \"flex-start\", \"titleTag\": \"h1\", \"subTag\": \"h1\", \"text\": \"value\", \"focusText\": \"value\", \"subText\": \"value\", \"showSub\": \"none\", \"showLine\": \"none\", \"lineColor\": \"value\", \"lineWidth\": {\"Desktop\": \"value\"}, \"lineHeight\": {\"Desktop\": \"value\"}, \"lineStyle\": \"solid\", \"lineMargin\": {\"Desktop\": \"value\"}, \"mainColor\": \"value\", \"mainTypography\": \"value\", \"mainTextStroke\": \"value\", \"mainBackground\": \"default\", \"mainMargin\": {\"Desktop\": \"value\"}, \"mainPadding\": {\"Desktop\": \"value\"}, \"focusColor\": \"value\", \"focusTypography\": \"value\", \"focusTextStroke\": \"value\", \"focusBackground\": \"default\", \"focusMargin\": {\"Desktop\": \"value\"}, \"focusPadding\": {\"Desktop\": \"value\"}, \"subColor\": \"value\", \"subTypography\": \"value\", \"subBackground\": \"default\", \"subMargin\": {\"Desktop\": \"value\"}, \"subPadding\": {\"Desktop\": \"value\"}, \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\", \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"positioningType\": \"default\", \"positioningWidth\": {\"Desktop\": \"value\"}, \"positioningAlign\": \"flex-start\", \"positioningLocation\": \"default\", \"positioningLeft\": {\"Desktop\": \"value\"}, \"positioningRight\": {\"Desktop\": \"value\"}, \"positioningTop\": {\"Desktop\": \"value\"}, \"positioningBottom\": {\"Desktop\": \"value\"}, \"animation\": \"value\", \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/advanced-heading\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'progress-bar' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"style\": \"default\", \"title\": \"value\", \"percentage\": \"value\", \"duration\": \"value\", \"colorMode\": \"default\", \"barGradient\": \"value\", \"trackGradient\": \"value\", \"barColor\": \"value\", \"trackColor\": \"value\", \"trackHeight\": {\"Desktop\": \"value\"}, \"barRadius\": {\"Desktop\": \"value\"}, \"trackRadius\": {\"Desktop\": \"value\"}, \"barPadding\": {\"Desktop\": \"value\"}, \"barMargin\": {\"Desktop\": \"value\"}, \"barBoxShadow\": \"value\", \"titleColor\": \"value\", \"titleTypography\": \"value\", \"titleTextShadow\": \"value\", \"percentBgColor\": \"value\", \"percentColor\": \"value\", \"percentTypography\": \"value\", \"percentTextShadow\": \"value\", \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\", \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"positioningType\": \"default\", \"positioningWidth\": {\"Desktop\": \"value\"}, \"positioningAlign\": \"flex-start\", \"positioningLocation\": \"default\", \"positioningLeft\": {\"Desktop\": \"value\"}, \"positioningRight\": {\"Desktop\": \"value\"}, \"positioningTop\": {\"Desktop\": \"value\"}, \"positioningBottom\": {\"Desktop\": \"value\"}, \"animation\": \"value\", \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/progress-bar\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'text-editor' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"enableHeading\": \"value\", \"columns\": {\"Desktop\": \"value\"}, \"gap\": {\"Desktop\": \"value\"}, \"alignment\": \"left\", \"textColor\": \"value\", \"typography\": \"value\", \"dropcap\": \"value\", \"dropcapTypography\": \"value\", \"dropcapColor\": \"value\", \"dropcapBgColor\": \"value\", \"dropcapMargin\": \"value\", \"dropcapPadding\": \"value\", \"dropcapBorderType\": \"default\", \"dropcapBorderColor\": \"value\", \"dropcapBorderWidth\": \"value\", \"dropcapBorderRadius\": \"value\", \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\", \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"positioningType\": \"default\", \"positioningWidth\": {\"Desktop\": \"value\"}, \"positioningAlign\": \"flex-start\", \"positioningLocation\": \"default\", \"positioningLeft\": {\"Desktop\": \"value\"}, \"positioningRight\": {\"Desktop\": \"value\"}, \"positioningTop\": {\"Desktop\": \"value\"}, \"positioningBottom\": {\"Desktop\": \"value\"}, \"animation\": \"value\", \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/text-editor\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'column' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"width\": \"value\", \"verticalAlign\": \"default\", \"horizontalAlign\": \"default\", \"order\": 1, \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\", \"__bgOverlayHover\": \"normal\", \"backgroundOverlay\": \"default\", \"opacity\": \"value\", \"backgroundOverlayHover\": \"default\", \"opacityHover\": \"value\", \"blur-notice\": \"value\", \"__blurHover\": \"normal\", \"blur\": {\"Desktop\": \"value\"}, \"blurHover\": {\"Desktop\": \"value\"}, \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"pointer\": {\"Desktop\": \"value\"}, \"typographyHeadingColor\": \"value\", \"typographyTextColor\": \"value\", \"typographyLinkColor\": \"value\", \"typographyLinkHoverColor\": \"value\", \"typographyTextAlign\": \"left\", \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"animation\": \"value\", \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/column\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'divider' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"type\": \"default\", \"width\": {\"Desktop\": \"value\"}, \"size\": {\"Desktop\": \"value\"}, \"gap\": {\"Desktop\": \"value\"}, \"dividerColor\": \"value\", \"dividerAlign\": \"left\", \"content\": \"none\", \"contentAlign\": \"left\", \"contentColor\": \"value\", \"contentSpacing\": {\"Desktop\": \"value\"}, \"typography\": \"value\", \"icon\": \"value\", \"iconSize\": {\"Desktop\": \"value\"}, \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\", \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"positioningType\": \"default\", \"positioningWidth\": {\"Desktop\": \"value\"}, \"positioningAlign\": \"flex-start\", \"positioningLocation\": \"default\", \"positioningLeft\": {\"Desktop\": \"value\"}, \"positioningRight\": {\"Desktop\": \"value\"}, \"positioningTop\": {\"Desktop\": \"value\"}, \"positioningBottom\": {\"Desktop\": \"value\"}, \"animation\": \"value\", \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/divider\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'icon-box' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"childNotice\": \"value\", \"hoverWithParent\": \"value\", \"watermarkShow\": \"value\", \"watermarkIcon\": \"value\", \"iconPosition\": \"top\", \"iconPositionResponsive\": \"top\", \"align\": \"flex-start\", \"titleTag\": \"h1\", \"badgeShow\": \"value\", \"badgePosition\": \"topleft\", \"iconType\": \"none\", \"iconSize\": {\"Desktop\": \"value\"}, \"image\": \"value\", \"lazyLoad\": \"value\", \"imageAlt\": \"value\", \"imageFit\": \"fill\", \"imageWidthResponsive\": {\"Desktop\": \"value\"}, \"imageHeightResponsive\": {\"Desktop\": \"value\"}, \"imageWidth\": \"value\", \"imageHeight\": \"value\", \"__containerStyleHover\": \"normal\", \"containerPadding\": {\"Desktop\": \"value\"}, \"containerPaddingHover\": {\"Desktop\": \"value\"}, \"containerBackground\": \"default\", \"containerBackgroundHover\": \"default\", \"containerBorder\": \"value\", \"containerBorderResponsive\": {\"Desktop\": \"value\"}, \"containerBoxShadow\": \"value\", \"containerBorderHover\": \"value\", \"containerBorderHoverResponsive\": {\"Desktop\": \"value\"}, \"containerBoxShadowHover\": \"value\", \"iconStyleMode\": \"color\", \"__iconHover\": \"normal\", \"iconColor\": \"value\", \"iconHoverColor\": \"value\", \"iconBgColor\": \"value\", \"iconHoverBgColor\": \"value\", \"iconBackground\": \"gradient\", \"iconBackgroundHover\": \"gradient\", \"iconBorder\": \"value\", \"iconBorderResponsive\": {\"Desktop\": \"value\"}, \"iconBoxShadow\": \"value\", \"iconBorderHover\": \"value\", \"iconBorderHoverResponsive\": {\"Desktop\": \"value\"}, \"iconBoxShadowHover\": \"value\", \"iconPadding\": {\"Desktop\": \"value\"}, \"iconMargin\": {\"Desktop\": \"value\"}, \"iconRotate\": {\"Desktop\": \"value\"}, \"titlePadding\": {\"Desktop\": \"value\"}, \"titleMargin\": {\"Desktop\": \"value\"}, \"titleColor\": \"value\", \"titleHoverColor\": \"value\", \"titleTypography\": \"value\", \"descMargin\": {\"Desktop\": \"value\"}, \"descColor\": \"value\", \"descHoverColor\": \"value\", \"descTypography\": \"value\", \"watermarkColor\": \"value\", \"watermarkSize\": {\"Desktop\": \"value\"}, \"badgeTextColor\": \"value\", \"badgePadding\": {\"Desktop\": \"value\"}, \"badgeMargin\": {\"Desktop\": \"value\"}, \"badgeRadius\": {\"Desktop\": \"value\"}, \"badgeBackground\": \"default\", \"badgeTypography\": \"value\", \"badgeShadow\": \"value\", \"__iconBoxOverlay\": \"normal\", \"iconBoxOverlay\": \"default\", \"iconBoxHoverOverlay\": \"default\", \"iconBoxOverlayDirection\": \"left\", \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\", \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"positioningType\": \"default\", \"positioningWidth\": {\"Desktop\": \"value\"}, \"positioningAlign\": \"flex-start\", \"positioningLocation\": \"default\", \"positioningLeft\": {\"Desktop\": \"value\"}, \"positioningRight\": {\"Desktop\": \"value\"}, \"positioningTop\": {\"Desktop\": \"value\"}, \"positioningBottom\": {\"Desktop\": \"value\"}, \"animation\": \"value\", \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/icon-box\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'text-paragraph' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"columns\": {\"Desktop\": \"value\"}, \"gap\": {\"Desktop\": \"value\"}, \"alignment\": \"left\", \"textColor\": \"value\", \"typography\": \"value\", \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\", \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"positioningType\": \"default\", \"positioningWidth\": {\"Desktop\": \"value\"}, \"positioningAlign\": \"flex-start\", \"positioningLocation\": \"default\", \"positioningLeft\": {\"Desktop\": \"value\"}, \"positioningRight\": {\"Desktop\": \"value\"}, \"positioningTop\": {\"Desktop\": \"value\"}, \"positioningBottom\": {\"Desktop\": \"value\"}, \"animation\": \"value\", \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/text-paragraph\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'icon-list' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"displayInline\": \"value\", \"isDivider\": \"value\", \"colorDivider\": \"value\", \"typeDivider\": \"solid\", \"widthDivider\": \"value\", \"sizeDivider\": \"value\", \"spaceBetween\": {\"Desktop\": \"value\"}, \"alignList\": \"flex-start\", \"verticalAlign\": \"flex-start\", \"iconColor\": \"value\", \"iconColorHover\": \"value\", \"iconSize\": {\"Desktop\": \"value\"}, \"textColor\": \"value\", \"textColorHover\": \"value\", \"textIndent\": {\"Desktop\": \"value\"}, \"textTypography\": \"value\", \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\", \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"positioningType\": \"default\", \"positioningWidth\": {\"Desktop\": \"value\"}, \"positioningAlign\": \"flex-start\", \"positioningLocation\": \"default\", \"positioningLeft\": {\"Desktop\": \"value\"}, \"positioningRight\": {\"Desktop\": \"value\"}, \"positioningTop\": {\"Desktop\": \"value\"}, \"positioningBottom\": {\"Desktop\": \"value\"}, \"animation\": \"value\", \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/icon-list\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'gallery' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"zoomOptions\": \"item\", \"showed\": \"value\", \"animationDuration\": \"value\", \"column\": {\"Desktop\": \"value\"}, \"grid\": \"grid\", \"height\": {\"Desktop\": \"value\"}, \"layout\": \"overlay\", \"hover\": \"none\", \"zoomIcon\": \"value\", \"zoomText\": \"value\", \"linkIcon\": \"value\", \"linkText\": \"value\", \"images\": \"value\", \"filter\": \"value\", \"filterType\": \"tab\", \"filterAll\": \"value\", \"filterList\": \"value\", \"enableLoadMore\": \"value\", \"itemsPerLoad\": \"value\", \"enableLoadText\": \"value\", \"enableLoadIcon\": \"value\", \"enableLoadIconPosition\": \"before\", \"enableLoadAlign\": \"left\", \"filterTabPadding\": {\"Desktop\": \"value\"}, \"filterTabMargin\": {\"Desktop\": \"value\"}, \"filterTabTypography\": \"value\", \"__filterTab\": \"general\", \"filterTabTextColor\": {\"Desktop\": \"value\"}, \"filterTabTextColorActive\": {\"Desktop\": \"value\"}, \"filterTabBackground\": \"default\", \"filterTabBackgroundActive\": \"default\", \"filterTabBorder\": \"value\", \"filterTabBorderResponsive\": {\"Desktop\": \"value\"}, \"filterTabBorderActive\": \"value\", \"filterTabBorderActiveResponsive\": {\"Desktop\": \"value\"}, \"filterTabBoxShadow\": \"value\", \"filterTabBoxShadowActive\": \"value\", \"submenuSplitter0\": \"value\", \"searchControlWidth\": {\"Desktop\": \"value\"}, \"fitlerSearchControlWidth\": {\"Desktop\": \"value\"}, \"fitlerSearchFormWidth\": {\"Desktop\": \"value\"}, \"submenuSplitter1\": \"value\", \"filterSearchTypography\": \"value\", \"filterSearchIcon\": \"value\", \"filterSearchIconPosition\": \"after\", \"fitlerSearchIconSpacing\": {\"Desktop\": \"value\"}, \"fitlerSearchIconSize\": {\"Desktop\": \"value\"}, \"filterSearchTextBackground\": {\"Desktop\": \"value\"}, \"filterSearchTextColor\": {\"Desktop\": \"value\"}, \"filterSearchBorder\": \"value\", \"filterSearchBorderResponsive\": {\"Desktop\": \"value\"}, \"filterSearchMargin\": {\"Desktop\": \"value\"}, \"filterSearchBoxShadow\": \"value\", \"submenuSplitter\": \"value\", \"filterSearchSeparatorSize\": {\"Desktop\": \"value\"}, \"filterSearchSeparatorColor\": {\"Desktop\": \"value\"}, \"submenuSplitter2\": \"value\", \"filterSearchFormText\": \"value\", \"filterSearchFormBackground\": {\"Desktop\": \"value\"}, \"filterSearchFormTextColor\": {\"Desktop\": \"value\"}, \"filterSearchFormBorder\": \"value\", \"filterSearchFormBorderResponsive\": {\"Desktop\": \"value\"}, \"filterSearchFormBoxShadow\": \"value\", \"submenuSplitter3\": \"value\", \"filterSearchDropdownTextColor\": {\"Desktop\": \"value\"}, \"filterSearchDropdownTextColorHover\": {\"Desktop\": \"value\"}, \"filterSearchDropdownBackground\": \"default\", \"filterSearchDropdownBorder\": \"value\", \"filterSearchDropdownBorderResponsive\": {\"Desktop\": \"value\"}, \"filterSearchDropdownPadding\": {\"Desktop\": \"value\"}, \"__textIcon\": \"icon\", \"iconWrapperMargin\": {\"Desktop\": \"value\"}, \"iconBg\": \"value\", \"iconColor\": \"value\", \"iconSize\": {\"Desktop\": \"value\"}, \"selectionIconPadding\": \"all\", \"zoomIconPadding\": {\"Desktop\": \"value\"}, \"linkIconPadding\": {\"Desktop\": \"value\"}, \"iconPadding\": {\"Desktop\": \"value\"}, \"iconBorder\": \"value\", \"iconBorderResponsive\": {\"Desktop\": \"value\"}, \"iconTextGap\": {\"Desktop\": \"value\"}, \"iconTextPosition\": \"column\", \"textZoomHeading\": \"value\", \"textZoomTypography\": \"value\", \"textZoomColor\": {\"Desktop\": \"value\"}, \"textZoomBackground\": \"default\", \"textZoomBorder\": {\"Desktop\": \"value\"}, \"textZoomMargin\": {\"Desktop\": \"value\"}, \"textZoomPadding\": {\"Desktop\": \"value\"}, \"textLinkHeading\": \"value\", \"textLinkTypography\": \"value\", \"textLinkColor\": {\"Desktop\": \"value\"}, \"textLinkBackground\": \"default\", \"textLinkBorder\": {\"Desktop\": \"value\"}, \"textLinkMargin\": {\"Desktop\": \"value\"}, \"textLinkPadding\": {\"Desktop\": \"value\"}, \"itemPadding\": {\"Desktop\": \"value\"}, \"itemMargin\": {\"Desktop\": \"value\"}, \"itemBorder\": \"value\", \"itemBorderResponsive\": {\"Desktop\": \"value\"}, \"itemBoxShadow\": \"value\", \"itemBackground\": \"default\", \"itemHoverBackground\": \"default\", \"itemHoverOpacity\": {\"Desktop\": \"value\"}, \"itemHoverPadding\": {\"Desktop\": \"value\"}, \"itemHoverBorder\": \"value\", \"itemHoverBorderResponsive\": {\"Desktop\": \"value\"}, \"itemHoverAlign\": \"left\", \"submenuTitleSplitter\": \"value\", \"itemHoverTitleColor\": \"value\", \"itemHoverTitleColorHover\": \"value\", \"itemHoverTitleTypography\": \"value\", \"itemHoverTitleMargin\": {\"Desktop\": \"value\"}, \"itemHoverTitlePadding\": {\"Desktop\": \"value\"}, \"submenuContentSplitter\": \"value\", \"itemHoverContentColor\": \"value\", \"itemHoverContentColorHover\": \"value\", \"itemHoverContentTypography\": \"value\", \"itemHoverContentMargin\": {\"Desktop\": \"value\"}, \"itemHoverContentPadding\": {\"Desktop\": \"value\"}, \"itemCardBackground\": \"default\", \"itemCardPadding\": {\"Desktop\": \"value\"}, \"itemCardBorder\": \"value\", \"itemCardBorderResponsive\": {\"Desktop\": \"value\"}, \"itemCardAlign\": \"left\", \"itemCardTitleColor\": \"value\", \"itemCardTitleColorHover\": \"value\", \"itemCardTitleTypography\": \"value\", \"itemCardTitleMargin\": {\"Desktop\": \"value\"}, \"itemCardTitlePadding\": {\"Desktop\": \"value\"}, \"itemCardContentColor\": \"value\", \"itemCardContentColorHover\": \"value\", \"itemCardContentTypography\": \"value\", \"itemCardContentMargin\": {\"Desktop\": \"value\"}, \"itemCardContentPadding\": {\"Desktop\": \"value\"}, \"loadMoreMarginTop\": {\"Desktop\": \"value\"}, \"loadMoreIconSize\": {\"Desktop\": \"value\"}, \"loadMoreIconSpacing\": {\"Desktop\": \"value\"}, \"loadMoreTypography\": \"value\", \"loadMorePadding\": {\"Desktop\": \"value\"}, \"loadMoreBoxShadow\": \"value\", \"__loadHover\": \"normal\", \"loadMoreTextColor\": {\"Desktop\": \"value\"}, \"loadMoreTextColorHover\": {\"Desktop\": \"value\"}, \"loadMoreBackground\": \"default\", \"loadMoreBackgroundHover\": \"default\", \"loadMoreBorder\": \"value\", \"loadMoreBorderResponsive\": {\"Desktop\": \"value\"}, \"loadMoreBorderHover\": \"value\", \"loadMoreBorderHoverResponsive\": {\"Desktop\": \"value\"}, \"thumbnailBorder\": \"value\", \"thumbnailBorderResponsive\": {\"Desktop\": \"value\"}, \"selectionPriceRatingPadding\": \"all\", \"priceRatingPadding\": {\"Desktop\": \"value\"}, \"__priceRating\": \"price\", \"pricePadding\": {\"Desktop\": \"value\"}, \"ratingPadding\": {\"Desktop\": \"value\"}, \"priceMargin\": {\"Desktop\": \"value\"}, \"ratingMargin\": {\"Desktop\": \"value\"}, \"pricePositioningLeft\": {\"Desktop\": \"value\"}, \"pricePositioningRight\": {\"Desktop\": \"value\"}, \"pricePositioningTop\": {\"Desktop\": \"value\"}, \"pricePositioningBottom\": {\"Desktop\": \"value\"}, \"ratingPositioningLeft\": {\"Desktop\": \"value\"}, \"ratingPositioningRight\": {\"Desktop\": \"value\"}, \"ratingPositioningTop\": {\"Desktop\": \"value\"}, \"ratingPositioningBottom\": {\"Desktop\": \"value\"}, \"priceColor\": \"value\", \"priceTypography\": \"value\", \"ratingColor\": \"value\", \"ratingStarColor\": \"value\", \"ratingTypography\": \"value\", \"categoryColor\": \"value\", \"categoryTypography\": \"value\", \"categoryBackground\": \"default\", \"categoryPadding\": {\"Desktop\": \"value\"}, \"categoryMargin\": {\"Desktop\": \"value\"}, \"categoryBorderRadius\": {\"Desktop\": \"value\"}, \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\", \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"positioningType\": \"default\", \"positioningWidth\": {\"Desktop\": \"value\"}, \"positioningAlign\": \"flex-start\", \"positioningLocation\": \"default\", \"positioningLeft\": {\"Desktop\": \"value\"}, \"positioningRight\": {\"Desktop\": \"value\"}, \"positioningTop\": {\"Desktop\": \"value\"}, \"positioningBottom\": {\"Desktop\": \"value\"}, \"animation\": \"value\", \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/gallery\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'icon' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"iconAlign\": \"left\", \"iconSize\": {\"Desktop\": \"value\"}, \"iconPadding\": {\"Desktop\": \"value\"}, \"iconRotate\": {\"Desktop\": \"value\"}, \"iconView\": \"framed\", \"iconShape\": \"square\", \"iconBorderWidth\": \"value\", \"iconBorderRadius\": \"value\", \"ariaLabel\": \"value\", \"__iconClr\": \"normal\", \"iconColorOne\": \"value\", \"iconColorTwo\": \"value\", \"iconColorHoverOne\": \"value\", \"iconColorHoverTwo\": \"value\", \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\", \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"animation\": \"value\", \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"positioningType\": \"default\", \"positioningWidth\": {\"Desktop\": \"value\"}, \"positioningAlign\": \"flex-start\", \"positioningLocation\": \"default\", \"positioningLeft\": {\"Desktop\": \"value\"}, \"positioningRight\": {\"Desktop\": \"value\"}, \"positioningTop\": {\"Desktop\": \"value\"}, \"positioningBottom\": {\"Desktop\": \"value\"}, \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/icon\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'social-icon' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"icon\": \"value\", \"iconSize\": {\"Desktop\": \"value\"}, \"forceHideText\": \"value\", \"typography\": \"value\", \"borderRadius\": \"value\", \"ariaLabel\": \"value\", \"__socialIconHover\": \"normal\", \"iconColor\": \"value\", \"bgColor\": \"value\", \"textColor\": \"value\", \"hoverIconColor\": \"value\", \"hoverBgColor\": \"value\", \"hoverTextColor\": \"value\", \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"animation\": \"value\"}, \"name\": \"gutenverse/social-icon\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'taxonomy-list' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"taxonomyType\": \"value\", \"qty\": \"value\", \"sortType\": \"ASC\", \"sortBy\": \"count\", \"hideEmpty\": \"value\", \"includedCategory\": \"value\", \"layout\": \"column\", \"showIcon\": \"value\", \"showDivider\": \"value\", \"contentAlignment\": \"flex-start\", \"contentSpacing\": {\"Desktop\": \"value\"}, \"contentTypography\": \"value\", \"__contentSwitch\": \"normal\", \"contentColor\": \"value\", \"contentColorHover\": \"value\", \"icon-notice\": \"value\", \"icon\": \"value\", \"iconSpace\": {\"Desktop\": \"value\"}, \"iconSize\": {\"Desktop\": \"value\"}, \"__iconSwitch\": \"normal\", \"iconColor\": \"value\", \"iconColorHover\": \"value\", \"divider-notice\": \"value\", \"colorDivider\": \"value\", \"typeDivider\": \"solid\", \"widthDivider\": \"value\", \"sizeDivider\": \"value\", \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\", \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"positioningType\": \"default\", \"positioningWidth\": {\"Desktop\": \"value\"}, \"positioningAlign\": \"flex-start\", \"positioningLocation\": \"default\", \"positioningLeft\": {\"Desktop\": \"value\"}, \"positioningRight\": {\"Desktop\": \"value\"}, \"positioningTop\": {\"Desktop\": \"value\"}, \"positioningBottom\": {\"Desktop\": \"value\"}, \"animation\": \"value\", \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/taxonomy-list\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'social-share' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"alignment\": \"flex-start\", \"gap\": {\"Desktop\": \"value\"}, \"typography\": \"value\", \"iconSize\": {\"Desktop\": \"value\"}, \"__socialHover\": \"normal\", \"iconColor\": \"value\", \"iconBackgroundColor\": \"value\", \"backgroundColor\": \"value\", \"textColor\": \"value\", \"borderType\": \"value\", \"borderTypeResponsive\": {\"Desktop\": \"value\"}, \"iconColorHover\": \"value\", \"iconBackgroundColorHover\": \"value\", \"backgroundColorHover\": \"value\", \"textColorHover\": \"value\", \"borderTypeHover\": \"value\", \"borderTypeHoverResponsive\": {\"Desktop\": \"value\"}, \"iconPading\": {\"Desktop\": \"value\"}, \"textPading\": {\"Desktop\": \"value\"}, \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\", \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"positioningType\": \"default\", \"positioningWidth\": {\"Desktop\": \"value\"}, \"positioningAlign\": \"flex-start\", \"positioningLocation\": \"default\", \"positioningLeft\": {\"Desktop\": \"value\"}, \"positioningRight\": {\"Desktop\": \"value\"}, \"positioningTop\": {\"Desktop\": \"value\"}, \"positioningBottom\": {\"Desktop\": \"value\"}, \"animation\": \"value\", \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/social-share\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'post-content' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"inheritLayout\": \"value\", \"alignment\": \"flex-start\", \"typography\": \"value\", \"__styleHover\": \"normal\", \"color\": \"value\", \"textShadow\": \"value\", \"colorHover\": \"value\", \"textShadowHover\": \"value\", \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\", \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"positioningType\": \"default\", \"positioningWidth\": {\"Desktop\": \"value\"}, \"positioningAlign\": \"flex-start\", \"positioningLocation\": \"default\", \"positioningLeft\": {\"Desktop\": \"value\"}, \"positioningRight\": {\"Desktop\": \"value\"}, \"positioningTop\": {\"Desktop\": \"value\"}, \"positioningBottom\": {\"Desktop\": \"value\"}, \"animation\": \"value\", \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/post-content\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'button' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"alignButton\": \"left\", \"role\": \"link\", \"ariaLabel\": \"value\", \"buttonType\": \"default\", \"buttonSize\": \"xs\", \"buttonWidth\": {\"Desktop\": \"value\"}, \"buttonHeight\": {\"Desktop\": \"value\"}, \"showIcon\": \"value\", \"iconPosition\": \"before\", \"iconSpacing\": {\"Desktop\": \"value\"}, \"iconSize\": {\"Desktop\": \"value\"}, \"paddingButton\": {\"Desktop\": \"value\"}, \"iconLineHeight\": \"value\", \"__styleHover\": \"normal\", \"color\": \"value\", \"iconColor\": \"value\", \"hoverTextColor\": \"value\", \"hoverIconColor\": \"value\", \"typography\": \"value\", \"__buttonBgHover\": \"normal\", \"buttonBackground\": \"default\", \"buttonBackgroundHover\": \"default\", \"__buttonBorderHover\": \"normal\", \"buttonBorder\": \"value\", \"buttonBorderResponsive\": {\"Desktop\": \"value\"}, \"buttonBorderHover\": \"value\", \"buttonBorderHoverResponsive\": {\"Desktop\": \"value\"}, \"buttonBoxShadow\": \"value\", \"buttonBoxShadowHover\": \"value\", \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\", \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"positioningType\": \"default\", \"positioningWidth\": {\"Desktop\": \"value\"}, \"positioningAlign\": \"flex-start\", \"positioningLocation\": \"default\", \"positioningLeft\": {\"Desktop\": \"value\"}, \"positioningRight\": {\"Desktop\": \"value\"}, \"positioningTop\": {\"Desktop\": \"value\"}, \"positioningBottom\": {\"Desktop\": \"value\"}, \"animation\": \"value\", \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/button\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'accordion' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {}, \"name\": \"gutenverse/accordion\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'post-list' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"inheritQuery\": \"value\", \"postType\": \"page\", \"noContentText\": \"value\", \"numberPost\": \"value\", \"postOffset\": \"value\", \"includePost\": \"value\", \"excludePost\": \"value\", \"includeCategory\": \"value\", \"excludeCategory\": \"value\", \"includeAuthor\": \"value\", \"includeTag\": \"value\", \"excludeTag\": \"value\", \"sortBy\": \"latest\", \"layout\": \"vertical\", \"column\": {\"Desktop\": \"value\"}, \"columnGap\": {\"Desktop\": \"value\"}, \"imageEnabled\": \"value\", \"backgroundImageEnabled\": \"value\", \"iconEnabled\": \"value\", \"icon\": \"value\", \"metaEnabled\": \"value\", \"metaDateEnabled\": \"value\", \"metaDateType\": \"published\", \"metaDateFormat\": \"ago\", \"metaDateFormatCustom\": \"value\", \"metaDateIcon\": \"value\", \"metaDateIconPosition\": \"before\", \"metaCategoryEnabled\": \"value\", \"metaCategoryIcon\": \"value\", \"metaPosition\": \"top\", \"lazyLoad\": \"value\", \"paginationMode\": \"disable\", \"paginationPrevNextText\": \"value\", \"paginationPrevText\": \"value\", \"paginationNextText\": \"value\", \"paginationPrevIcon\": \"value\", \"paginationNextIcon\": \"value\", \"paginationLoadmoreText\": \"value\", \"paginationLoadingText\": \"value\", \"paginationNumberPost\": \"value\", \"paginationScrollLimit\": \"value\", \"paginationIcon\": \"value\", \"paginationIconPosition\": \"before\", \"contentAlign\": \"left\", \"contentMargin\": {\"Desktop\": \"value\"}, \"contentPadding\": {\"Desktop\": \"value\"}, \"contentWidth\": {\"Desktop\": \"value\"}, \"__contentHover\": \"normal\", \"contentBackground\": \"default\", \"contentHoverBackground\": \"default\", \"contentBorder\": \"value\", \"contentBorderResponsive\": {\"Desktop\": \"value\"}, \"contentHoverBorder\": \"value\", \"contentHoverBorderResponsive\": {\"Desktop\": \"value\"}, \"contentShadow\": \"value\", \"contentHoverShadow\": \"value\", \"titlePadding\": {\"Desktop\": \"value\"}, \"__titleHover\": \"normal\", \"titleColor\": \"value\", \"titleTypography\": \"value\", \"titleColorHover\": \"value\", \"titleTypographyHover\": \"value\", \"icon-notice\": \"value\", \"iconAlign\": \"flex-start\", \"iconWidth\": {\"Desktop\": \"value\"}, \"iconHeight\": {\"Desktop\": \"value\"}, \"iconLineHeight\": {\"Desktop\": \"value\"}, \"iconSize\": {\"Desktop\": \"value\"}, \"iconMargin\": {\"Desktop\": \"value\"}, \"iconRadius\": {\"Desktop\": \"value\"}, \"iconColor\": \"value\", \"iconHoverColor\": \"value\", \"iconBackground\": \"default\", \"imageWidth\": {\"Desktop\": \"value\"}, \"imageHeight\": {\"Desktop\": \"value\"}, \"imageFit\": \"default\", \"imageMargin\": {\"Desktop\": \"value\"}, \"imageBorder\": {\"Desktop\": \"value\"}, \"metaAlign\": \"left\", \"metaTypography\": \"value\", \"metaIconSize\": {\"Desktop\": \"value\"}, \"metaIconSpacing\": {\"Desktop\": \"value\"}, \"metaMargin\": {\"Desktop\": \"value\"}, \"metaPadding\": {\"Desktop\": \"value\"}, \"__metaHover\": \"normal\", \"metaColor\": \"value\", \"metaColorHover\": \"value\", \"metaBackground\": \"default\", \"metaHoverBackground\": \"default\", \"metaBorder\": \"value\", \"metaBorderResponsive\": {\"Desktop\": \"value\"}, \"metaHoverBorder\": \"value\", \"metaHoverBorderResponsive\": {\"Desktop\": \"value\"}, \"paginationTypography\": \"value\", \"paginationMargin\": {\"Desktop\": \"value\"}, \"paginationPadding\": {\"Desktop\": \"value\"}, \"paginationWidth\": {\"Desktop\": \"value\"}, \"paginationIconSpacing\": {\"Desktop\": \"value\"}, \"paginationIconSize\": {\"Desktop\": \"value\"}, \"paginationAlign\": \"left\", \"__paginationHover\": \"normal\", \"paginationColor\": \"value\", \"paginationCurrentColor\": \"value\", \"paginationDisabledColor\": \"value\", \"paginationHoverColor\": \"value\", \"paginationBackground\": \"default\", \"paginationCurrentBackground\": \"default\", \"paginationDisabledBackground\": \"default\", \"paginationHoverBackground\": \"default\", \"paginationBorder\": \"value\", \"paginationBorderResponsive\": {\"Desktop\": \"value\"}, \"paginationHoverBorder\": \"value\", \"paginationHoverBorderResponsive\": {\"Desktop\": \"value\"}, \"paginationShadow\": \"value\", \"paginationHoverShadow\": \"value\", \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\", \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"positioningType\": \"default\", \"positioningWidth\": {\"Desktop\": \"value\"}, \"positioningAlign\": \"flex-start\", \"positioningLocation\": \"default\", \"positioningLeft\": {\"Desktop\": \"value\"}, \"positioningRight\": {\"Desktop\": \"value\"}, \"positioningTop\": {\"Desktop\": \"value\"}, \"positioningBottom\": {\"Desktop\": \"value\"}, \"animation\": \"value\", \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/post-list\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'post-excerpt' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"showReadmore\": \"value\", \"readmoreText\": \"value\", \"htmlTag\": \"p\", \"noContentText\": \"value\", \"alignment\": \"flex-start\", \"typography\": \"value\", \"__styleHover\": \"normal\", \"color\": \"value\", \"textShadow\": \"value\", \"colorHover\": \"value\", \"textShadowHover\": \"value\", \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\", \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"positioningType\": \"default\", \"positioningWidth\": {\"Desktop\": \"value\"}, \"positioningAlign\": \"flex-start\", \"positioningLocation\": \"default\", \"positioningLeft\": {\"Desktop\": \"value\"}, \"positioningRight\": {\"Desktop\": \"value\"}, \"positioningTop\": {\"Desktop\": \"value\"}, \"positioningBottom\": {\"Desktop\": \"value\"}, \"animation\": \"value\", \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/post-excerpt\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'tabs' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"orientation\": \"horizontal\", \"borderWidth\": \"value\", \"borderColor\": \"value\", \"backgroundColor\": \"value\", \"titleColor\": \"value\", \"titleActiveColor\": \"value\", \"titleTypography\": \"value\", \"contentColor\": \"value\", \"contentTypography\": \"value\", \"contentPadding\": {\"Desktop\": \"value\"}, \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"positioningType\": \"default\", \"positioningWidth\": {\"Desktop\": \"value\"}, \"positioningAlign\": \"flex-start\", \"positioningLocation\": \"default\", \"positioningLeft\": {\"Desktop\": \"value\"}, \"positioningRight\": {\"Desktop\": \"value\"}, \"positioningTop\": {\"Desktop\": \"value\"}, \"positioningBottom\": {\"Desktop\": \"value\"}, \"animation\": \"value\", \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/tabs\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'accordions' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"iconMargin\": {\"Desktop\": \"value\"}, \"iconPadding\": {\"Desktop\": \"value\"}, \"__accIconActive\": \"normal\", \"iconSize\": {\"Desktop\": \"value\"}, \"iconClosed\": \"value\", \"iconColor\": \"value\", \"iconBackground\": \"default\", \"iconBorder\": \"value\", \"iconBorderResponsive\": {\"Desktop\": \"value\"}, \"iconBoxShadow\": \"value\", \"iconActiveSize\": {\"Desktop\": \"value\"}, \"iconOpen\": \"value\", \"iconActiveColor\": \"value\", \"iconActiveBackground\": \"default\", \"iconActiveBorder\": \"value\", \"iconActiveBorderResponsive\": {\"Desktop\": \"value\"}, \"iconActiveBoxShadow\": \"value\", \"accordionMargin\": {\"Desktop\": \"value\"}, \"__accBorderHover\": \"normal\", \"accordionBorder\": \"value\", \"accordionBorderResponsive\": {\"Desktop\": \"value\"}, \"accordionBorderActive\": \"value\", \"accordionBorderActiveResponsive\": {\"Desktop\": \"value\"}, \"accordionBoxShadow\": \"value\", \"accordionBoxShadowActive\": \"value\", \"iconPosition\": \"left\", \"iconSpacing\": {\"Desktop\": \"value\"}, \"titleTag\": \"h1\", \"titleTypography\": \"value\", \"titlePadding\": {\"Desktop\": \"value\"}, \"__accTitleActive\": \"normal\", \"titleTextColor\": \"value\", \"titleBackgroundColor\": \"value\", \"titleBorder\": \"value\", \"titleBorderResponsive\": {\"Desktop\": \"value\"}, \"titleActiveColor\": \"value\", \"titleBackgroundActiveColor\": \"value\", \"titleBorderActive\": \"value\", \"titleBorderActiveResponsive\": {\"Desktop\": \"value\"}, \"contentTypography\": \"value\", \"contentPadding\": {\"Desktop\": \"value\"}, \"contentTextColor\": \"value\", \"contentBackgroundColor\": \"value\", \"contentBorder\": \"value\", \"contentBorderResponsive\": {\"Desktop\": \"value\"}, \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\", \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"positioningType\": \"default\", \"positioningWidth\": {\"Desktop\": \"value\"}, \"positioningAlign\": \"flex-start\", \"positioningLocation\": \"default\", \"positioningLeft\": {\"Desktop\": \"value\"}, \"positioningRight\": {\"Desktop\": \"value\"}, \"positioningTop\": {\"Desktop\": \"value\"}, \"positioningBottom\": {\"Desktop\": \"value\"}, \"animation\": \"value\", \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/accordions\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'social-icons' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"alignment\": \"flex-start\", \"iconSize\": {\"Desktop\": \"value\"}, \"shape\": \"square\", \"showText\": \"value\", \"typography\": \"value\", \"color\": \"fill\", \"__socialIconsHover\": \"normal\", \"iconColor\": \"value\", \"bgColor\": \"value\", \"textColor\": \"value\", \"hoverIconColor\": \"value\", \"hoverBgColor\": \"value\", \"hoverTextColor\": \"value\", \"gap\": {\"Desktop\": \"value\"}, \"itemPadding\": {\"Desktop\": \"value\"}, \"__iconBorderHover\": \"normal\", \"iconBorder\": \"value\", \"iconBorderResponsive\": {\"Desktop\": \"value\"}, \"iconBorderHover\": \"value\", \"iconBorderHoverResponsive\": {\"Desktop\": \"value\"}, \"iconBoxShadow\": \"value\", \"iconBoxShadowHover\": \"value\", \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\", \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"positioningType\": \"default\", \"positioningWidth\": {\"Desktop\": \"value\"}, \"positioningAlign\": \"flex-start\", \"positioningLocation\": \"default\", \"positioningLeft\": {\"Desktop\": \"value\"}, \"positioningRight\": {\"Desktop\": \"value\"}, \"positioningTop\": {\"Desktop\": \"value\"}, \"positioningBottom\": {\"Desktop\": \"value\"}, \"animation\": \"value\", \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/social-icons\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'video' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"videoType\": \"upload\", \"videoSrc\": \"value\", \"start\": \"value\", \"end\": \"value\", \"hideControls\": \"value\", \"playing\": \"value\", \"loop\": \"value\", \"muted\": \"value\", \"width\": {\"Desktop\": \"value\"}, \"height\": {\"Desktop\": \"value\"}, \"captionType\": \"none\", \"captionCustom\": \"value\", \"captionSpace\": {\"Desktop\": \"value\"}, \"typography\": \"value\", \"captionColor\": \"value\", \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\", \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"positioningType\": \"default\", \"positioningWidth\": {\"Desktop\": \"value\"}, \"positioningAlign\": \"flex-start\", \"positioningLocation\": \"default\", \"positioningLeft\": {\"Desktop\": \"value\"}, \"positioningRight\": {\"Desktop\": \"value\"}, \"positioningTop\": {\"Desktop\": \"value\"}, \"positioningBottom\": {\"Desktop\": \"value\"}, \"animation\": \"value\", \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/video\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'star-rating' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"align\": \"flex-start\", \"title\": \"value\", \"starIcon\": \"default\", \"rating\": \"value\", \"total\": \"value\", \"titleColor\": \"value\", \"titleTypography\": \"value\", \"gap\": {\"Desktop\": \"value\"}, \"iconSize\": {\"Desktop\": \"value\"}, \"iconGap\": {\"Desktop\": \"value\"}, \"iconColorMarked\": \"value\", \"iconColorUnmarked\": \"value\", \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\", \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"positioningType\": \"default\", \"positioningWidth\": {\"Desktop\": \"value\"}, \"positioningAlign\": \"flex-start\", \"positioningLocation\": \"default\", \"positioningLeft\": {\"Desktop\": \"value\"}, \"positioningRight\": {\"Desktop\": \"value\"}, \"positioningTop\": {\"Desktop\": \"value\"}, \"positioningBottom\": {\"Desktop\": \"value\"}, \"animation\": \"value\", \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/star-rating\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'post-comment' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"showForm\": \"value\", \"enableSuffix\": \"value\", \"suffixMain\": \"value\", \"suffixReply\": \"value\", \"enableCommentTitle\": \"value\", \"titleText\": \"value\", \"enablePostTitle\": \"value\", \"enableCommentCount\": \"value\", \"__commentType\": \"formComment\", \"typographyHeading\": \"value\", \"colorHeading\": \"value\", \"marginHeading\": {\"Desktop\": \"value\"}, \"splitSubmenu3\": \"value\", \"typographyCommentTitle\": \"value\", \"colorCommentTitle\": \"value\", \"marginCommentTitle\": {\"Desktop\": \"value\"}, \"splitSubmenu4\": \"value\", \"commentCountTypography\": \"value\", \"commentCountColor\": \"value\", \"splitSubmenu5\": \"value\", \"postTitleTypography\": \"value\", \"postTitleColor\": \"value\", \"typographyText\": \"value\", \"colorText\": \"value\", \"marginText\": {\"Desktop\": \"value\"}, \"splitSubmenu1\": \"value\", \"typographyTextList\": \"value\", \"colorTextList\": \"value\", \"marginTextList\": {\"Desktop\": \"value\"}, \"splitSubmenu2\": \"value\", \"suffixTypography\": \"value\", \"suffixColor\": \"value\", \"suffixMargin\": {\"Desktop\": \"value\"}, \"linkHeader1\": \"value\", \"typographyLink\": \"value\", \"colorLink\": \"value\", \"marginLink\": {\"Desktop\": \"value\"}, \"linkHeader2\": \"value\", \"__linkType\": \"userName\", \"userNameTypography\": \"value\", \"userNameColor\": \"value\", \"dateTypography\": \"value\", \"dateColor\": \"value\", \"replyLinkTypography\": \"value\", \"replyLinkColor\": \"value\", \"typographyLabel\": \"value\", \"colorLabel\": \"value\", \"colorRequired\": \"value\", \"marginLabel\": {\"Desktop\": \"value\"}, \"inputTypography\": \"value\", \"inputBorder\": \"value\", \"inputBorderResponsive\": {\"Desktop\": \"value\"}, \"inputMargin\": {\"Desktop\": \"value\"}, \"inputPadding\": {\"Desktop\": \"value\"}, \"__itemState\": \"normal\", \"inputColorNormal\": {\"Desktop\": \"value\"}, \"inputBgColorNormal\": {\"Desktop\": \"value\"}, \"inputColorHover\": {\"Desktop\": \"value\"}, \"inputBgColorHover\": {\"Desktop\": \"value\"}, \"inputColorFocus\": {\"Desktop\": \"value\"}, \"inputBgColorFocus\": {\"Desktop\": \"value\"}, \"__inputAreaHover\": \"normal\", \"inputAreaBoxShadow\": \"value\", \"inputAreaBoxShadowHover\": \"value\", \"submenuSplitter1\": \"value\", \"mainContainerBgColor\": {\"Desktop\": \"value\"}, \"mainContainerMargin\": {\"Desktop\": \"value\"}, \"mainContainerPadding\": {\"Desktop\": \"value\"}, \"mainContainerBorder\": {\"Desktop\": \"value\"}, \"submenuSplitter2\": \"value\", \"mainBgColor\": {\"Desktop\": \"value\"}, \"mainMargin\": {\"Desktop\": \"value\"}, \"mainPadding\": {\"Desktop\": \"value\"}, \"mainBorder\": {\"Desktop\": \"value\"}, \"replyBgColor\": {\"Desktop\": \"value\"}, \"replyMargin\": {\"Desktop\": \"value\"}, \"replyPadding\": {\"Desktop\": \"value\"}, \"replyBorder\": {\"Desktop\": \"value\"}, \"avatarMargin\": {\"Desktop\": \"value\"}, \"avatarBorder\": \"value\", \"avatarBorderResponsive\": {\"Desktop\": \"value\"}, \"typographyButton\": \"value\", \"__buttonHoverControl\": \"normal\", \"colorButton\": \"value\", \"bgcolorButton\": \"value\", \"bggradientButton\": \"gradient\", \"borderButton\": \"value\", \"borderButtonResponsive\": {\"Desktop\": \"value\"}, \"marginButton\": {\"Desktop\": \"value\"}, \"paddingButton\": {\"Desktop\": \"value\"}, \"colorButtonHover\": \"value\", \"bgcolorButtonHover\": \"value\", \"bggradientButtonHover\": \"gradient\", \"borderButtonHover\": \"value\", \"borderButtonHoverResponsive\": {\"Desktop\": \"value\"}, \"marginButtonHover\": {\"Desktop\": \"value\"}, \"paddingButtonHover\": {\"Desktop\": \"value\"}, \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\", \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"animation\": \"value\", \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/post-comment\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'popup-builder' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"hideAfterClosed\": \"value\", \"width\": {\"Desktop\": \"value\"}, \"maxHeight\": {\"Desktop\": \"value\"}, \"position\": \"left\", \"contentPosition\": \"start\", \"sideMode\": \"space\", \"backgroundColor\": \"default\", \"openTrigger\": \"load\", \"openWaitTime\": \"value\", \"containerPadding\": {\"Desktop\": \"value\"}, \"containerBorder\": \"value\", \"containerBorderResponsive\": {\"Desktop\": \"value\"}, \"containerBoxShadow\": \"value\", \"overlayColor\": \"default\", \"closePopupOverlay\": \"value\", \"showCloseButton\": \"value\", \"closePosition\": \"overlay\", \"closeIcon\": \"value\", \"closeButtonSize\": {\"Desktop\": \"value\"}, \"closePositioningLeft\": {\"Desktop\": \"value\"}, \"closePositioningRight\": {\"Desktop\": \"value\"}, \"closePositioningTop\": {\"Desktop\": \"value\"}, \"closePositioningBottom\": {\"Desktop\": \"value\"}, \"closePadding\": {\"Desktop\": \"value\"}, \"__closeSwitch\": \"normal\", \"closeButtonColor\": {\"Desktop\": \"value\"}, \"closeButtonBgColor\": \"default\", \"closeBorder\": \"value\", \"closeBorderResponsive\": {\"Desktop\": \"value\"}, \"closeBoxShadow\": \"value\", \"closeButtonColorHover\": {\"Desktop\": \"value\"}, \"closeButtonBgColorHover\": \"default\", \"closeBorderHover\": \"value\", \"closeBorderHoverResponsive\": {\"Desktop\": \"value\"}, \"closeBoxShadowHover\": \"value\", \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"animation\": \"value\", \"mask\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/popup-builder\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'testimonials' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"contentType\": 1, \"contentPosition\": \"above-image\", \"starPosition\": \"above-image\", \"showQuote\": \"value\", \"showRating\": \"value\", \"iconQuote\": \"value\", \"iconRatingFull\": \"value\", \"iconRatingHalf\": \"value\", \"spacing\": {\"Desktop\": \"value\"}, \"itemShowed\": {\"Desktop\": \"value\"}, \"loop\": \"value\", \"showNav\": \"value\", \"showArrow\": \"value\", \"autoplay\": \"value\", \"autoplayTimeout\": \"value\", \"testimonialData\": \"value\", \"alignText\": \"left\", \"containerMargin\": {\"Desktop\": \"value\"}, \"containerPadding\": {\"Desktop\": \"value\"}, \"__containerStyleHover\": \"normal\", \"containerBackground\": \"default\", \"containerBackgroundHover\": \"default\", \"containerBorder\": \"value\", \"containerBorderResponsive\": {\"Desktop\": \"value\"}, \"containerBoxShadow\": \"value\", \"containerBorderHover\": \"value\", \"containerBorderHoverResponsive\": {\"Desktop\": \"value\"}, \"containerBoxShadowHover\": \"value\", \"nameTypography\": \"value\", \"designationTypography\": \"value\", \"designationSpacing\": {\"Desktop\": \"value\"}, \"descriptionTypography\": \"value\", \"descriptionMargin\": {\"Desktop\": \"value\"}, \"quoteSize\": {\"Desktop\": \"value\"}, \"quoteOverride\": \"value\", \"quotePositionTop\": {\"Desktop\": \"value\"}, \"quotePositionLeft\": {\"Desktop\": \"value\"}, \"__textHover\": \"normal\", \"nameNormalColor\": \"value\", \"nameHoverColor\": \"value\", \"designationNormalColor\": \"value\", \"designationHoverColor\": \"value\", \"descriptionNormalColor\": \"value\", \"descriptionHoverColor\": \"value\", \"quoteNormalColor\": \"value\", \"quoteHoverColor\": \"value\", \"imageBackground\": \"default\", \"imageBorder\": \"value\", \"imageBorderResponsive\": {\"Desktop\": \"value\"}, \"imageRadius\": {\"Desktop\": \"value\"}, \"imageMargin\": {\"Desktop\": \"value\"}, \"imagePadding\": {\"Desktop\": \"value\"}, \"bottomSpace\": {\"Desktop\": \"value\"}, \"imageWidth\": {\"Desktop\": \"value\"}, \"imageHeight\": {\"Desktop\": \"value\"}, \"ratingAlignment\": \"left\", \"ratingColor\": \"value\", \"ratingColorHover\": \"value\", \"ratingIconSize\": {\"Desktop\": \"value\"}, \"ratingIconGap\": {\"Desktop\": \"value\"}, \"ratingMargin\": {\"Desktop\": \"value\"}, \"arrowFontSize\": {\"Desktop\": \"value\"}, \"__arrowHover\": \"normal\", \"arrowColor\": {\"Desktop\": \"value\"}, \"arrowBgColor\": {\"Desktop\": \"value\"}, \"arrowPadding\": {\"Desktop\": \"value\"}, \"arrowMargin\": {\"Desktop\": \"value\"}, \"arrowOpacity\": {\"Desktop\": \"value\"}, \"arrowBorder\": \"value\", \"arrowBorderResponsive\": {\"Desktop\": \"value\"}, \"arrowBoxShadow\": \"value\", \"arrowHoverColor\": {\"Desktop\": \"value\"}, \"arrowHoverBgColor\": {\"Desktop\": \"value\"}, \"arrowHoverPadding\": {\"Desktop\": \"value\"}, \"arrowHoverMargin\": {\"Desktop\": \"value\"}, \"arrowHoverOpacity\": {\"Desktop\": \"value\"}, \"arrowBorderHover\": \"value\", \"arrowBorderHoverResponsive\": {\"Desktop\": \"value\"}, \"arrowBoxShadowHover\": \"value\", \"arrowDisabledColor\": {\"Desktop\": \"value\"}, \"arrowDisabledBgColor\": {\"Desktop\": \"value\"}, \"arrowDisabledPadding\": {\"Desktop\": \"value\"}, \"arrowDisabledMargin\": {\"Desktop\": \"value\"}, \"arrowDisabledOpacity\": {\"Desktop\": \"value\"}, \"arrowBorderDisabled\": {\"Desktop\": \"value\"}, \"arrowBoxShadowDisabled\": \"value\", \"dotsSpacingHorizontal\": {\"Desktop\": \"value\"}, \"dotsSpacingVertical\": {\"Desktop\": \"value\"}, \"__dotsNav\": \"general\", \"dotsWidth\": {\"Desktop\": \"value\"}, \"dotsHeight\": {\"Desktop\": \"value\"}, \"dotsRadius\": {\"Desktop\": \"value\"}, \"dotsColor\": {\"Desktop\": \"value\"}, \"dotsActiveWidth\": {\"Desktop\": \"value\"}, \"dotsActiveHeight\": {\"Desktop\": \"value\"}, \"dotsActiveRadius\": {\"Desktop\": \"value\"}, \"dotsActiveColor\": {\"Desktop\": \"value\"}, \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\", \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"positioningType\": \"default\", \"positioningWidth\": {\"Desktop\": \"value\"}, \"positioningAlign\": \"flex-start\", \"positioningLocation\": \"default\", \"positioningLeft\": {\"Desktop\": \"value\"}, \"positioningRight\": {\"Desktop\": \"value\"}, \"positioningTop\": {\"Desktop\": \"value\"}, \"positioningBottom\": {\"Desktop\": \"value\"}, \"animation\": \"value\", \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/testimonials\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'heading' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"type\": 1, \"textAlign\": \"left\", \"color\": \"value\", \"typography\": \"value\", \"textShadow\": \"value\", \"textStroke\": \"value\", \"overflowWrap\": \"break-word\", \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\", \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"positioningType\": \"default\", \"positioningWidth\": {\"Desktop\": \"value\"}, \"positioningAlign\": \"flex-start\", \"positioningLocation\": \"default\", \"positioningLeft\": {\"Desktop\": \"value\"}, \"positioningRight\": {\"Desktop\": \"value\"}, \"positioningTop\": {\"Desktop\": \"value\"}, \"positioningBottom\": {\"Desktop\": \"value\"}, \"animation\": \"value\", \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/heading\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'post-featured-image' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"postLink\": \"value\", \"placeholderImg\": \"value\", \"imageLazy\": \"value\", \"alignment\": \"flex-start\", \"size\": {\"Desktop\": \"value\"}, \"opacity\": {\"Desktop\": \"value\"}, \"rotate\": {\"Desktop\": \"value\"}, \"imageBorder\": \"value\", \"imageBorderResponsive\": {\"Desktop\": \"value\"}, \"imageBoxShadow\": \"value\", \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\", \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"positioningType\": \"default\", \"positioningWidth\": {\"Desktop\": \"value\"}, \"positioningAlign\": \"flex-start\", \"positioningLocation\": \"default\", \"positioningLeft\": {\"Desktop\": \"value\"}, \"positioningRight\": {\"Desktop\": \"value\"}, \"positioningTop\": {\"Desktop\": \"value\"}, \"positioningBottom\": {\"Desktop\": \"value\"}, \"animation\": \"value\", \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/post-featured-image\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'wrapper' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"displayType\": \"block\", \"displayWidth\": {\"Desktop\": \"value\"}, \"displayHeight\": {\"Desktop\": \"value\"}, \"innerWrapWidth\": \"100%\", \"horizontalAlign\": \"default\", \"verticalAlign\": \"default\", \"displayOverflow\": \"inherit\", \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\", \"__bgOverlayHover\": \"normal\", \"backgroundOverlay\": \"default\", \"opacity\": \"value\", \"backgroundOverlayHover\": \"default\", \"opacityHover\": \"value\", \"blur-notice\": \"value\", \"__blurHover\": \"normal\", \"blur\": {\"Desktop\": \"value\"}, \"blurHover\": {\"Desktop\": \"value\"}, \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"pointer\": {\"Desktop\": \"value\"}, \"animation\": \"value\", \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/wrapper\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'team' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"src\": \"value\", \"lazy\": \"value\", \"nameTag\": \"h1\", \"profileType\": \"default\", \"overlayType\": \"default\", \"overlayPosition\": \"center\", \"overlayProfilePosition\": {\"Desktop\": \"value\"}, \"name\": \"value\", \"job\": \"value\", \"showDesc\": \"value\", \"description\": \"value\", \"titleSocialSeparator\": \"value\", \"__titleSocial\": \"normal\", \"titleSeparatorPosition\": \"value\", \"titleHorizontal\": {\"Desktop\": \"value\"}, \"titleVertical\": {\"Desktop\": \"value\"}, \"titleOpacity\": \"value\", \"titleHorizontalHover\": {\"Desktop\": \"value\"}, \"titleVerticalHover\": {\"Desktop\": \"value\"}, \"titleOpacityHover\": \"value\", \"jobSeparatorPosition\": \"value\", \"jobHorizontal\": {\"Desktop\": \"value\"}, \"jobVertical\": {\"Desktop\": \"value\"}, \"jobOpacity\": \"value\", \"jobHorizontalHover\": {\"Desktop\": \"value\"}, \"jobVerticalHover\": {\"Desktop\": \"value\"}, \"jobOpacityHover\": \"value\", \"descSeparatorPosition\": \"value\", \"descHorizontal\": {\"Desktop\": \"value\"}, \"descVertical\": {\"Desktop\": \"value\"}, \"descOpacity\": \"value\", \"descHorizontalHover\": {\"Desktop\": \"value\"}, \"descVerticalHover\": {\"Desktop\": \"value\"}, \"descOpacityHover\": \"value\", \"socialSeparatorPosition\": \"value\", \"socialHorizontal\": {\"Desktop\": \"value\"}, \"socialVertical\": {\"Desktop\": \"value\"}, \"socialOpacity\": \"value\", \"socialHorizontalHover\": {\"Desktop\": \"value\"}, \"socialVerticalHover\": {\"Desktop\": \"value\"}, \"socialOpacityHover\": \"value\", \"hoverBottom\": \"value\", \"hoverBottomColor\": \"value\", \"hoverBottomHeight\": {\"Desktop\": \"value\"}, \"hoverBottomDirection\": \"left\", \"showSocial\": \"value\", \"alignment\": \"left\", \"profilePadding\": {\"Desktop\": \"value\"}, \"detailsPadding\": {\"Desktop\": \"value\"}, \"profileBorderRadius\": {\"Desktop\": \"value\"}, \"imgWidth\": {\"Desktop\": \"value\"}, \"imgHeight\": {\"Desktop\": \"value\"}, \"imgRotate\": {\"Desktop\": \"value\"}, \"imgSpacing\": {\"Desktop\": \"value\"}, \"hoverBgColor\": \"default\", \"nameSpace\": {\"Desktop\": \"value\"}, \"nameColor\": \"value\", \"nameColorHover\": \"value\", \"nameTypography\": \"value\", \"nameTextShadow\": \"value\", \"jobSpace\": {\"Desktop\": \"value\"}, \"jobColor\": \"value\", \"jobColorHover\": \"value\", \"jobTypography\": \"value\", \"jobTextShadow\": \"value\", \"descSpace\": {\"Desktop\": \"value\"}, \"descColor\": \"value\", \"descColorHover\": \"value\", \"descTypography\": \"value\", \"descTextShadow\": \"value\", \"hoverPadding\": {\"Desktop\": \"value\"}, \"hoverMargin\": {\"Desktop\": \"value\"}, \"hoverContentBgColor\": \"default\", \"hoverContentBorder\": \"value\", \"hoverContentBorderResponsive\": {\"Desktop\": \"value\"}, \"hoverContentShadow\": \"value\", \"__profileBgHover\": \"normal\", \"profileBackground\": \"default\", \"profileBackgroundHover\": \"default\", \"__profileBorderHover\": \"normal\", \"profileBorder\": \"value\", \"profileBorderResponsive\": {\"Desktop\": \"value\"}, \"profileBoxShadow\": \"value\", \"profileBorderHover\": \"value\", \"profileBorderHoverResponsive\": {\"Desktop\": \"value\"}, \"profileBoxShadowHover\": \"value\", \"__imageBorderHover\": \"normal\", \"imageBorder\": \"value\", \"imageBorderResponsive\": {\"Desktop\": \"value\"}, \"imageBoxShadow\": \"value\", \"imageBorderHover\": \"value\", \"imageBorderHoverResponsive\": {\"Desktop\": \"value\"}, \"imageBoxShadowHover\": \"value\", \"__imageBackgroundHover\": \"normal\", \"imageBackground\": \"default\", \"imageBackgroundHover\": \"default\", \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\", \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"positioningType\": \"default\", \"positioningWidth\": {\"Desktop\": \"value\"}, \"positioningAlign\": \"flex-start\", \"positioningLocation\": \"default\", \"positioningLeft\": {\"Desktop\": \"value\"}, \"positioningRight\": {\"Desktop\": \"value\"}, \"positioningTop\": {\"Desktop\": \"value\"}, \"positioningBottom\": {\"Desktop\": \"value\"}, \"animation\": \"value\", \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/team\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'post-title' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"htmlTag\": \"h1\", \"postLink\": \"value\", \"postLinkTarget\": \"value\", \"postLinkRel\": \"value\", \"alignment\": \"flex-start\", \"typography\": \"value\", \"__styleHover\": \"normal\", \"color\": \"value\", \"textShadow\": \"value\", \"textStroke\": \"value\", \"colorHover\": \"value\", \"textShadowHover\": \"value\", \"textStrokeHover\": \"value\", \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\", \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"positioningType\": \"default\", \"positioningWidth\": {\"Desktop\": \"value\"}, \"positioningAlign\": \"flex-start\", \"positioningLocation\": \"default\", \"positioningLeft\": {\"Desktop\": \"value\"}, \"positioningRight\": {\"Desktop\": \"value\"}, \"positioningTop\": {\"Desktop\": \"value\"}, \"positioningBottom\": {\"Desktop\": \"value\"}, \"animation\": \"value\", \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/post-title\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'image' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"align\": \"left\", \"width\": {\"Desktop\": \"value\"}, \"height\": {\"Desktop\": \"value\"}, \"opacity\": \"value\", \"imgFilter\": \"value\", \"imageFit\": \"default\", \"imgBorder\": \"value\", \"imgBorderResponsive\": {\"Desktop\": \"value\"}, \"imgShadow\": \"value\", \"lazyLoad\": \"value\", \"altType\": \"none\", \"altCustom\": \"value\", \"ariaLabel\": \"value\", \"captionType\": \"none\", \"captionCustom\": \"value\", \"captionSpace\": {\"Desktop\": \"value\"}, \"typography\": \"value\", \"captionColor\": \"value\", \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"animation\": \"value\", \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"positioningType\": \"default\", \"positioningWidth\": {\"Desktop\": \"value\"}, \"positioningAlign\": \"flex-start\", \"positioningLocation\": \"default\", \"positioningLeft\": {\"Desktop\": \"value\"}, \"positioningRight\": {\"Desktop\": \"value\"}, \"positioningTop\": {\"Desktop\": \"value\"}, \"positioningBottom\": {\"Desktop\": \"value\"}, \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}, \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\"}, \"name\": \"gutenverse/image\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'buttons' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"alignButtons\": \"flex-start\", \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\", \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"positioningType\": \"default\", \"positioningWidth\": {\"Desktop\": \"value\"}, \"positioningAlign\": \"flex-start\", \"positioningLocation\": \"default\", \"positioningLeft\": {\"Desktop\": \"value\"}, \"positioningRight\": {\"Desktop\": \"value\"}, \"positioningTop\": {\"Desktop\": \"value\"}, \"positioningBottom\": {\"Desktop\": \"value\"}, \"animation\": \"value\", \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/buttons\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'logo-slider' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"spacing\": {\"Desktop\": \"value\"}, \"itemShowed\": {\"Desktop\": \"value\"}, \"loop\": \"value\", \"showNav\": \"value\", \"showArrow\": \"value\", \"autoplay\": \"value\", \"autoplayTimeout\": \"value\", \"logos\": \"value\", \"imageFixHeight\": \"value\", \"imageHeight\": {\"Desktop\": \"value\"}, \"imageFit\": \"cover\", \"__imageHover\": \"normal\", \"imagePadding\": {\"Desktop\": \"value\"}, \"imageMargin\": {\"Desktop\": \"value\"}, \"transitionDuration\": {\"Desktop\": \"value\"}, \"imageHoverPadding\": {\"Desktop\": \"value\"}, \"imageHoverMargin\": {\"Desktop\": \"value\"}, \"logoBackgroundNormal\": \"default\", \"logoBackgroundHover\": \"default\", \"imageBorder\": \"value\", \"imageBorderResponsive\": {\"Desktop\": \"value\"}, \"imageBoxShadow\": \"value\", \"opacity\": \"value\", \"imageBorderHover\": \"value\", \"imageBorderHoverResponsive\": {\"Desktop\": \"value\"}, \"imageBoxShadowHover\": \"value\", \"hoverOpacity\": \"value\", \"logoWrapperPadding\": {\"Desktop\": \"value\"}, \"logoWrapperMargin\": {\"Desktop\": \"value\"}, \"arrowFontSize\": {\"Desktop\": \"value\"}, \"__arrowHover\": \"normal\", \"arrowColor\": {\"Desktop\": \"value\"}, \"arrowBgColor\": {\"Desktop\": \"value\"}, \"arrowPadding\": {\"Desktop\": \"value\"}, \"arrowMargin\": {\"Desktop\": \"value\"}, \"arrowOpacity\": {\"Desktop\": \"value\"}, \"arrowHoverColor\": {\"Desktop\": \"value\"}, \"arrowHoverBgColor\": {\"Desktop\": \"value\"}, \"arrowHoverPadding\": {\"Desktop\": \"value\"}, \"arrowHoverMargin\": {\"Desktop\": \"value\"}, \"arrowHoverOpacity\": {\"Desktop\": \"value\"}, \"arrowBorder\": \"value\", \"arrowBorderResponsive\": {\"Desktop\": \"value\"}, \"arrowBoxShadow\": \"value\", \"arrowBorderHover\": \"value\", \"arrowBorderHoverResponsive\": {\"Desktop\": \"value\"}, \"arrowBoxShadowHover\": \"value\", \"dotsSpacingHorizontal\": {\"Desktop\": \"value\"}, \"dotsSpacingVertical\": {\"Desktop\": \"value\"}, \"__dotsNav\": \"general\", \"dotsWidth\": {\"Desktop\": \"value\"}, \"dotsHeight\": {\"Desktop\": \"value\"}, \"dotsRadius\": {\"Desktop\": \"value\"}, \"dotsColor\": {\"Desktop\": \"value\"}, \"dotsActiveWidth\": {\"Desktop\": \"value\"}, \"dotsActiveHeight\": {\"Desktop\": \"value\"}, \"dotsActiveRadius\": {\"Desktop\": \"value\"}, \"dotsActiveColor\": {\"Desktop\": \"value\"}, \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\", \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"positioningType\": \"default\", \"positioningWidth\": {\"Desktop\": \"value\"}, \"positioningAlign\": \"flex-start\", \"positioningLocation\": \"default\", \"positioningLeft\": {\"Desktop\": \"value\"}, \"positioningRight\": {\"Desktop\": \"value\"}, \"positioningTop\": {\"Desktop\": \"value\"}, \"positioningBottom\": {\"Desktop\": \"value\"}, \"animation\": \"value\", \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/logo-slider\"}]"
+      }
+    ]
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": "Anda adalah asisten AI yang hanya memberikan output dalam format JSON blok WordPress Gutenberg. Jangan berikan penjelasan tambahan apa pun."
+      },
+      {
+        "role": "user",
+        "content": "Buat sebuah blok 'post-terms' dengan beberapa konfigurasi default."
+      },
+      {
+        "role": "assistant",
+        "content": "[{\"attributes\": {\"taxonomy\": \"category\", \"contentType\": \"string\", \"inlineDisplay\": \"value\", \"separator\": \"value\", \"htmlTag\": \"h1\", \"linkTo\": \"none\", \"alignment\": \"flex-start\", \"typography\": \"value\", \"contentGap\": {\"Desktop\": \"value\"}, \"__styleHover\": \"normal\", \"color\": \"value\", \"textShadow\": \"value\", \"colorHover\": \"value\", \"textShadowHover\": \"value\", \"term-notice\": \"value\", \"termAlignment\": \"start\", \"termPadding\": {\"Desktop\": \"value\"}, \"__termHover\": \"normal\", \"termBackground\": \"default\", \"termBackgroundHover\": \"default\", \"termBorder\": {\"Desktop\": \"value\"}, \"termBorderHover\": {\"Desktop\": \"value\"}, \"termBoxShadow\": \"value\", \"termBoxShadowHover\": \"value\", \"__bgHover\": \"normal\", \"background\": \"default\", \"backgroundHover\": \"default\", \"__borderHover\": \"normal\", \"border\": \"value\", \"borderResponsive\": {\"Desktop\": \"value\"}, \"borderHover\": \"value\", \"borderHoverResponsive\": {\"Desktop\": \"value\"}, \"boxShadow\": \"value\", \"boxShadowHover\": \"value\", \"mask\": {\"Desktop\": \"value\"}, \"hideDesktop\": \"value\", \"hideTablet\": \"value\", \"hideMobile\": \"value\", \"positioningType\": \"default\", \"positioningWidth\": {\"Desktop\": \"value\"}, \"positioningAlign\": \"flex-start\", \"positioningLocation\": \"default\", \"positioningLeft\": {\"Desktop\": \"value\"}, \"positioningRight\": {\"Desktop\": \"value\"}, \"positioningTop\": {\"Desktop\": \"value\"}, \"positioningBottom\": {\"Desktop\": \"value\"}, \"animation\": \"value\", \"margin\": {\"Desktop\": \"value\"}, \"padding\": {\"Desktop\": \"value\"}, \"zIndex\": {\"Desktop\": \"value\"}}, \"name\": \"gutenverse/post-terms\"}]"
+      }
+    ]
+  }
+]

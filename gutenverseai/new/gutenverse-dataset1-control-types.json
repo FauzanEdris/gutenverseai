@@ -1,0 +1,36 @@
+[
+  {
+    "component": "IconRadioControl",
+    "description": "UI segmented button with icons, used for selecting alignment or position with device-specific support.",
+    "parameters": [
+      "alignButton",
+      "alignButtons"
+    ],
+    "supports_device_control": true,
+    "expected_output_format": {
+      "type": "device-aware",
+      "example": {
+        "alignButton": {
+          "Desktop": "center",
+          "Tablet": "left",
+          "Mobile": "right"
+        }
+      }
+    }
+  },
+  {
+    "component": "SelectControl",
+    "description": "Dropdown for single option selection from predefined values.",
+    "parameters": [
+      "buttonType",
+      "iconPosition"
+    ],
+    "supports_device_control": false,
+    "expected_output_format": {
+      "type": "single selection",
+      "example": {
+        "buttonType": "danger"
+      }
+    }
+  }
+]

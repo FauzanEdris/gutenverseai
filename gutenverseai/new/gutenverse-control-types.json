@@ -1,0 +1,300 @@
+[
+  {
+    "component": "IconRadioControl",
+    "description": "A Gutenberg control of type `IconRadioControl` used for parameters like: alignButton",
+    "expected_output_format": {
+      "example": {
+        "alignButton": {
+          "Desktop": "value"
+        }
+      },
+      "type": "device-aware"
+    },
+    "parameters": [
+      "alignButton"
+    ],
+    "supports_device_control": true
+  },
+  {
+    "component": "SelectControl",
+    "description": "A Gutenberg control of type `SelectControl` used for parameters like: role, buttonType, buttonSize, iconPosition, positioningType, positioningAlign, positioningLocation",
+    "expected_output_format": {
+      "example": {
+        "role": "link"
+      },
+      "type": "single selection"
+    },
+    "parameters": [
+      "role",
+      "buttonType",
+      "buttonSize",
+      "iconPosition",
+      "positioningType",
+      "positioningAlign",
+      "positioningLocation"
+    ],
+    "supports_device_control": true
+  },
+  {
+    "component": "TextControl",
+    "description": "A Gutenberg control of type `TextControl` used for parameters like: ariaLabel",
+    "expected_output_format": {
+      "example": {
+        "ariaLabel": "value"
+      },
+      "type": "simple"
+    },
+    "parameters": [
+      "ariaLabel"
+    ],
+    "supports_device_control": false
+  },
+  {
+    "component": "RangeControl",
+    "description": "A Gutenberg control of type `RangeControl` used for parameters like: buttonWidth, buttonHeight, iconSpacing",
+    "expected_output_format": {
+      "example": {
+        "buttonWidth": {
+          "Desktop": "value"
+        }
+      },
+      "type": "device-aware"
+    },
+    "parameters": [
+      "buttonWidth",
+      "buttonHeight",
+      "iconSpacing"
+    ],
+    "supports_device_control": true
+  },
+  {
+    "component": "CheckboxControl",
+    "description": "A Gutenberg control of type `CheckboxControl` used for parameters like: showIcon, iconLineHeight, hideDesktop, hideTablet, hideMobile",
+    "expected_output_format": {
+      "example": {
+        "showIcon": true
+      },
+      "type": "simple"
+    },
+    "parameters": [
+      "showIcon",
+      "iconLineHeight",
+      "hideDesktop",
+      "hideTablet",
+      "hideMobile"
+    ],
+    "supports_device_control": false
+  },
+  {
+    "component": "SizeControl",
+    "description": "A Gutenberg control of type `SizeControl` used for parameters like: iconSize, positioningWidth, positioningLeft, positioningRight, positioningTop, positioningBottom",
+    "expected_output_format": {
+      "example": {
+        "iconSize": {
+          "Desktop": {
+            "point": "20",
+            "unit": "px"
+          }
+        }
+      },
+      "type": "device-aware, unit-based"
+    },
+    "parameters": [
+      "iconSize",
+      "positioningWidth",
+      "positioningLeft",
+      "positioningRight",
+      "positioningTop",
+      "positioningBottom"
+    ],
+    "supports_device_control": true
+  },
+  {
+    "component": "DimensionControl",
+    "description": "A Gutenberg control of type `DimensionControl` used for parameters like: paddingButton, margin, padding",
+    "expected_output_format": {
+      "example": {
+        "paddingButton": {
+          "Desktop": {
+            "point": "20",
+            "unit": "px"
+          }
+        }
+      },
+      "type": "device-aware, unit-based"
+    },
+    "parameters": [
+      "paddingButton",
+      "margin",
+      "padding"
+    ],
+    "supports_device_control": true
+  },
+  {
+    "component": "SwitchControl",
+    "description": "A Gutenberg control of type `SwitchControl` used for parameters like: __styleHover, __buttonBgHover, __buttonBorderHover, __bgHover, __borderHover",
+    "expected_output_format": {
+      "example": {
+        "__styleHover": "normal"
+      },
+      "type": "single selection"
+    },
+    "parameters": [
+      "__styleHover",
+      "__buttonBgHover",
+      "__buttonBorderHover",
+      "__bgHover",
+      "__borderHover"
+    ],
+    "supports_device_control": false
+  },
+  {
+    "component": "ColorControl",
+    "description": "A Gutenberg control of type `ColorControl` used for parameters like: color, iconColor, hoverTextColor, hoverIconColor",
+    "expected_output_format": {
+      "example": {
+        "color": "value"
+      },
+      "type": "simple"
+    },
+    "parameters": [
+      "color",
+      "iconColor",
+      "hoverTextColor",
+      "hoverIconColor"
+    ],
+    "supports_device_control": false
+  },
+  {
+    "component": "TypographyControl",
+    "description": "A Gutenberg control of type `TypographyControl` used for parameters like: typography",
+    "expected_output_format": {
+      "example": {
+        "typography": "value"
+      },
+      "type": "simple"
+    },
+    "parameters": [
+      "typography"
+    ],
+    "supports_device_control": false
+  },
+  {
+    "component": "BackgroundControl",
+    "description": "A Gutenberg control of type `BackgroundControl` used for parameters like: buttonBackground, buttonBackgroundHover, background, backgroundHover",
+    "expected_output_format": {
+      "example": {
+        "buttonBackground": {
+          "Desktop": "value"
+        }
+      },
+      "type": "device-aware"
+    },
+    "parameters": [
+      "buttonBackground",
+      "buttonBackgroundHover",
+      "background",
+      "backgroundHover"
+    ],
+    "supports_device_control": true
+  },
+  {
+    "component": "BorderControl",
+    "description": "A Gutenberg control of type `BorderControl` used for parameters like: buttonBorder, buttonBorderHover, border, borderHover",
+    "expected_output_format": {
+      "example": {
+        "buttonBorder": "value"
+      },
+      "type": "simple"
+    },
+    "parameters": [
+      "buttonBorder",
+      "buttonBorderHover",
+      "border",
+      "borderHover"
+    ],
+    "supports_device_control": false
+  },
+  {
+    "component": "BorderResponsiveControl",
+    "description": "A Gutenberg control of type `BorderResponsiveControl` used for parameters like: buttonBorderResponsive, buttonBorderHoverResponsive, borderResponsive, borderHoverResponsive",
+    "expected_output_format": {
+      "example": {
+        "buttonBorderResponsive": {
+          "Desktop": "value"
+        }
+      },
+      "type": "device-aware"
+    },
+    "parameters": [
+      "buttonBorderResponsive",
+      "buttonBorderHoverResponsive",
+      "borderResponsive",
+      "borderHoverResponsive"
+    ],
+    "supports_device_control": true
+  },
+  {
+    "component": "BoxShadowControl",
+    "description": "A Gutenberg control of type `BoxShadowControl` used for parameters like: buttonBoxShadow, buttonBoxShadowHover, boxShadow, boxShadowHover",
+    "expected_output_format": {
+      "example": {
+        "buttonBoxShadow": "value"
+      },
+      "type": "simple"
+    },
+    "parameters": [
+      "buttonBoxShadow",
+      "buttonBoxShadowHover",
+      "boxShadow",
+      "boxShadowHover"
+    ],
+    "supports_device_control": false
+  },
+  {
+    "component": "MaskControl",
+    "description": "A Gutenberg control of type `MaskControl` used for parameters like: mask",
+    "expected_output_format": {
+      "example": {
+        "mask": {
+          "Desktop": "value"
+        }
+      },
+      "type": "device-aware"
+    },
+    "parameters": [
+      "mask"
+    ],
+    "supports_device_control": true
+  },
+  {
+    "component": "AnimationControl",
+    "description": "A Gutenberg control of type `AnimationControl` used for parameters like: animation",
+    "expected_output_format": {
+      "example": {
+        "animation": "value"
+      },
+      "type": "simple"
+    },
+    "parameters": [
+      "animation"
+    ],
+    "supports_device_control": false
+  },
+  {
+    "component": "NumberControl",
+    "description": "A Gutenberg control of type `NumberControl` used for parameters like: zIndex",
+    "expected_output_format": {
+      "example": {
+        "zIndex": {
+          "Desktop": "value"
+        }
+      },
+      "type": "device-aware"
+    },
+    "parameters": [
+      "zIndex"
+    ],
+    "supports_device_control": true
+  }
+]

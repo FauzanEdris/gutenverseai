@@ -1,0 +1,480 @@
+[
+  {
+    "section": "Button",
+    "id": "alignButton",
+    "label": "Button Alignment",
+    "component": "IconRadioControl",
+    "allowDeviceControl": true,
+    "options": "[{\"label\": \"Align Left\", \"value\": \"left\", \"icon\": {\"type\": {\"propTypes\": {}}, \"key\": null, \"ref\": null, \"props\": {}, \"_owner\": null, \"_store\": {}}}, {\"label\": \"Align Center\", \"value\": \"center\", \"icon\": {\"type\": {\"propTypes\": {}}, \"key\": null, \"ref\": null, \"props\": {}, \"_owner\": null, \"_store\": {}}}, {\"label\": \"Align Right\", \"value\": \"right\", \"icon\": {\"type\": {\"propTypes\": {}}, \"key\": null, \"ref\": null, \"props\": {}, \"_owner\": null, \"_store\": {}}}]",
+    "style": "[{\"selector\": \".editor-styles-wrapper .0x0x0x0.guten-button-wrapper\"}]"
+  },
+  {
+    "section": "Button",
+    "id": "role",
+    "label": "Button Role",
+    "component": "SelectControl",
+    "options": "[{\"label\": \"Link (Default)\", \"value\": \"link\"}, {\"label\": \"Submit\", \"value\": \"submit\"}]"
+  },
+  {
+    "section": "Button",
+    "id": "ariaLabel",
+    "label": "Aria Label",
+    "show": false,
+    "component": "TextControl"
+  },
+  {
+    "section": "Button",
+    "id": "buttonType",
+    "label": "Button Type",
+    "component": "SelectControl",
+    "options": "[{\"label\": \"Default\", \"value\": \"default\"}, {\"label\": \"Info\", \"value\": \"info\"}, {\"label\": \"Success\", \"value\": \"success\"}, {\"label\": \"Warning\", \"value\": \"warning\"}, {\"label\": \"Danger\", \"value\": \"danger\"}]"
+  },
+  {
+    "section": "Button",
+    "id": "buttonSize",
+    "label": "Button Size",
+    "component": "SelectControl",
+    "options": "[{\"label\": \"Extra Small\", \"value\": \"xs\"}, {\"label\": \"Small\", \"value\": \"sm\"}, {\"label\": \"Medium\", \"value\": \"md\"}, {\"label\": \"Large\", \"value\": \"lg\"}, {\"label\": \"Extra Large\", \"value\": \"xl\"}]"
+  },
+  {
+    "section": "Button",
+    "id": "buttonWidth",
+    "label": "Set Width",
+    "component": "RangeControl",
+    "allowDeviceControl": true,
+    "unit": "%",
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "style": "[{\"selector\": \".editor-styles-wrapper .0x0x0x0.guten-button-wrapper .guten-button\"}]"
+  },
+  {
+    "section": "Button",
+    "id": "buttonHeight",
+    "label": "Set Height",
+    "component": "RangeControl",
+    "allowDeviceControl": true,
+    "unit": "px",
+    "min": 1,
+    "max": 1000,
+    "step": 1,
+    "style": "[{\"selector\": \".editor-styles-wrapper .0x0x0x0.guten-button-wrapper .guten-button\"}]"
+  },
+  {
+    "section": "Button",
+    "id": "showIcon",
+    "label": "Show Icon",
+    "component": "CheckboxControl"
+  },
+  {
+    "section": "Button",
+    "id": "iconPosition",
+    "label": "Icon Position",
+    "component": "SelectControl",
+    "options": "[{\"label\": \"Before\", \"value\": \"before\"}, {\"label\": \"After\", \"value\": \"after\"}]",
+    "style": "[{\"selector\": \".editor-styles-wrapper .0x0x0x0.guten-button-wrapper .guten-button i\"}]"
+  },
+  {
+    "section": "Button",
+    "id": "iconSpacing",
+    "label": "Icon Spacing",
+    "component": "RangeControl",
+    "allowDeviceControl": true,
+    "unit": "px",
+    "min": 0,
+    "max": 50,
+    "step": 1,
+    "style": "[{\"selector\": \".editor-styles-wrapper .0x0x0x0.guten-button-wrapper .guten-button i\"}]"
+  },
+  {
+    "section": "Button",
+    "id": "iconSize",
+    "label": "Icon Size",
+    "component": "SizeControl",
+    "allowDeviceControl": true,
+    "units": "{\"px\": {\"text\": \"px\", \"min\": 1, \"max\": 100, \"step\": 1}, \"em\": {\"text\": \"em\", \"min\": 0.1, \"max\": 3, \"step\": 0.1}}",
+    "style": "[{\"selector\": \".editor-styles-wrapper .0x0x0x0.guten-button-wrapper .guten-button i\"}]"
+  },
+  {
+    "section": "Button",
+    "id": "paddingButton",
+    "label": "Button Padding",
+    "component": "DimensionControl",
+    "allowDeviceControl": true,
+    "position": "[\"top\", \"right\", \"bottom\", \"left\"]",
+    "units": "{\"px\": {\"text\": \"px\", \"unit\": \"px\"}, \"em\": {\"text\": \"em\", \"unit\": \"em\"}, \"%\": {\"text\": \"%\", \"unit\": \"%\"}, \"rem\": {\"text\": \"rem\", \"unit\": \"rem\"}}",
+    "style": "[{\"selector\": \".editor-styles-wrapper .0x0x0x0.guten-button-wrapper .guten-button\"}]"
+  },
+  {
+    "section": "Button",
+    "id": "iconLineHeight",
+    "label": "Remove Icon Line Height",
+    "component": "CheckboxControl",
+    "style": "[{\"selector\": \".editor-styles-wrapper .0x0x0x0.guten-button-wrapper .guten-button i\"}]"
+  },
+  {
+    "section": "Style",
+    "id": "__styleHover",
+    "component": "SwitchControl",
+    "options": "[{\"value\": \"normal\", \"label\": \"Normal\"}, {\"value\": \"hover\", \"label\": \"Hover\"}]"
+  },
+  {
+    "section": "Style",
+    "id": "color",
+    "show": true,
+    "label": "Text Color",
+    "component": "ColorControl",
+    "style": "[{\"selector\": \".editor-styles-wrapper .0x0x0x0.guten-button-wrapper .guten-button span\"}]"
+  },
+  {
+    "section": "Style",
+    "id": "iconColor",
+    "show": true,
+    "label": "Icon Color",
+    "component": "ColorControl",
+    "style": "[{\"selector\": \".editor-styles-wrapper .0x0x0x0.guten-button-wrapper .guten-button i\"}]"
+  },
+  {
+    "section": "Style",
+    "id": "hoverTextColor",
+    "show": false,
+    "label": "Hover Text Color",
+    "component": "ColorControl",
+    "style": "[{\"selector\": \".editor-styles-wrapper .0x0x0x0.guten-button-wrapper .guten-button:hover span\"}, {\"selector\": \"undefined .0x0x0x0.guten-button-wrapper .guten-button span\"}]"
+  },
+  {
+    "section": "Style",
+    "id": "hoverIconColor",
+    "show": false,
+    "label": "Hover Icon Color",
+    "component": "ColorControl",
+    "style": "[{\"selector\": \".editor-styles-wrapper .0x0x0x0.guten-button-wrapper .guten-button:hover i\"}, {\"selector\": \"undefined .0x0x0x0.guten-button-wrapper .guten-button i\"}]"
+  },
+  {
+    "section": "Style",
+    "id": "typography",
+    "label": "Typography",
+    "component": "TypographyControl",
+    "style": "[{\"selector\": \".editor-styles-wrapper .0x0x0x0.guten-button-wrapper .guten-button span\", \"hasChild\": true}]"
+  },
+  {
+    "section": "Dynamic Data",
+    "component": "LockedDynamicContentControl"
+  },
+  {
+    "section": "Button Background",
+    "id": "__buttonBgHover",
+    "component": "SwitchControl",
+    "options": "[{\"value\": \"normal\", \"label\": \"Normal\"}, {\"value\": \"hover\", \"label\": \"Hover\"}]"
+  },
+  {
+    "section": "Button Background",
+    "id": "buttonBackground",
+    "show": true,
+    "component": "BackgroundControl",
+    "allowDeviceControl": true,
+    "options": "[\"default\", \"gradient\"]",
+    "style": "[{\"selector\": \".editor-styles-wrapper .0x0x0x0.guten-button-wrapper .guten-button\", \"hasChild\": true}]"
+  },
+  {
+    "section": "Button Background",
+    "id": "buttonBackgroundHover",
+    "show": false,
+    "component": "BackgroundControl",
+    "allowDeviceControl": true,
+    "options": "[\"default\", \"gradient\"]",
+    "style": "[{\"selector\": \".editor-styles-wrapper .0x0x0x0.guten-button-wrapper .guten-button:hover\", \"hasChild\": true}, {\"selector\": \"undefined .0x0x0x0.guten-button-wrapper .guten-button\", \"hasChild\": true}]"
+  },
+  {
+    "section": "Button Border",
+    "id": "__buttonBorderHover",
+    "component": "SwitchControl",
+    "options": "[{\"value\": \"normal\", \"label\": \"Normal\"}, {\"value\": \"hover\", \"label\": \"Hover\"}]"
+  },
+  {
+    "section": "Button Border",
+    "id": "buttonBorder",
+    "show": true,
+    "label": "Border",
+    "component": "BorderControl",
+    "style": "[{\"selector\": \".editor-styles-wrapper .0x0x0x0.guten-button-wrapper .guten-button\", \"hasChild\": true}]"
+  },
+  {
+    "section": "Button Border",
+    "id": "buttonBorderResponsive",
+    "show": false,
+    "label": "Border",
+    "component": "BorderResponsiveControl",
+    "allowDeviceControl": true,
+    "style": "[{\"selector\": \".editor-styles-wrapper .0x0x0x0.guten-button-wrapper .guten-button\"}]"
+  },
+  {
+    "section": "Button Border",
+    "id": "buttonBorderHover",
+    "show": false,
+    "label": "Border",
+    "component": "BorderControl",
+    "style": "[{\"selector\": \".editor-styles-wrapper .0x0x0x0.guten-button-wrapper .guten-button:hover\", \"hasChild\": true}, {\"selector\": \"undefined .0x0x0x0.guten-button-wrapper .guten-button\", \"hasChild\": true}]"
+  },
+  {
+    "section": "Button Border",
+    "id": "buttonBorderHoverResponsive",
+    "show": false,
+    "label": "Border",
+    "component": "BorderResponsiveControl",
+    "allowDeviceControl": true,
+    "style": "[{\"selector\": \".editor-styles-wrapper .0x0x0x0.guten-button-wrapper .guten-button:hover\"}, {\"selector\": \"undefined .0x0x0x0.guten-button-wrapper .guten-button\", \"hasChild\": true}]"
+  },
+  {
+    "section": "Button Border",
+    "id": "buttonBoxShadow",
+    "show": true,
+    "label": "Box Shadow",
+    "component": "BoxShadowControl",
+    "style": "[{\"selector\": \".editor-styles-wrapper .0x0x0x0.guten-button-wrapper .guten-button\"}]"
+  },
+  {
+    "section": "Button Border",
+    "id": "buttonBoxShadowHover",
+    "show": false,
+    "label": "Box Shadow",
+    "component": "BoxShadowControl",
+    "style": "[{\"selector\": \".editor-styles-wrapper .0x0x0x0.guten-button-wrapper .guten-button:hover\"}, {\"selector\": \"undefined .0x0x0x0.guten-button-wrapper .guten-button\"}]"
+  },
+  {
+    "section": "Background",
+    "id": "__bgHover",
+    "component": "SwitchControl",
+    "options": "[{\"value\": \"normal\", \"label\": \"Normal\"}, {\"value\": \"hover\", \"label\": \"Hover\"}]"
+  },
+  {
+    "section": "Background",
+    "id": "background",
+    "show": true,
+    "component": "BackgroundControl",
+    "allowDeviceControl": true,
+    "options": "[\"default\", \"gradient\"]",
+    "style": "[{\"selector\": \".0x0x0x0\", \"hasChild\": true}]",
+    "blockType": ""
+  },
+  {
+    "section": "Background",
+    "id": "backgroundHover",
+    "show": false,
+    "component": "BackgroundControl",
+    "allowDeviceControl": true,
+    "options": "[\"default\", \"gradient\"]",
+    "style": "[{\"selector\": \".0x0x0x0:hover\", \"hasChild\": true}]"
+  },
+  {
+    "section": "Border",
+    "id": "__borderHover",
+    "component": "SwitchControl",
+    "options": "[{\"value\": \"normal\", \"label\": \"Normal\"}, {\"value\": \"hover\", \"label\": \"Hover\"}]"
+  },
+  {
+    "section": "Border",
+    "id": "border",
+    "show": true,
+    "label": "Border Type",
+    "component": "BorderControl",
+    "style": "[{\"selector\": \".0x0x0x0\", \"hasChild\": true}]"
+  },
+  {
+    "section": "Border",
+    "id": "borderResponsive",
+    "show": false,
+    "label": "Border Type",
+    "component": "BorderResponsiveControl",
+    "allowDeviceControl": true,
+    "style": "[{\"selector\": \".0x0x0x0\"}]"
+  },
+  {
+    "section": "Border",
+    "id": "borderHover",
+    "show": false,
+    "label": "Border Type",
+    "component": "BorderControl",
+    "style": "[{\"selector\": \".0x0x0x0:hover\", \"hasChild\": true}]"
+  },
+  {
+    "section": "Border",
+    "id": "borderHoverResponsive",
+    "show": false,
+    "label": "Border Type",
+    "component": "BorderResponsiveControl",
+    "allowDeviceControl": true,
+    "style": "[{\"selector\": \".0x0x0x0:hover\"}]"
+  },
+  {
+    "section": "Border",
+    "id": "boxShadow",
+    "show": true,
+    "label": "Box Shadow",
+    "component": "BoxShadowControl",
+    "style": "[{\"selector\": \".0x0x0x0\"}]"
+  },
+  {
+    "section": "Border",
+    "id": "boxShadowHover",
+    "show": false,
+    "label": "Box Shadow",
+    "component": "BoxShadowControl",
+    "style": "[{\"selector\": \".0x0x0x0:hover\"}]"
+  },
+  {
+    "section": "Masking",
+    "id": "mask",
+    "allowDeviceControl": true,
+    "component": "MaskControl",
+    "style": "[{\"selector\": \".0x0x0x0\", \"hasChild\": true}]"
+  },
+  {
+    "section": "Display",
+    "id": "hideDesktop",
+    "label": "Hide on Desktop",
+    "component": "CheckboxControl"
+  },
+  {
+    "section": "Display",
+    "id": "hideTablet",
+    "label": "Hide on Tablet",
+    "component": "CheckboxControl"
+  },
+  {
+    "section": "Display",
+    "id": "hideMobile",
+    "label": "Hide on Mobile",
+    "component": "CheckboxControl"
+  },
+  {
+    "section": "Positioning",
+    "id": "positioningType",
+    "label": "Width",
+    "component": "SelectControl",
+    "allowDeviceControl": true,
+    "options": "[{\"value\": \"default\", \"label\": \"Default\"}, {\"value\": \"full\", \"label\": \"Full Width (100%)\"}, {\"value\": \"inline\", \"label\": \"Inline (auto)\"}, {\"value\": \"custom\", \"label\": \"Custom\"}]",
+    "style": "[{\"selector\": \".0x0x0x0.guten-element\"}, {\"selector\": \".0x0x0x0.guten-element\", \"updateID\": \"positioningWidth-style-0\"}]"
+  },
+  {
+    "section": "Positioning",
+    "id": "positioningWidth",
+    "label": "Custom Width",
+    "show": false,
+    "component": "SizeControl",
+    "allowDeviceControl": true,
+    "units": "{\"px\": {\"text\": \"px\", \"min\": 1, \"max\": 1000, \"step\": 1, \"unit\": \"px\"}, \"%\": {\"text\": \"%\", \"min\": 1, \"max\": 100, \"step\": 1, \"unit\": \"%\"}, \"vw\": {\"text\": \"vw\", \"min\": 1, \"max\": 100, \"step\": 1, \"unit\": \"vw\"}}",
+    "style": "[{\"selector\": \".0x0x0x0.guten-element\"}]"
+  },
+  {
+    "section": "Positioning",
+    "id": "positioningAlign",
+    "label": "Align",
+    "show": true,
+    "component": "SelectControl",
+    "allowDeviceControl": true,
+    "options": "[{\"value\": \"flex-start\", \"label\": \"Top\"}, {\"value\": \"center\", \"label\": \"Center\"}, {\"value\": \"flex-end\", \"label\": \"Bottom\"}]",
+    "style": "[{\"selector\": \".0x0x0x0.guten-element\"}, {\"selector\": \".0x0x0x0.guten-element\"}]"
+  },
+  {
+    "section": "Positioning",
+    "id": "positioningLocation",
+    "label": "Location",
+    "component": "SelectControl",
+    "options": "[{\"value\": \"default\", \"label\": \"Default\"}, {\"value\": \"fixed\", \"label\": \"Fixed\"}, {\"value\": \"absolute\", \"label\": \"Absolute\"}]",
+    "style": "[{\"selector\": \".0x0x0x0.guten-element\"}]"
+  },
+  {
+    "section": "Positioning",
+    "id": "positioningLeft",
+    "label": "Left Orientation",
+    "show": false,
+    "component": "SizeControl",
+    "allowDeviceControl": true,
+    "units": "{\"px\": {\"text\": \"px\", \"min\": -1000, \"max\": 1000, \"step\": 1, \"unit\": \"px\"}, \"%\": {\"text\": \"%\", \"min\": -200, \"max\": 200, \"step\": 1, \"unit\": \"%\"}, \"vw\": {\"text\": \"vw\", \"min\": -200, \"max\": 200, \"step\": 1, \"unit\": \"vw\"}, \"vh\": {\"text\": \"vw\", \"min\": -200, \"max\": 200, \"step\": 1, \"unit\": \"vw\"}}",
+    "style": "[{\"selector\": \".0x0x0x0.guten-element\"}]"
+  },
+  {
+    "section": "Positioning",
+    "id": "positioningRight",
+    "label": "Right Orientation",
+    "show": false,
+    "component": "SizeControl",
+    "allowDeviceControl": true,
+    "units": "{\"px\": {\"text\": \"px\", \"min\": -1000, \"max\": 1000, \"step\": 1, \"unit\": \"px\"}, \"%\": {\"text\": \"%\", \"min\": -200, \"max\": 200, \"step\": 1, \"unit\": \"%\"}, \"vw\": {\"text\": \"vw\", \"min\": -200, \"max\": 200, \"step\": 1, \"unit\": \"vw\"}, \"vh\": {\"text\": \"vw\", \"min\": -200, \"max\": 200, \"step\": 1, \"unit\": \"vw\"}}",
+    "style": "[{\"selector\": \".0x0x0x0.guten-element\"}]"
+  },
+  {
+    "section": "Positioning",
+    "id": "positioningTop",
+    "label": "Top Orientation",
+    "show": false,
+    "component": "SizeControl",
+    "allowDeviceControl": true,
+    "units": "{\"px\": {\"text\": \"px\", \"min\": -1000, \"max\": 1000, \"step\": 1, \"unit\": \"px\"}, \"%\": {\"text\": \"%\", \"min\": -200, \"max\": 200, \"step\": 1, \"unit\": \"%\"}, \"vw\": {\"text\": \"vw\", \"min\": -200, \"max\": 200, \"step\": 1, \"unit\": \"vw\"}, \"vh\": {\"text\": \"vw\", \"min\": -200, \"max\": 200, \"step\": 1, \"unit\": \"vw\"}}",
+    "style": "[{\"selector\": \".0x0x0x0.guten-element\"}]"
+  },
+  {
+    "section": "Positioning",
+    "id": "positioningBottom",
+    "label": "Bottom Orientation",
+    "show": false,
+    "component": "SizeControl",
+    "allowDeviceControl": true,
+    "units": "{\"px\": {\"text\": \"px\", \"min\": -1000, \"max\": 1000, \"step\": 1, \"unit\": \"px\"}, \"%\": {\"text\": \"%\", \"min\": -200, \"max\": 200, \"step\": 1, \"unit\": \"%\"}, \"vw\": {\"text\": \"vw\", \"min\": -200, \"max\": 200, \"step\": 1, \"unit\": \"vw\"}, \"vh\": {\"text\": \"vw\", \"min\": -200, \"max\": 200, \"step\": 1, \"unit\": \"vw\"}}",
+    "style": "[{\"selector\": \".0x0x0x0.guten-element\"}]"
+  },
+  {
+    "section": "Transform",
+    "component": "LockedTransformControl"
+  },
+  {
+    "section": "Mouse Move Effect",
+    "component": "LockedMouseMoveEffectControl"
+  },
+  {
+    "section": "Animation Effects",
+    "id": "animation",
+    "component": "AnimationControl",
+    "style": "[{\"selector\": \".0x0x0x0 .guten-button\"}]"
+  },
+  {
+    "section": "Advanced Animation",
+    "component": "LockedAnimationControl"
+  },
+  {
+    "section": "Spacing",
+    "id": "margin",
+    "label": "Margin",
+    "component": "DimensionControl",
+    "allowDeviceControl": true,
+    "position": "[\"top\", \"right\", \"bottom\", \"left\"]",
+    "units": "{\"px\": {\"text\": \"px\", \"unit\": \"px\"}, \"em\": {\"text\": \"em\", \"unit\": \"em\"}, \"%\": {\"text\": \"%\", \"unit\": \"%\"}, \"rem\": {\"text\": \"rem\", \"unit\": \"rem\"}}",
+    "style": "[{\"selector\": \".editor-styles-wrapper .is-root-container .0x0x0x0\", \"frontendSelector\": \".0x0x0x0\"}]"
+  },
+  {
+    "section": "Spacing",
+    "id": "padding",
+    "label": "Padding",
+    "component": "DimensionControl",
+    "allowDeviceControl": true,
+    "position": "[\"top\", \"right\", \"bottom\", \"left\"]",
+    "units": "{\"px\": {\"text\": \"px\", \"unit\": \"px\"}, \"em\": {\"text\": \"em\", \"unit\": \"em\"}, \"%\": {\"text\": \"%\", \"unit\": \"%\"}, \"rem\": {\"text\": \"rem\", \"unit\": \"rem\"}}",
+    "style": "[{\"selector\": \".editor-styles-wrapper .is-root-container .0x0x0x0\", \"frontendSelector\": \".0x0x0x0\"}]"
+  },
+  {
+    "section": "Spacing",
+    "id": "zIndex",
+    "label": "Z Index",
+    "component": "NumberControl",
+    "allowDeviceControl": true,
+    "min": 1,
+    "max": 9999,
+    "step": 1,
+    "style": "[{\"selector\": \".editor-styles-wrapper .is-root-container .0x0x0x0\", \"frontendSelector\": \".0x0x0x0\"}]"
+  },
+  {
+    "section": "Condition",
+    "component": "LockedConditionControl"
+  }
+]

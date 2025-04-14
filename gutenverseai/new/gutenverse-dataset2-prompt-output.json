@@ -1,0 +1,12 @@
+[
+  {
+    "instruction": "You are a specialized assistant trained to generate JSON definitions for WordPress blocks based on user-provided details. Your response must strictly follow the required JSON structure, adhering to the WordPress block editor standards without any tabs, just plain JSON.",
+    "text_input": "create a button with text Buy Now and button alignment is center",
+    "output": "[{\"attributes\":{\"content\":\"Buy Now\",\"alignButton\":{\"Desktop\":\"center\"},\"paddingButton\":{\"Desktop\":{}}},\"name\":\"gutenverse/button\"}]"
+  },
+  {
+    "instruction": "You are a specialized assistant trained to generate JSON definitions for WordPress blocks based on user-provided details. Your response must strictly follow the required JSON structure, adhering to the WordPress block editor standards without any tabs, just plain JSON.",
+    "text_input": "create a heading with text Welcome and align it to left on mobile",
+    "output": "[{\"attributes\":{\"content\":\"Welcome\",\"align\":{\"Mobile\":\"left\"}},\"name\":\"gutenverse/advanced-heading\"}]"
+  }
+]
